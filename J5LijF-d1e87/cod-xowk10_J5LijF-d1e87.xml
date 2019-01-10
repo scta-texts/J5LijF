@@ -46,7 +46,7 @@
       <div xml:id="starts-on">
         <pb ed="#U" n="2-r"/>
         <cb ed="#U" n="a"/>
-        <lb ed="#L" n="5"/>
+        <lb ed="#U" n="5"/>
       </div>
     </front>
     <body>
@@ -56,100 +56,217 @@
           aliquam doctrinam specialem supernaturaliter inspirari, 
           ad quam non possit attingere lumine naturali intellectus</head>
         <p xml:id="J5LijF-d1e87-d1e108">
-          <lb ed="#L" n="5"/>Utrum homini pro statu isto 
-          <lb ed="#L"/>sit neccessariam aliquam doctrinam 
-          <lb ed="#L"/>specialem supernaturaliter inspirari ad quam 
-          <lb ed="#L"/>non possit attingere lumine naturali intellectus
+          <lb ed="#U" n="5"/>Utrum homini pro statu isto 
+          <lb ed="#U"/>sit neccessariam aliquam doctrinam 
+          <lb ed="#U"/>specialem supernaturaliter inspirari ad quam 
+          <lb ed="#U"/>non possit attingere lumine naturali intellectus
         </p>
         <p xml:id="J5LijF-d1e87-d1e119">
           videtur quod non quia potentia 
-          <lb ed="#L"/>habens commune aliquod pro obiecto potest in 
-          <lb ed="#L"/>quolibet sub illo contentum sicut in per 
-          <lb ed="#L"/>se obiectum naturaliter sed primum obiectum 
-          <lb ed="#L"/>intellectus est ens ergo etc Maior patet pro inductive de obiecto visus 
-          <lb ed="#L"/>et aliarum potentiarum <pc type="#punctus"/> 2o per rationem quia primum obiectum dicitur obiectum 
+          <lb ed="#U"/>habens commune aliquod pro obiecto potest in 
+          <lb ed="#U"/>quolibet sub illo contentum sicut in per 
+          <lb ed="#U"/>se obiectum naturaliter sed primum obiectum 
+          <lb ed="#U"/>intellectus est ens ergo etc Maior patet pro inductive de obiecto visus 
+          <lb ed="#U"/>et aliarum potentiarum <pc type="#punctus"/> 2o per rationem quia primum obiectum dicitur obiectum 
           adaequatum Sed si in aliquo esset ratio obiecti ad quam potentia non 
-          <lb ed="#L"/>se extenderet iam non esset adaequatum sed excedens ergo etc
-          <lb ed="#L"/>Minor probatur per <name>Avicennam</name> primo metaphysicae capitulo v <quote xml:id="J5LijF-d1e87-Qd1e141" source="http://scta.info/resuorce/gt7yt6-d1e123">ens dicit ipse et res 
-          <lb ed="#L"/>prima impressione imprimuntur in anima nec possunt manifestari ex 
-          <lb ed="#L"/>aliis <!-- avicenna, I, c. 6, in Venice 1495 seems to be II, c. 1 appears in scotus ordinatio, prol. q. 1--></quote> <!-- break?? -->
+          <lb ed="#U"/>se extenderet iam non esset adaequatum sed excedens ergo etc
+          <lb ed="#U"/>Minor probatur per <name>Avicennam</name> primo metaphysicae capitulo v <quote xml:id="J5LijF-d1e87-Qd1e141" source="http://scta.info/resuorce/gt7yt6-d1e123">ens dicit ipse et res 
+          <lb ed="#U"/>prima impressione imprimuntur in anima nec possunt manifestari ex 
+          <lb ed="#U"/>aliis <!-- avicenna, I, c. 6, in Venice 1495 seems to be II, c. 1 appears in scotus ordinatio, prol. q. 1--></quote> <!-- break?? -->
         </p>
         <!-- unclear if there should be a break here -->
         <p xml:id="J5LijF-d1e87-d1e155">
           Ad principalem sensus non indiget aliqua supernaturali cognitione
-          <lb ed="#L"/>sed <unclear>non</unclear> non deficit in neccessariis per <ref xml:id="J5LijF-d1e87-Rd1e162"><name>philosohpum</name> 3 <title>de anima</title></ref> et si hoc sit 
-          <lb ed="#L"/>verum in imperfectis multo magis etiam in perfectis ergo multo magis 
-          <lb ed="#L"/>intellectus non indiget ergo etc
+          <lb ed="#U"/>sed <unclear>non</unclear> non deficit in neccessariis per <ref xml:id="J5LijF-d1e87-Rd1e162"><name>philosohpum</name> 3 <title>de anima</title></ref> et si hoc sit 
+          <lb ed="#U"/>verum in imperfectis multo magis etiam in perfectis ergo multo magis 
+          <lb ed="#U"/>intellectus non indiget ergo etc
         </p>
         <p xml:id="J5LijF-d1e87-d1e174">
           Ad primum principalem sit talis notitia 
-          <lb ed="#L"/>sit neccessaria hoc est quia respectu talis obiecti potentia eset improportionata ex <unclear>ss</unclear> 
-          <lb ed="#L"/>naturalibus ergo oportet quod per aliud proportionatum ei fiat <pc type="#punctus"/> illud aliud aut erit 
-          <lb ed="#L"/>naturale aut supernaturale Si naturale adhuc totum est improportinatum obiecto illi 
-          <lb ed="#L"/>primo Si supernaturale ergo respectu illius potentia est improportionata et ita num<lb ed="#L"/>quam 
+          <lb ed="#U"/>sit neccessaria hoc est quia respectu talis obiecti potentia eset improportionata ex <unclear>ss</unclear> 
+          <lb ed="#U"/>naturalibus ergo oportet quod per aliud proportionatum ei fiat <pc type="#punctus"/> illud aliud aut erit 
+          <lb ed="#U"/>naturale aut supernaturale Si naturale adhuc totum est improportinatum obiecto illi 
+          <lb ed="#U"/>primo Si supernaturale ergo respectu illius potentia est improportionata et ita num<lb ed="#U"/>quam 
           proportionabitur
         </p>
         <p xml:id="J5LijF-d1e87-d1e193">
           Ad oppositum <name>Apostolus</name> <title>ad thimotheum</title> 3 <quote xml:id="J5LijF-d1e87-Qd1e201" ana="#IItim3_16">omnis doctrina 
-          <lb ed="#L"/>divinitus inspirata</quote> etc
+          <lb ed="#U"/>divinitus inspirata</quote> etc
         </p>
         <p xml:id="J5LijF-d1e87-d1e207">
           Circa istam quaestionem facienda sunt quattuor primo 
-          <lb ed="#L"/><unclear>e?i</unclear> ponetur opynionem philosophorum 2o per rationes arguetur contra eam 
-          <lb ed="#L"/>3o dicendum ad quaestionem aliter et 4o solventur rationes quae sunt pro opynione 
-          <lb ed="#L"/>philosophorum et etiam principales
+          <lb ed="#U"/><unclear>e?i</unclear> ponetur opynionem philosophorum 2o per rationes arguetur contra eam 
+          <lb ed="#U"/>3o dicendum ad quaestionem aliter et 4o solventur rationes quae sunt pro opynione 
+          <lb ed="#U"/>philosophorum et etiam principales
         </p>
         <p xml:id="J5LijF-d1e87-d1e218">
           Quantum ad primum sciendum quod opynio 
-          <lb ed="#L"/>philosophorum est quod nulla cognitio supernaturalis est homini neccessaria quod omne neccessariam
-          <lb ed="#L"/>sibi posset acquirere ex actione causarum naturalium <pc type="virgula">//</pc> Confirmatur 
-          <lb ed="#L"/>ista opynio quadrupliciter 
+          <lb ed="#U"/>philosophorum est quod nulla cognitio supernaturalis est homini neccessaria quod omne neccessariam
+          <lb ed="#U"/>sibi posset acquirere ex actione causarum naturalium <pc type="virgula">//</pc> Confirmatur 
+          <lb ed="#U"/>ista opynio quadrupliciter 
         </p>
         <p xml:id="J5LijF-d1e87-d1e230">
           Primo sic <name>philosophus</name> 3 <title>de anima</title> dicit quod <quote xml:id="J5LijF-d1e87-Qd1e238" ana="#Aristotle_DeAnima_III_5_a">intellectus 
-          <lb ed="#L"/>agens est quo est omnia facere intellectus possibilis est quo est omnia fieri</quote>
-          <lb ed="#L"/>Ex hoc arguitur sic Actio naturali et passio approximatis et 
-          <lb ed="#L"/>non impeditis sequitur actio sed actum respectu omnis intelligibilis agens et 
-          <lb ed="#L"/>passivum intellectus possibilis et haec sunt naturaliter in anima et non impedita 
-          <lb ed="#L"/>ergo sequitur actus intelligendi respectu cuiuslibet intelligibilis 
+          <lb ed="#U"/>agens est quo est omnia facere intellectus possibilis est quo est omnia fieri</quote>
+          <lb ed="#U"/>Ex hoc arguitur sic Actio naturali et passio approximatis et 
+          <lb ed="#U"/>non impeditis sequitur actio sed actum respectu omnis intelligibilis agens et 
+          <lb ed="#U"/>passivum intellectus possibilis et haec sunt naturaliter in anima et non impedita 
+          <lb ed="#U"/>ergo sequitur actus intelligendi respectu cuiuslibet intelligibilis 
         </p>
         <p xml:id="J5LijF-d1e87-d1e254">
-          <pc type="virgula">//</pc> 2o sic et est <unclear>q</unclear> con<lb ed="#L"/>firmatio 
+          <pc type="virgula">//</pc> 2o sic et est <unclear>q</unclear> con<lb ed="#U"/>firmatio 
           praecedentis rationis omni potentiae passivae correspondet 
-          <lb ed="#L"/>potentia activa naturaliter Aliquin potentia passiva esset frustra 
-          <lb ed="#L"/>in natura sed intellectus possibilis est potentia passiva et naturalis respectu cuiuslibet intelligibilis 
-          <lb ed="#L"/>quod patet quia naturaliter appetit cognitionem cuiuslibet intelligibilis et naturaliter per 
-          <lb ed="#L"/>quamcumque cognitionem perficitur ergo etc
+          <lb ed="#U"/>potentia activa naturaliter Aliquin potentia passiva esset frustra 
+          <lb ed="#U"/>in natura sed intellectus possibilis est potentia passiva et naturalis respectu cuiuslibet intelligibilis 
+          <lb ed="#U"/>quod patet quia naturaliter appetit cognitionem cuiuslibet intelligibilis et naturaliter per 
+          <lb ed="#U"/>quamcumque cognitionem perficitur ergo etc
         </p>
         <p xml:id="J5LijF-d1e87-d1e274">
           3o sic <name>philosophus</name> 6 <title>metaphysicae</title> 
-          <lb ed="#L"/>distinguit habitum speculativum in metaphysicum physicum 
-          <lb ed="#L"/>et mathematicum et ex probatione illius videtur quod non possunt esse 
-          <lb ed="#L"/>plures habitus speculativi quia in istis consideratur de toto 
-          <lb ed="#L"/>et <del rend="expunctuation">de</del> parti ente et in se et quoad omnes partes eius sicut 
-          <cb ed="#L" n="b"/>
-          <lb ed="#L"/>autem non potest esse aliqua speculativa alia ab istis sic nec practi<lb ed="#L"/>ca 
+          <lb ed="#U"/>distinguit habitum speculativum in metaphysicum physicum 
+          <lb ed="#U"/>et mathematicum et ex probatione illius videtur quod non possunt esse 
+          <lb ed="#U"/>plures habitus speculativi quia in istis consideratur de toto 
+          <lb ed="#U"/>et <del rend="expunctuation">de</del> parti ente et in se et quoad omnes partes eius sicut 
+          <cb ed="#U" n="b"/>
+          <lb ed="#U"/>autem non potest esse aliqua speculativa alia ab istis sic nec practi<lb ed="#U"/>ca 
           alia practicis acquisitis activis et passivis ergo etc
         </p>
         <p xml:id="J5LijF-d1e87-d1e301">
           <pc type="virgula">//</pc> 4o sic 
-          <lb ed="#L"/>potens naturaliter intelligere principium potest naturaliter intelligere omnis conclusiones 
-          <lb ed="#L"/>in principio quia notitia conclusionem non dependet nisi ex intellectu 
-          <lb ed="#L"/>principii et deductione conclusionis ex principio sicut patet ex dif<lb ed="#L"/>finitione 
+          <lb ed="#U"/>potens naturaliter intelligere principium potest naturaliter intelligere omnis conclusiones 
+          <lb ed="#U"/>in principio quia notitia conclusionem non dependet nisi ex intellectu 
+          <lb ed="#U"/>principii et deductione conclusionis ex principio sicut patet ex dif<lb ed="#U"/>finitione 
           scientiae primo posteriorum <quote xml:id="J5LijF-d1e87-Qd1e315">deductio autem est de se manifesta</quote> 
-          <lb ed="#L"/>et per consequens si principia intelliguntur habentur omnia quae videntur 
-          <lb ed="#L"/>neccessaria ad scientiam conclusionis sed naturaliter prima principia in quibus 
-          <lb ed="#L"/>virtualiter includuntur omnes conclusiones ergo etc probatio <unclear>minoris</unclear> quantum 
-          <lb ed="#L"/>ad primam sui partem quia prima principia sunt ex terminis communissimis 
-          <lb ed="#L"/>principia autem cognoscimus inquantum terminos cognoscimus 
-          <lb ed="#L"/>ergo etc probatio 2ae partis minoris scilicet quod omnes conclusiones includuntur 
-          <lb ed="#L"/>in primis principiis quia termini primorum principiorum sunt communissimi 
-          <lb ed="#L"/>et per consequens quando distribuitur <sic>distribuitur</sic> pro omnibus conten<lb ed="#L"/>tis 
+          <lb ed="#U"/>et per consequens si principia intelliguntur habentur omnia quae videntur 
+          <lb ed="#U"/>neccessaria ad scientiam conclusionis sed naturaliter prima principia in quibus 
+          <lb ed="#U"/>virtualiter includuntur omnes conclusiones ergo etc probatio <unclear>minoris</unclear> quantum 
+          <lb ed="#U"/>ad primam sui partem quia prima principia sunt ex terminis communissimis 
+          <lb ed="#U"/>principia autem cognoscimus inquantum terminos cognoscimus 
+          <lb ed="#U"/>ergo etc probatio 2ae partis minoris scilicet quod omnes conclusiones includuntur 
+          <lb ed="#U"/>in primis principiis quia termini primorum principiorum sunt communissimi 
+          <lb ed="#U"/>et per consequens quando distribuitur <sic>distribuitur</sic> pro omnibus conten<lb ed="#U"/>tis 
           sub terminis communissimis omnia continentur ergo etc
         </p>
         <p xml:id="J5LijF-d1e87-d1e344">
           <!-- not clear were "primo" started -->
-          <pc type="virgula">//</pc> 2o arguo
+          <pc type="virgula">//</pc> 2o arguo 
+          <lb ed="#U"/>contra istam positionem 3 rationibus
+          <!-- first argument against position-->
+          primo sic omni agenti per cognitio<lb ed="#U"/>nem 
+          necessaria est cognitio sui ipsius sed ad cognitionem distinctam finis 
+          <lb ed="#U"/>ipsius hominis non sufficit ratio naturalis ergo etc Maior probatur quia 
+          <lb ed="#U"/>omne agens agit ex appetitu finis ergo sicut agenti naturali est 
+          <lb ed="#U"/>neccessarius appetitus finis propter quam debet agere vel agenti 
+          <lb ed="#U"/>per cognitionem quod est et agens propter se propter finem est neccessarius appe<lb ed="#U"/>titus 
+          finis ergo etc minor probatur dupliciter 
+          <!-- first argument for minor -->
+          primo sic philosophus sequens rationem 
+          <lb ed="#U"/>naturalem aut ponit felicitatem esse perfectam in cognitione substantiarum 
+          <lb ed="#U"/>separatarum sicut videtur dicere <ref>primo <title>ethicorum</title> et 10</ref> aut si non <unclear>determina<lb ed="#U"/>te</unclear> 
+          <unclear>asserat</unclear> illam esse supremam nobis possibilem tamen aliam ratione naturalium 
+          <lb ed="#U"/>concludit ita quod ratione naturali intentio errabat circa finem in particulari 
+          <lb ed="#U"/>vel dubius remanebat 
+          <!-- second argument for minor -->
+          <pc type="#punctus"/> 2o probatur minor illa quia nullius substantiae finis 
+          <lb ed="#U"/>proprius <sic>congnoscitur</sic> a nobis nisi ex actibus eius nobis manifestis 
+          <lb ed="#U"/>ex quibus ostenditur quod talis finis est conveniens tali naturae sed nullos ac<lb ed="#U"/>tus 
+          experimur ex quibus cognoscimus visionem substantiarum separatarum 
+          <lb ed="#U"/>esse convenientem nobis ergo non possimus naturaliter distincte cognoscere quod 
+          <lb ed="#U"/>ille finis sit conveniens naturae nostrae
+        </p>
+        <!-- second argument against position-->
+        <p>
+          2o arguitur contra positionem philosophorum sic 
+          <lb ed="#U"/>Omni agenti propter finem neccessaria est cognitio qualiter finis acquiratur 
+          <lb ed="#U"/>et etiam cognitio omnium quae sunt ad finem
+        </p>
+        <!-- third argument -->
+        <p>
+          et etiam 3o quod omnia ista suf<lb ed="#U"/>ficiant 
+          primum patet quia si nesciat quomodo finis acquiratur ne<lb ed="#U"/>sciret 
+          qualiter ad consecutionem se disponentur
+        </p>
+        <p>
+          2m probatur quod si 
+          <lb ed="#U"/>nesciat omnia neccessaria ad ipsum propter ignorantiam alicuius neccessarii po<lb ed="#U"/>terit 
+          a fine deficere
+        </p>
+        <p>
+          3m probatur quia si nesciat illa sufficere 
+          <lb ed="#U"/>dubitando aliquid neccessariam esse vel non esse non efficaciter <unclear>prosequitur</unclear> illud quod 
+          <lb ed="#U"/>est neccessariam sed haec 3 non potest viator ratione naturali cognoscere ergo etc
+        </p>
+        <p>
+          <lb ed="#U"/>probatio minoris quantum ad primum quia beatitudo confertur tamquam praemium 
+          <lb ed="#U"/>pro <unclear>meritis</unclear> quae deus acceptat tamquam digna tali primo et per consequens non 
+          <lb ed="#U"/>naturali neccessitate sequitur ad actus nostros sed contingenter datur 
+          <lb ed="#U"/>a deo acceptante actus nostros et per consequnes non potest haec naturaliter 
+          <lb ed="#U"/>sciri ab homine quai et philosophi specialiter in hoc errabant ponens 
+          <lb ed="#U"/>scilicet omnia quae a deo procedunt neccessaria esse
+        </p>
+        <p>
+          Similiter et alia duo 
+          <lb ed="#U"/>membra illius minoris non possunt esse manifesta ratione naturali quia non 
+          <lb ed="#U"/>potest naturaliter sciri acceptio voluntatis divinae contingenter accipiendo
+          <pb ed="#U" n="2-v"/>
+          <cb ed="#U" n="a"/>
+          <lb ed="#U"/>quod talia sunt digna vita aeterna 
+        </p>
+        <p>
+          <lb ed="#U"/>Similiter quod ista sufficiant de 
+          <lb ed="#U"/><unclear>p?a</unclear> voluntate divina sicut ea ad quae contingenter deus se habet ergo etc
+        </p>
+        <p>
+          <lb ed="#U"/>3o arguitur contra opynionem philosophorum quia cognitio substantiarum separatarum est nobi<lb ed="#U"/>lissima 
+          quia circa obiectum nobilissimum ergo etc et cognitio eorum quae 
+          <lb ed="#U"/>sunt eis propria et maxime nobilis et neccessaria Nam ista quae propria sunt 
+          <lb ed="#U"/>eis perfectiora sunt quam illa in quibus conveniunt cum sensibilibus sed 
+          <lb ed="#U"/>ista propria non possumus cognoscere ex puris naturalibus ergo etc Minor 
+          <lb ed="#U"/>probatur tum quia si sic hoc maxime pertinent ad <unclear>methaphysicum</unclear> consequens falsum 
+          <lb ed="#U"/>quia ista non includuntur virtualiter in primo obiecto metaphysicae scilicet in ente et ideo 
+          <lb ed="#U"/>dicit <name>philosophus</name> primo <title>metaphysicae</title> quod oportet sapientem omnia cognoscere aliqualiter 
+          <lb ed="#U"/>non in particula tum quia illa propria <sic>congnosci</sic> non possunt 
+          <lb ed="#U"/>propter quid cum propria eorum substantia non sit nobis cognoscibilis nec etiam <unclear>aut</unclear> ex 
+          <lb ed="#U"/>effectibus quod patet quia effectus relinquunt intellectum dubium 
+          <lb ed="#U"/>in istis vel adducunt in errorem quod patet de proprietatibus primae substantiae 
+          <lb ed="#U"/>inmaterialis <unclear>dei</unclear> nam proprietas eius est quod sit communicabilis 3bus personis 
+          <lb ed="#U"/>effectus aut non ostendunt istam proprietatem quia non sunt ab 
+          <lb ed="#U"/>ipso inquantum est terminus sed inquantum est unus
+          
+          Et similiter effectus 
+          <lb ed="#U"/>magis inducerent in errorem cum in omni effectu multiplicatur 
+          <lb ed="#U"/>natura ad multiplicationem Idem patet de proprietatibus aliarum substantiarum 
+          <lb ed="#U"/>immaterialium quia effectus magis ducunt in earum sempiternitatem 
+          <lb ed="#U"/>et neccessitatem quam contingentiam vel novitatem sicut patet ex opynione 
+          <lb ed="#U"/><name ref="#Aristotle">philosophi</name> et similiter <name ref="#Aristotle">philosophus</name> videtur probare ex motibus quod <unclear>numerus</unclear> istarum substantiarum 
+          <lb ed="#U"/>sit secundum <unclear>numerum</unclear> motuum caelestium in quo <unclear>errat</unclear> et in aliis multis
+        </p>
+        <p>
+          <lb ed="#U"/>Istae ergo sunt 3 rationes contra opynionem philosophorum
+        </p>
+        <p>
+          Contra tamen istas 
+          <lb ed="#U"/>3 simul instatur sic quia videtur quod seipsas destruant quia quod 
+          <lb ed="#U"/>ostenditur esse neccessario cognoscibilis ostenditur esse verum cum nihil cognoscitur 
+          <lb ed="#U"/>nisi verumergo quidquid illae rationes ostendunt esse neccessariam ad cognoscendum 
+          <lb ed="#U"/>puta quod fruitio dei sit finis hominis quantum ad primam quod 
+          <lb ed="#U"/>via deveniendi ad ipsum est per <unclear>merita</unclear> quod ad 2m quod deus 
+          <lb ed="#U"/>est finis et contingenter causat et huius quo ad 3 ratioem illud ostenditur 
+          <lb ed="#U"/>esse verum ergo suae rationes non sunt <add place="above-line">nisi</add> ex fide vel ex ipsis contra 
+          <lb ed="#U"/>oppinionem eius quod conclusum est et quod <unclear>prolatur</unclear>
+        </p>
+        <p>
+          Ad istud dico 
+          <lb ed="#U"/>quod naturali ratione ostenditur neccessariam esse scire determinate alteram partem 
+          <lb ed="#U"/>contradictionis huius fruitio est finis fruitio non est finis et hoc est 
+          <lb ed="#U"/>quod intellectus non sit <unclear>mere</unclear> dubius vel neuter in hoc problemate And fruitio 
+          <lb ed="#U"/>dei sit finis quia talis dubietas impediret inquisitionem 
+          <lb ed="#U"/>finis Non autem ostenditur ratione naturali quod haec pars sit neccessaria cognoscen<lb ed="#U"/>da 
+          et hoc modo dictae rationes non sunt naturales concludunt de altera 
+          <lb ed="#U"/>parte de hac vel de illa non determinate ex tradictis tantum
+        </p>
+        <p>
+          <lb ed="#U"/>3o
         </p>
           
         

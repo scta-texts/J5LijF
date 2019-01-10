@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus, Quaestio 1 [Urb lat 120 Transcription]</title>
+        <author>Thomas Sutton</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Prologus, Quaestio 1 [Urb lat 120 Transcription]</title>
+          <date when="2019-01-07">January 07, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U" n="cod-xowk10">Vatican, Urb. Lat. 120</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#U" n="2-r"/>
+        <cb ed="#U" n="a"/>
+        <lb ed="#L" n="5"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="J5LijF-d1e87">
+        <head xml:id="J5LijF-d1e87-Hd1e102">Quaestio 1 [Urb lat 120 Transcription]</head>
+        <head xml:id="J5LijF-d1e87-Hd1e105" type="question-title">Utrum homini pro statu isto sit necessariam 
+          aliquam doctrinam specialem supernaturaliter inspirari, 
+          ad quam non possit attingere lumine naturali intellectus</head>
+        <p xml:id="J5LijF-d1e87-d1e108">
+          <lb ed="#L" n="5"/>Utrum homini pro statu isto 
+          <lb ed="#L"/>sit neccessariam aliquam doctrinam 
+          <lb ed="#L"/>specialem supernaturaliter inspirari ad quam 
+          <lb ed="#L"/>non possit attingere lumine naturali intellectus
+        </p>
+        <p xml:id="J5LijF-d1e87-d1e119">
+          videtur quod non quia potentia 
+          <lb ed="#L"/>habens commune aliquod pro obiecto potest in 
+          <lb ed="#L"/>quolibet sub illo contentum sicut in per 
+          <lb ed="#L"/>se obiectum naturaliter sed primum obiectum 
+          <lb ed="#L"/>intellectus est ens ergo etc Maior patet pro inductive de obiecto visus 
+          <lb ed="#L"/>et aliarum potentiarum <pc type="#punctus"/> 2o per rationem quia primum obiectum dicitur obiectum 
+          adaequatum Sed si in aliquo esset ratio obiecti ad quam potentia non 
+          <lb ed="#L"/>se extenderet iam non esset adaequatum sed excedens ergo etc
+          <lb ed="#L"/>Minor probatur per <name>Avicennam</name> primo metaphysicae capitulo v <quote xml:id="J5LijF-d1e87-Qd1e141" source="http://scta.info/resuorce/gt7yt6-d1e123">ens dicit ipse et res 
+          <lb ed="#L"/>prima impressione imprimuntur in anima nec possunt manifestari ex 
+          <lb ed="#L"/>aliis <!-- avicenna, I, c. 6, in Venice 1495 seems to be II, c. 1 appears in scotus ordinatio, prol. q. 1--></quote> <!-- break?? -->
+        </p>
+        <!-- unclear if there should be a break here -->
+        <p xml:id="J5LijF-d1e87-d1e155">
+          Ad principalem sensus non indiget aliqua supernaturali cognitione
+          <lb ed="#L"/>sed <unclear>non</unclear> non deficit in neccessariis per <ref xml:id="J5LijF-d1e87-Rd1e162"><name>philosohpum</name> 3 <title>de anima</title></ref> et si hoc sit 
+          <lb ed="#L"/>verum in imperfectis multo magis etiam in perfectis ergo multo magis 
+          <lb ed="#L"/>intellectus non indiget ergo etc
+        </p>
+        <p xml:id="J5LijF-d1e87-d1e174">
+          Ad primum principalem sit talis notitia 
+          <lb ed="#L"/>sit neccessaria hoc est quia respectu talis obiecti potentia eset improportionata ex <unclear>ss</unclear> 
+          <lb ed="#L"/>naturalibus ergo oportet quod per aliud proportionatum ei fiat <pc type="#punctus"/> illud aliud aut erit 
+          <lb ed="#L"/>naturale aut supernaturale Si naturale adhuc totum est improportinatum obiecto illi 
+          <lb ed="#L"/>primo Si supernaturale ergo respectu illius potentia est improportionata et ita num<lb ed="#L"/>quam 
+          proportionabitur
+        </p>
+        <p xml:id="J5LijF-d1e87-d1e193">
+          Ad oppositum <name>Apostolus</name> <title>ad thimotheum</title> 3 <quote xml:id="J5LijF-d1e87-Qd1e201" ana="#IItim3_16">omnis doctrina 
+          <lb ed="#L"/>divinitus inspirata</quote> etc
+        </p>
+        <p xml:id="J5LijF-d1e87-d1e207">
+          Circa istam quaestionem facienda sunt quattuor primo 
+          <lb ed="#L"/><unclear>e?i</unclear> ponetur opynionem philosophorum 2o per rationes arguetur contra eam 
+          <lb ed="#L"/>3o dicendum ad quaestionem aliter et 4o solventur rationes quae sunt pro opynione 
+          <lb ed="#L"/>philosophorum et etiam principales
+        </p>
+        <p xml:id="J5LijF-d1e87-d1e218">
+          Quantum ad primum sciendum quod opynio 
+          <lb ed="#L"/>philosophorum est quod nulla cognitio supernaturalis est homini neccessaria quod omne neccessariam
+          <lb ed="#L"/>sibi posset acquirere ex actione causarum naturalium <pc type="virgula">//</pc> Confirmatur 
+          <lb ed="#L"/>ista opynio quadrupliciter 
+        </p>
+        <p xml:id="J5LijF-d1e87-d1e230">
+          Primo sic <name>philosophus</name> 3 <title>de anima</title> dicit quod <quote xml:id="J5LijF-d1e87-Qd1e238" ana="#Aristotle_DeAnima_III_5_a">intellectus 
+          <lb ed="#L"/>agens est quo est omnia facere intellectus possibilis est quo est omnia fieri</quote>
+          <lb ed="#L"/>Ex hoc arguitur sic Actio naturali et passio approximatis et 
+          <lb ed="#L"/>non impeditis sequitur actio sed actum respectu omnis intelligibilis agens et 
+          <lb ed="#L"/>passivum intellectus possibilis et haec sunt naturaliter in anima et non impedita 
+          <lb ed="#L"/>ergo sequitur actus intelligendi respectu cuiuslibet intelligibilis 
+        </p>
+        <p xml:id="J5LijF-d1e87-d1e254">
+          <pc type="virgula">//</pc> 2o sic et est <unclear>q</unclear> con<lb ed="#L"/>firmatio 
+          praecedentis rationis omni potentiae passivae correspondet 
+          <lb ed="#L"/>potentia activa naturaliter Aliquin potentia passiva esset frustra 
+          <lb ed="#L"/>in natura sed intellectus possibilis est potentia passiva et naturalis respectu cuiuslibet intelligibilis 
+          <lb ed="#L"/>quod patet quia naturaliter appetit cognitionem cuiuslibet intelligibilis et naturaliter per 
+          <lb ed="#L"/>quamcumque cognitionem perficitur ergo etc
+        </p>
+        <p xml:id="J5LijF-d1e87-d1e274">
+          3o sic <name>philosophus</name> 6 <title>metaphysicae</title> 
+          <lb ed="#L"/>distinguit habitum speculativum in metaphysicum physicum 
+          <lb ed="#L"/>et mathematicum et ex probatione illius videtur quod non possunt esse 
+          <lb ed="#L"/>plures habitus speculativi quia in istis consideratur de toto 
+          <lb ed="#L"/>et <del rend="expunctuation">de</del> parti ente et in se et quoad omnes partes eius sicut 
+          <cb ed="#L" n="b"/>
+          <lb ed="#L"/>autem non potest esse aliqua speculativa alia ab istis sic nec practi<lb ed="#L"/>ca 
+          alia practicis acquisitis activis et passivis ergo etc
+        </p>
+        <p xml:id="J5LijF-d1e87-d1e301">
+          <pc type="virgula">//</pc> 4o sic 
+          <lb ed="#L"/>potens naturaliter intelligere principium potest naturaliter intelligere omnis conclusiones 
+          <lb ed="#L"/>in principio quia notitia conclusionem non dependet nisi ex intellectu 
+          <lb ed="#L"/>principii et deductione conclusionis ex principio sicut patet ex dif<lb ed="#L"/>finitione 
+          scientiae primo posteriorum <quote xml:id="J5LijF-d1e87-Qd1e315">deductio autem est de se manifesta</quote> 
+          <lb ed="#L"/>et per consequens si principia intelliguntur habentur omnia quae videntur 
+          <lb ed="#L"/>neccessaria ad scientiam conclusionis sed naturaliter prima principia in quibus 
+          <lb ed="#L"/>virtualiter includuntur omnes conclusiones ergo etc probatio <unclear>minoris</unclear> quantum 
+          <lb ed="#L"/>ad primam sui partem quia prima principia sunt ex terminis communissimis 
+          <lb ed="#L"/>principia autem cognoscimus inquantum terminos cognoscimus 
+          <lb ed="#L"/>ergo etc probatio 2ae partis minoris scilicet quod omnes conclusiones includuntur 
+          <lb ed="#L"/>in primis principiis quia termini primorum principiorum sunt communissimi 
+          <lb ed="#L"/>et per consequens quando distribuitur <sic>distribuitur</sic> pro omnibus conten<lb ed="#L"/>tis 
+          sub terminis communissimis omnia continentur ergo etc
+        </p>
+        <p xml:id="J5LijF-d1e87-d1e344">
+          <!-- not clear were "primo" started -->
+          <pc type="virgula">//</pc> 2o arguo
+        </p>
+          
+        
+      </div>
+    </body>
+  </text>
+</TEI>

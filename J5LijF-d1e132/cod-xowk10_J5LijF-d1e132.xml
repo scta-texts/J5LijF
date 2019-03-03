@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus, Quaestio 5 [Urb lat 120 Transcription]</title>
+        <author>Thomas Sutton</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Prologus, Quaestio 5 [Urb lat 120 Transcription]</title>
+          <date when="2019-03-02">March 02, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U" n="cod-xowk10">Vatican, Urb. Lat. 120</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#U" n="5-v"/>
+        <cb ed="#U" n="b"/>
+        <lb ed="#U" n="30"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="J5LijF-d1e132">
+        <head>Quaestio 5 [Urb lat 120 Transcription]</head>
+        
+        <!-- begin q. 5 -->
+        <p>
+          <lb ed="#U" n="30"/>Utrum ista scientia sit de omnibus in comparatione ad eius  
+          <lb ed="#U" n="31"/>primum subiectum quod sic quia per <ref><name ref="#Aristotle">philosophum</name> 4o <title>metaphysicae</title></ref> eadem est  
+          <lb ed="#U" n="32"/>scientia de aliquo et de omnibus attributis ad ipsum  
+          <lb ed="#U" n="33"/>sed omnia attribuuntur et attributionem habent ad primum subiectum  
+          <lb ed="#U" n="34"/>huius scientiae ergo etc Contra <title><name ref="#Augustine">augustinum</name> 14 <title>de trinitate</title> capitulo 4 de parvis</title> <quote ana="#Augustine_deTrinitate_14_1_3_b">neque  
+            <lb ed="#U" n="35"/>huic scientiae tribuendum est aliquid etc</quote> ergo etc
+        </p>
+        
+        <p>
+          Ad quaestionem Respondeo quod theologia  
+          <lb ed="#U" n="36"/>divina est de omnibus cognoscibilibus et hoc quia obiectum primum  
+          <lb ed="#U" n="37"/>suae theologiae facit omnia alia actu cognita in intellectu suo ita  
+          <lb ed="#U" n="38"/>quod in primo signo naturae est essentia sua primo cognita in in<lb ed="#U" n="39"/>tellectu 
+          suo et in 2o signo naturae quidditates virtualiter continen<lb ed="#U" n="40"/>tes 
+          veritates proprias et in 3o signo sint veritates istae contentae  
+          <lb ed="#U" n="41"/>in illis quibus sibi notae non tamen est ordo 2i ad 3 secundum causalitatem  
+          <lb ed="#U" n="42"/>quia ille quidditates aliquid essent in intellectu suo sed tantum est ordo 
+          <lb ed="#U" n="43"/>effectuum ordinatorum respectu eiusdem causae puta quia essentia sua  
+          <lb ed="#U" n="44"/>quasi prius causat istas quidditates sib notas quam veritates  
+          <lb ed="#U" n="45"/>de eis fuerit notae Exemplum sicut si sol illuminaret aliquam  
+          <lb ed="#U" n="46"/>partem sibi propinquam et alia pars remotior tunc non esset  
+          <lb ed="#U" n="47"/>illuminabilis nisi a sole propter eius opacitatem sol illumina<lb ed="#U" n="48"/>ret 
+          illam partem remota non autem pars primo illuminata cum 
+          <!--6r.xml-->
+          <pb ed="#U" n="6-r"/>
+          <cb ed="#U" n="a"/>
+          <lb ed="#U" n="1"/>esset ordo inter partem propinquam et remotam sicut ordo  
+          <lb ed="#U" n="2"/>effectuum et non ordo causalitatis quia una pars non illumina<lb ed="#U" n="3"/>ret 
+          aliam ita est in proportionato ut dictum est sic ergo deus  
+          <lb ed="#U" n="4"/>de omnibus cognoscibilibus habet congnitionem solis theologicam  
+          <lb ed="#U" n="5"/>quia solem virtute primi obiecti theologic actuantis intellectum eius  
+          <lb ed="#U" n="6"/>ita quod theologia eius non est solum de omnibus cognoscibilibus  
+          <lb ed="#U" n="7"/>sed etiam omnis cognitio possibilis deo de eis sed de notitia bonorum  
+          <lb ed="#U" n="8"/>respectu intelligibilium causatorum aliud est quia intellectus eorum nati sunt 
+          <lb ed="#U" n="9"/>immutari a quibus causatis ad cognitionem veritatum inclusarum 
+          <lb ed="#U" n="10"/>in eis et ideo praeter illam veritatem theologiam quam habent de eis  
+          <lb ed="#U" n="11"/>ut ostensis in essentia divina possunt habere congnitionem naturalem  
+          <lb ed="#U" n="12"/>de eis ex propria unione earum et per consequens theologia bonorum  
+          <lb ed="#U" n="13"/>non est omnis congnitio earum de illis creatis possibilis  
+          <lb ed="#U" n="14"/>intellectu bono sed dubium est an sit de omnibus illa  
+          <lb ed="#U" n="15"/>theologia et ideo distinguendum est quia theologia potest considerari  
+          <lb ed="#U" n="16"/>vel ut in se vel ut perficiens intellectum beati primo modo est de omnibus 
+          <lb ed="#U" n="17"/>scibilibus quia omnia ista nata sunt sciri virtute primi obiecti  
+          <lb ed="#U" n="18"/>theologici 2o modo possibilis est eam esse de quocumque immo et de omnibus  
+          <lb ed="#U" n="19"/>scibilibus quia non sunt infinita de facto autem limitationem  
+          <lb ed="#U" n="20"/>non habet nisi ex voluntate dei ostendentis aliquid in essentia sua et  
+          <lb ed="#U" n="21"/>ideo actu theologia eorum est de tot quot voluntarie deus ostendit eis  
+          <lb ed="#U" n="22"/>in essentia de theologia vero nostra dicendum quod ipsa non est actualiter  
+          <lb ed="#U" n="23"/>enim omnem habet terminum ex voluntate dei revelantis et ille  
+          <lb ed="#U" n="24"/>terminus praefixus quantum ad revelationem generalem est illorum  
+          <lb ed="#U" n="25"/>quae sunt in sacra scriptura unde appocalypsis vult Qui apposuevit  
+          <lb ed="#U" n="26"/>ad hoc apposit eis dicens plagas quae apponuntur in libro isto et  
+          <lb ed="#U" n="27"/>ideo actu theologia nostra non est nisi de hiis quae continentur in sacra scriptura  
+          <lb ed="#U" n="28"/>Si et loquamur de possibilitate dicendum quod non potest esse de omni  
+          <lb ed="#U" n="29"/>beatus tamen propter defectum intellectus nostri non potentis concipere in  
+          <lb ed="#U" n="30"/>speciali multas quidditas Relatio autem secundum legem communem 
+          <lb ed="#U" n="31"/>non est nisi de hiis quorum terminum possunt naturaliter concipi a nobis  
+          <lb ed="#U" n="32"/>propter defectum theologiae nostrae quia non potest stare cum cognitione  
+          <lb ed="#U" n="33"/>evidenti de eisdem congnitionibus secundum aliquos et per consequens de 
+          <lb ed="#U" n="34"/>naturaliter nobis cognitis non potest stare theologia revelata cum  
+          <lb ed="#U" n="35"/>omnis theologia sive nostra sive beatorum sine dei est de omnibus 
+          <lb ed="#U" n="36"/>entibus quantum ad respectus quos habent ad essentiam divinam  
+          <lb ed="#U" n="37"/>ut est haec essentia quia respectus non potest cognosci nisi cognitis  
+          <lb ed="#U" n="38"/>extremis et ita respectus qui est ad hanc essentiam ut hoc non potest  
+          <lb ed="#U" n="39"/>cognosci nisi cognita hac essentia
+        </p>
+        <p>
+          <pc type="#pilcrow"/> Ad rationem dicendum quod concludit 
+          <lb ed="#U" n="40"/>de theologia non prout est in se sed prout traditur in sacra scriptura 
+        </p>
+        <!-- end scotus recap/ begin thomas reply -->
+        <p>
+          <lb ed="#U" n="41"/>In ista quaestione videtur mihi unum male dictum valet <!-- videlicet --> quod theologia  
+          <lb ed="#U" n="42"/>bonorum in se considerata potest esse omnium scibilium quia 
+          <lb ed="#U" n="43"/>scibilia non sunt infinita ideo contra hoc arguo primo sic In scientiis  
+          <lb ed="#U" n="44"/>est procedendum in infinitum ergo in scibilibus probatio assumpti  
+          <lb ed="#U" n="45"/>quia scientia de homine et homo sunt alterius speciei cum unum sit  
+          <lb ed="#U" n="46"/>in genere substantiae et alterum in genere qualitatis sit ergo scientia de  
+          <lb ed="#U" n="47"/>homine A sed a cum sit quaedam qualitas et per consequens quoddam scibile  
+          <lb ed="#U" n="48"/>de ipso potest esse scientia sed scientia de a et a non sunt eiusdem  
+          <cb ed="#U" n="b"/> <!-- 6rb -->
+          <lb ed="#U" n="1"/>speciei probo secundum eum quia secundum eum distinctorum specie est distincta  
+          <lb ed="#U" n="2"/>scientia specie sed a et homo sunt distincta ergo scientia de homine et  
+          <lb ed="#U" n="3"/>de a distinguuntur specie sed scientia de homine est ipsum a ergo a et ipsa  
+          <lb ed="#U" n="4"/>scientia de a distinguuntur specie scit ergo scientia de a b eodem  
+          <lb ed="#U" n="5"/>modo convenit arguere de b sicut argutum est de a quia b et a dis 
+          <lb ed="#U" n="6"/>tinguuntur specie ut probatum est ergo distincta scientia est de b et de 
+          <lb ed="#U" n="7"/>a sed scientia de a est ipsum b ergo b et scientia de b distinguuntur  
+          <lb ed="#U" n="8"/>specie et sic in infinitum ergo etc 
+        </p>
+        <p>
+          2o potest idem argui in numeris  
+          <lb ed="#U" n="9"/>et figuris et proportionibus et proprietatibus numerorum et fiurarum  
+          <lb ed="#U" n="10"/>ergo etc
+        </p>
+        <p>
+          3o patet idem de cogitationibus bonorum et malorum  
+          <lb ed="#U" n="11"/>quorum cogitationes poterunt esse diversae in infinitum cum in in<lb ed="#U" n="12"/>finitum 
+          sint futuri et cum omnes illae cogitationes essent scibiles  
+          <lb ed="#U" n="13"/>in essentia divina quae est primum obiectum theologiae bonorum 
+        </p>
+        <p>
+          4o quia sicut  
+          <lb ed="#U" n="14"/>alias probabiliter creaturae sunt producibiles distinctae secundum  
+          <lb ed="#U" n="15"/>speciem in infinitum ergo cum sint scibiles in essentia divina et ante  
+          <lb ed="#U" n="16"/>quam sint sequotur quod scibilia sint infinita  Alia quae dicimur forte possunt  
+          <lb ed="#U" n="17"/>sustineri si tamen bene intelligantur nisi quod ponit distincta instantia  
+          <lb ed="#U" n="18"/>naturae in deo quod minus proprie dicitur ut alias patebit quando magis est  
+          <lb ed="#U" n="19"/>ad propositum
+        </p>
+        <p>
+          <pc type="#pilcrow"/>In ista quaestione videtur mihi dicendum quod theologia  
+          <lb ed="#U" n="20"/>nostra non est de omnibus scibilibus sed solum est actu de illis  
+          <lb ed="#U" n="21"/>quae neccessaria sunt ad cognitionem finis supernaturalis et eorum quae  
+          <lb ed="#U" n="22"/>poterit ad finem suum perveniri et haec dico sufficiente sta<lb ed="#U" n="23"/>tum 
+          praesenti et illa sunt quae traduntur in sacra scriptura
+          
+          <lb ed="#U" n="24"/>Alia autem ad theologiam nostram directe non pertinent verum  
+          <lb ed="#U" n="25"/>haec est propter oppositum formale scilicet quod ipsum ad plura non se ex<lb ed="#U" n="26"/>tendat 
+          sed est propter defectum potentiae et luminis sicut obiectum  
+          <lb ed="#U" n="27"/>visus quod est coloratum quamvis sit per se obiectum visus tamen non  
+          <lb ed="#U" n="28"/>omne coloratum potest videri a noctua nec et a nobis in quocumque  
+          <lb ed="#U" n="29"/>lumine sed requireretur lumen sufficiens proportionatum colorato 
+          <lb ed="#U" n="30"/>inquantum coloratum est quod scilicet posset tantum movere et illuminare  
+          <lb ed="#U" n="31"/>visum ad videndum sicut coloratum inquantum huius na<lb ed="#U" n="32"/>tum 
+          esset a visu videri et eodem modo de potentia et haec per hoc  
+          <lb ed="#U" n="33"/>patet ad primum principalem quia omnia quae habent attributionem ad  
+          <lb ed="#U" n="34"/>aliquod subiectum primum alicuius scientiae pertinent inquantum huiusmodi ad aliam  
+          <lb ed="#U" n="35"/>scientiam ponendo quod sciantur potest tamen contingere quod ab aliquod  
+          <lb ed="#U" n="36"/>intellectu scibilia non sunt propter dictam causam quid aut particulas 
+          <lb ed="#U" n="37"/>ad theologiam beatorum magis habet locum suum alibi quam hoc et  
+          <lb ed="#U" n="38"/>ideo modo dimittatur 
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

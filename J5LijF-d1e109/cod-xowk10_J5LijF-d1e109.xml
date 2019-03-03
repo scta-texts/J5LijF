@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus, Quaestio 3 [Urb lat 120 Transcription]</title>
+        <author>Thomas Sutton</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Prologus, Quaestio 3 [Urb lat 120 Transcription]</title>
+          <date when="2019-02-05">February 05, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U" n="cod-xowk10">Vatican, Urb. Lat. 120</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-02-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#U" n="4-r"/>
+        <cb ed="#U" n="a"/>
+        <lb ed="#U" n="17"/>
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="J5LijF-d1e109">
+        <head xml:id="J5LijF-d1e109-Hd1e102">Quaestio 3 [Urb lat 120 Transcription]</head>
+        <head xml:id="J5LijF-d1e109-Hd1e105" type="question-title">Utrum theologia sit de deo ut de subiecto</head>
+        <p xml:id="J5LijF-d1e109-d1e105">
+          Utrum theologia sit de <sic>eo</sic> ut de  
+          <lb ed="#U" n="18"/>subiecto
+        </p>
+        <div xml:id="J5LijF-d1e109-Dd1e110" type="rationes-principales">
+          <p xml:id="J5LijF-d1e109-d1e112">
+            videtur quod non quia <ref xml:id="J5LijF-d1e109-Rd1e114">primo <title>posteriorum</title></ref> dicitur quod <quote xml:id="J5LijF-d1e109-Qd1e130">subiectum scientiae habet partes 
+            <lb ed="#U" n="19"/>principia et passiones</quote> deus non habet partes integrales cum sit  
+            <lb ed="#U" n="20"/>simplex nec subiectivas cum sit singularis Similiter non habet  
+            <lb ed="#U" n="21"/>principia <sic>quin</sic> sit principium nec passiones quia passio inest subiecto  
+            <lb ed="#U" n="22"/>sic quod est extra essentiam sic autem nihil est in deo ergo etc
+          </p>
+          <p xml:id="J5LijF-d1e109-d1e128">
+            <pc type="#pilcrow"/>Item ista  
+            <lb ed="#U" n="23"/>scientia habet 4or sensus sed cuilibet sensui correspondet aliquod subiectum  
+            <lb ed="#U" n="24"/>quia cuilibet scientiae habenti sensum correspondet solum unum secundum sensum  
+            <lb ed="#U" n="25"/>illum ergo ista scientia habet plura subiecta ergo non est tantum de deo ut de  
+            <lb ed="#U" n="26"/>subiecto
+          </p>
+          <p xml:id="J5LijF-d1e109-d1e141">
+            Item videtur quod homo sit subiectum istius scientiae per <ref xml:id="J5LijF-d1e109-Rd1e143"><name>commentatorem</name> primo 
+            <lb ed="#U" n="27"/><title>ethicorum</title> in prologo</ref> dicit enim quod scientia moralis est de homine quo ad <del rend="expunctuation">corpus  
+            <lb ed="#U" n="28"/>ex hoc accipitur</del> anima medicinalis est de homine quo ad corpus  
+            <lb ed="#U" n="29"/>ex hoc accipitur ista propositio omnis scientia practica habet pro primo  
+            <lb ed="#U" n="30"/>obiecto illud cui acquiritur finis scientiae et non ipsum finem finis autem  
+            <lb ed="#U" n="31"/>theologiae acquiritur homini non deo ergo etc
+          </p>
+          <p xml:id="J5LijF-d1e109-d1e161">
+            Ad oppositum <ref xml:id="J5LijF-d1e109-Rd1e163"><name ref="#Augustine">Augustinus</name> 8 <title>de civitate</title> 
+              <lb ed="#U" n="32"/>capitulo 1</ref> <quote xml:id="J5LijF-d1e109-Qd1e231">theologia est sermo vel ratio de deo</quote>
+          </p>
+        </div>
+        <div xml:id="J5LijF-d1e109-Dd1e175">
+          <p xml:id="J5LijF-d1e109-d1e177">
+            Circa istam primo prae<lb ed="#U" n="33"/>mittam 
+            quaedam neccessaria ad intellectum Secundo dicam quod intendo
+          </p>
+        </div>
+        <div xml:id="J5LijF-d1e109-Dd1e184">
+        <!-- article 1 ?? -->
+        <p xml:id="J5LijF-d1e109-d1e188">
+          <lb ed="#U" n="34"/>praemitto autem 3a primum est distinctio de theologia in se et de theologia  
+          <lb ed="#U" n="35"/>in nobis dico enim quod cognitio quaelibet in se est illa quae nata est haberi  
+          <lb ed="#U" n="36"/>de subiecto eius secundum quod manifeste se intellectui proportionato et sic theologia  
+          <lb ed="#U" n="37"/>est cognitio talis qualem natum est subiectum theologiae facere intellectio proportionato 
+          <lb ed="#U" n="38"/>sibi Cognitio autem in nobis est illa quae nata est habere in intellectu nostro  
+          <lb ed="#U" n="39"/>de suo subiecto et sic theologia in nobis est qualem intellectus noster natus  
+          <lb ed="#U" n="40"/>est habere de eius subiecto sicut quamvis aliquis non posset capere subiectum scientiam  
+          <lb ed="#U" n="41"/>geometriae sed tantum crederet alicui dicenti de geometricis  
+          <lb ed="#U" n="42"/>tamen geometria in se esset scientia quamvis non illi
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e210">
+          Secundum quod praemitto  
+          <lb ed="#U" n="43"/>est de ratione primi subiecti dico enim quod ratio primi subiecti est continetur 
+          <lb ed="#U" n="44"/>in se virtualiter primo omnes virtutes huius habitus et hoc ostendo 2ter 
+        
+          <lb ed="#U" n="45"/>primo quia obiectum primum continet propositiones immediatas quia subiectum primum  
+          <lb ed="#U" n="46"/>continet praedicatum et per consequens eius  evi?am totius propositionis:  
+          <lb ed="#U" n="47"/>propositiones autem immediate continent conclusiones ergo subiectum propositionum immedia<lb ed="#U" n="48"/>tarum 
+          continet omnes veritates istius habitus 
+        
+          <pc type="#pilcrow"/> 2o quia primi<lb ed="#U" n="49"/>tas 
+          hic accipitur a primo ex diffinitione universalis secundum quod dicit adae 
+          <!--4r.xml-->
+          <pb ed="#U" n="4-r"/>
+          <cb ed="#U" n="b"/>
+          <lb ed="#U" n="1"/>adaequationem obiectum autem se habet ad habitum sicut causa ad effectum  
+          <lb ed="#U" n="2"/>sed causa adaequatam continet totum effectum ergo etc
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e241">
+          Sed contra istud 
+          <lb ed="#U" n="3"/>obicitur dupliciter
+          primo sic sicut obiectum primum ad potentia ita obiectum 
+          <lb ed="#U" n="4"/>primum ad habitum sed obiectum primum potentiae est aliquid commune ad omnia personae 
+          <lb ed="#U" n="5"/>obiecta illud potentiae ergo primum obiectum habitus est aliquid commune ad omnia personae  
+          <lb ed="#U" n="6"/>obiecta eius non aliquid virtualiter continens omnia
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e252">
+          2o sic communiter in 
+          <lb ed="#U" n="7"/>scientiis assignatur pro subiecto primo commune ad omnia considerata  
+          <lb ed="#U" n="8"/>in illis sicut in geometria linea enim in metaphysica ens ergo etc
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e260">
+          <ref xml:id="J5LijF-d1e109-Rd1e262">Ad  
+          <lb ed="#U" n="9"/>primum <!-- two paragraphs above, "sed contra..." --></ref> Respondeo quod non est omnino simile de potentia et habitu per compositionem  
+          <lb ed="#U" n="10"/>ad subiectum quia obiectum comparatur ad potentiam sicut motum ad mobilem 
+          <lb ed="#U" n="11"/>vel agens ad passum sed obiectum compatitur ad habitum sicut causa ad ef<lb ed="#U" n="12"/>fectum.
+          Quando autem agens agit in aliquod passum quodcumque agens 
+          <lb ed="#U" n="13"/>eiusdem rationis potest agere in passum quod licet eiusdem rationis 
+          <lb ed="#U" n="14"/>Sicut si hoc album potest movere hunc visum omne talem album  
+          <lb ed="#U" n="15"/>potest movere talem visum et ideo extrema proportionis inter actum  
+          <lb ed="#U" n="16"/>et passivum possunt accipi sub ratione universali et sub ordine communi 
+          <lb ed="#U" n="17"/>ex parte virtus sicut si dicerem visum in communi et documentum in communi esse  
+          <lb ed="#U" n="18"/>proportionata sicut potentia et obiectum adaequatum sed non sic est de  
+          <lb ed="#U" n="19"/>extremo proportionis cauae et effectus non enim quodlibet contentum sub  
+          <lb ed="#U" n="20"/>primo obiecto respicit istum habitum ut effectum eius sed tantum primum  
+          <lb ed="#U" n="21"/>contentum quod virtualiter continentur omnia ad quae habitus se extendit
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e295">
+          <lb ed="#U" n="22"/><ref xml:id="J5LijF-d1e109-Rd1e298">Ad 2m <!-- two paragraphs above "2o sic communiter" --></ref> quod multorum habituum specie differentium potest esse solum commune  
+          <lb ed="#U" n="23"/>abstractum ab obiectis eorum propriis et sic in scientiis assignatur aliquod  
+          <lb ed="#U" n="24"/>subiectum commune a quo non est habitus unus secundum speciem sed tantum sed genus
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e307">
+          <lb ed="#U" n="25"/>3m quod praemitto de theologia quantum ad partes et dico eam  
+          <lb ed="#U" n="26"/>habere duas partes primo integrales quarum una est veritas neccessaria alia  
+          <lb ed="#U" n="27"/>veritas contingens Sciendum est autem quod theologia alias veritas  
+          <lb ed="#U" n="28"/>considerat sicut quod deus est trinus et unus et huius <!--huiusmodi--> et  
+          <lb ed="#U" n="29"/>alias contingentes sic deus est incarnatus et huius 
+        </p>
+        </div>
+        <div xml:id="J5LijF-d1e109-Dd1e324">
+        <!--- article 2 -->
+        <p xml:id="J5LijF-d1e109-d1e328">
+          Ex  
+          <lb ed="#U" n="30"/>istis Respondeo 2o ad quaestionem et primo loquendo de theologia ut  
+          <lb ed="#U" n="31"/>est in se et de veritatibus neccessariis tenens quod theologia  
+          <lb ed="#U" n="32"/>in se quantum ad veritates neccessarias ipsius habet dum pro primo obiecto  
+          <lb ed="#U" n="33"/>et nihil aliud
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e339">
+          Istud confirmo primo per 3 rationes 2o per quasdam  
+          <lb ed="#U" n="34"/>persuasiones
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e344">
+          prima ratio est primum obiectum continet virtualiter  
+          <lb ed="#U" n="35"/>omnes veritates virtutes illius habitus cuius est primum  
+          <lb ed="#U" n="36"/>obiectum sed nihil continet virtualiter omnes virtus theologicas 
+          <lb ed="#U" n="37"/>nisi deus ergo etc probatio minoris quia nihil aliud continet eas  
+          <lb ed="#U" n="38"/>ut causa sive ut illud ad quod homo aut attributive quia deus  
+          <lb ed="#U" n="39"/>nulli alteri attribuit nec aliquid continet eas ut causa sive ut  
+          <lb ed="#U" n="40"/>illo effectus demonstratione quia nullus effectus demonstrant deum 
+          <lb ed="#U" n="41"/>esse trinum quod est potissima veritas ergo etc Et sic theologia est  
+          <lb ed="#U" n="42"/>de hiis quae soli intellectui dummodo sunt cognita naturaliter Solus  
+          <lb ed="#U" n="43"/>deus est sibi notus naturaliter ergo etc maior probatur quia si ista scientia  
+          <lb ed="#U" n="44"/>esset de aliquibus alicuius activa intellectum naturaliter notis ergo praeter 
+          <lb ed="#U" n="45"/>ista aliqua alia sunt noscibilia naturaliter soli deo ergo adhuc 
+          <lb ed="#U" n="46"/>aliqua scientia est superior ista consequens est falsum ergo etc
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e373">
+          Secundo sic in  
+          <lb ed="#U" n="47"/>nulla scientia tradita ita distincta cognitio de aliquo quorum non  
+          <lb ed="#U" n="48"/>est eius primum subiectum sicut in illa quae est de illo ut de primo 
+          <!--4v.xml-->
+          <pb ed="#U" n="4-v"/>
+          <cb ed="#U" n="a"/>
+          <lb ed="#U" n="1"/>subiecto eius ergo si deus non sit hoc subiectum non traditur hoc ita dis<lb ed="#U" n="2"/>tincta 
+          cognitio de deo sic traderetur de eo in aliqua alia  
+          <lb ed="#U" n="3"/>scientia in qua posset esse subiectum potest autem subiectum esse in alia ergo illa  
+          <lb ed="#U" n="4"/>esset prior ista consequens est talem:
+        </p>
+        <!-- missing tertio -->
+        <p xml:id="J5LijF-d1e109-d1e398">persuasiones ad idem sunt 
+          <lb ed="#U" n="5"/>4or prima theologia secundum <ref xml:id="J5LijF-d1e109-Rd1e402"><name ref="#Augustine">Augustinum</name> <title>de trinitate</title> 13 capitulo 1</ref> pro aliqua parte  
+          <lb ed="#U" n="6"/>sui est scientia si autem esset tantum de aliquo non aeterno esset formaliter 
+          <lb ed="#U" n="7"/>scientia de illo et nullo modo scientia sapientia quia aeterna non attribuuntur  
+          <lb ed="#U" n="8"/>temporalibus ita esset superior portio rationis habet aliquam perfectionem propriam  
+          <lb ed="#U" n="9"/>sibi correspondentem sed ista scientia sumi est de aeterno non perficiat su<lb ed="#U" n="10"/>periorem 
+          portionem rationis ergo esset aliquis habitus omnino notior isto  
+          <lb ed="#U" n="11"/>perficiens superiorem rationem portionem rationis consequens est talem ergo  
+          <lb ed="#U" n="12"/>etc
+        </p>
+        <!-- missing second persuasion -->
+        <p xml:id="J5LijF-d1e109-d1e428">
+          <pc type="virgula">/</pc> 3a est quem secundum <ref xml:id="J5LijF-d1e109-Rd1e433"><name ref="#Augustine">augustinum</name> 14 de trinitate capitulo 1</ref> <quote xml:id="J5LijF-d1e109-Qd1e438" ana="#Augustine_deTrinitate_14_1_3_b">Ista scientia est de illis  
+          <lb ed="#U" n="13"/>quibus fides gignitur nutritur et roboratur</quote> ergo ista est de  
+          <lb ed="#U" n="14"/>eodem obiecto de quo est fides sed fides est de veritate prima ergo  
+          <lb ed="#U" n="15"/>etc
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e448">
+          <pc type="virgula">/</pc> 4a est quia est nobilissima scientia ergo est circa nobilissimum  
+          <lb ed="#U" n="16"/>genus entis ergo etc deinde
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e456">
+          Respondeo ad quaestionem loquendo de theologia  
+          <lb ed="#U" n="17"/>prout est in nobis et de veritatibus neccessariis et dico quod ens  
+          <lb ed="#U" n="18"/>infinitum et ut sit obiectum et hoc sit de dato dico enim quod quando habitus   
+          <lb ed="#U" n="19"/>in aliquo intellectu habet evidentiam ex obiecto tunc ipsum obiectum in se  
+          <lb ed="#U" n="20"/>continet virtualiter ipsum et similiter ipsum obiectum ut notum intellectum  
+          <lb ed="#U" n="21"/>virtualiter continet ipsum habitum quo ad sui evidentiam quia cognos<lb ed="#U" n="22"/>cens 
+          obiectum potest elicere verum actum illius habitus in habitu  
+          <lb ed="#U" n="23"/>vero nota non habente evidentia ex obiecto sed aliunde non oportet dare 
+          <lb ed="#U" n="24"/>istas duas conditiones ipsi subiecto ymo neutram oportet dare quia  
+          <lb ed="#U" n="25"/>perm? est de habitu in hac ac si esset de contingentibus quae neutro  
+          <lb ed="#U" n="26"/>modo habent subiectum primum et ideo tali habitu datur obiectum primum  
+          <lb ed="#U" n="27"/>illud de quo noto primo et perfectissime immeiate cognoscuntur  
+          <lb ed="#U" n="28"/>veritates primae illius habitus theologia autem nostra est habitus non  
+          <lb ed="#U" n="29"/>habens evidentiam ex obiecto est illa quae est de neccessariis ergo theologiae  
+          <lb ed="#U" n="30"/>nostrae ut nostra est non oportet dare subiectum primum nisi illud primo  
+          <lb ed="#U" n="31"/>notum de quo immediate cognoscuntur primae veritates 
+          
+          Istud autem  
+          <lb ed="#U" n="32"/>primum est ens in infinitum quia ille est perfectissimus conceptus  
+          <lb ed="#U" n="33"/>quod possumus habere de illo quod est eius in se primum quod cum  
+          <lb ed="#U" n="34"/>neutrum praedictam conditionem habet quia non continet habitum unum  
+          <lb ed="#U" n="35"/>virtualiter in se nec multo magis ut notum nobis continet unum  
+          <lb ed="#U" n="36"/>habitum tum quia theologia nostra est de eisdem neccessaris de qui<lb ed="#U" n="37"/>bus 
+          est theologia in se Et ratio primi obiecti est continetur virtualiter omnes  
+          <lb ed="#U" n="38"/>veritates ipsius habitus sicut dictum in principio huius quaestionis  
+          <lb ed="#U" n="39"/>Ideo assignatur sibi subiectum primum quo ad hoc quod est continetur veritates  
+          <lb ed="#U" n="40"/>illud idem quod est subiectum in se sed quia non est evidens nobis et  
+          <lb ed="#U" n="41"/>ideo non est contingens illas ut nobis notum ymmo non est nobis  
+          <lb ed="#U" n="42"/>notum 
+        </p>
+        <!-- missing 2o ??? -->
+        <p xml:id="J5LijF-d1e109-d1e518">
+          deinde 3o ostendo quid est subiectum theologiae contingentis veritates  
+          <lb ed="#U" n="43"/>theologias contingentes et quantum ad hoc dico quod nullum subiectum  
+          <lb ed="#U" n="44"/>continet veritates contingentes sed tantum necessariis quia ad contingentes  
+          <lb ed="#U" n="45"/>de ipso aequaliter se habet et ad oppositas tamen contingentium est  
+          <lb ed="#U" n="46"/>ordo et aliqua esset prima vera contingens et aliqua non et  
+          <lb ed="#U" n="47"/>ita subiectum nullarum virtutum contingentium habentium ordinem potest  
+          <lb ed="#U" n="48"/>poni illud de quo primo id est immediate dicitur praedicatum primae 
+          <!--4v.xml-->
+          <pb ed="#U" n="4-v"/>
+          <cb ed="#U" n="b"/>
+          <lb ed="#U" n="1"/>contingentis quae est quod principium in ordine contingentium vel illud  
+          <lb ed="#U" n="2"/>de quo inmediata dicuntur praedicatum plurium personarum contingentium si plures  
+          <lb ed="#U" n="3"/>sint primae contingentes 
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e547">
+          Ex hiis ad propositum dico quod essentia  
+          <lb ed="#U" n="4"/>divina est primum subiectum theologia contingentis sive accipiatur ut  
+          <lb ed="#U" n="5"/>in se sive ut in intellectu divino sive ut in intellectum beatorum et  
+          <lb ed="#U" n="6"/>ideo totius theologiae in se et dei et beatorum primum subiectum est essentia ut hic  
+          <lb ed="#U" n="7"/>cuius visio a beatis quae est beatifica non est theologia sed est quae perfecta in 
+          <lb ed="#U" n="8"/>complexa apprehensio subiecti praecedens naturaliter scientiam theologiae  
+          <lb ed="#U" n="9"/>nostrae autem nostra contingentis videtur esse idem subiectum quod est subiectum theologiae  
+          <lb ed="#U" n="10"/>nostrae neccessariae.
+        </p>
+        </div>
+        <div xml:id="J5LijF-d1e109-Dd1e566">
+        <p xml:id="J5LijF-d1e109-d1e568">
+          Ad primum principalis dic 
+          <lb ed="#U" n="11"/>naturaliter invente est aliquod universalis et omnino oportet quod habet personas subiectivas Istius  
+          <lb ed="#U" n="12"/>autem subiectum est hic aliquid et singulare et ideo non habet partes subiectivas  
+          <lb ed="#U" n="13"/>tum potest dici quod personae divinae sit q partes subiectivae ipsius essentiae  
+          <lb ed="#U" n="14"/>sed essentia in ipsis non numeratur quod autem de passionibus dicit aliqui quod  
+          <lb ed="#U" n="15"/>attributa sunt q passiones sed hic non valet quia consideratio  
+          <lb ed="#U" n="16"/>attributorum naturaliter nobis intellectorum est consideratio mediata nisi sint  
+          <lb ed="#U" n="17"/>aliqua attributa tantum convenientia huic essentiae ut est hic et non ei  
+          <lb ed="#U" n="18"/>ut a nobis intelligibitur nunc confuse quod autem accipitur quod passio est extra  
+          <lb ed="#U" n="19"/>essentiam subiecti verum est ubi passio est realiter causata in subiecto sed sic non est in  
+          <lb ed="#U" n="20"/>divinis Quod autem 3o dicitur de principiis subiecti dico quod non oportet principia  
+          <lb ed="#U" n="21"/>scilibilis esse principia ipsius subiecti in se quai entis inquantum ens  
+          <lb ed="#U" n="22"/>non sunt prima sed oportet cuiuslibet subiecti esse principia per qua demonstrantur  
+          <lb ed="#U" n="23"/>eius passiones deo
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e599">
+          Ad 2m quo sensus ille qui in una parte scrip 
+          <lb ed="#U" n="24"/>turae non est litteralis in alia parte est litteralis
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e604">
+          Ad 3 quod illud argumentum  
+          <lb ed="#U" n="25"/>concludit magis oppositum quod patet dupliciter 
+          
+          primo quia homo ponitur  
+          <lb ed="#U" n="26"/>subiectum moralis scientiae et medicinae pro eo eo quod continet virtualiter 
+          <lb ed="#U" n="27"/>rationem sanitatis vel felicitatis Ideo enim sanitas hominis est talis  
+          <lb ed="#U" n="28"/>quia corpus humanum est sic complexionatum Similiter ex  
+          <lb ed="#U" n="29"/>anima hominis concluditur ratio felicitatis naturalis sicut patet primo ethicorum non sic  
+          <lb ed="#U" n="30"/>homo continet rationem finis huius scientiae quia felicitas supernaturalis  
+          <lb ed="#U" n="31"/>et eius obiectum non includitur in ratione hominis ideo homo non potest  
+          <lb ed="#U" n="32"/>esse subiectum primum huius scientiae 
+          
+          2o quia homo est finis ultimus  
+          <lb ed="#U" n="33"/>istarum scientiarum ad quam tam sanitas quam felicitas naturaliter or<lb ed="#U" n="34"/>dinatur 
+          probo quia omnis amor concupiscentiae praesupponit amorem amicitiae  
+          <lb ed="#U" n="35"/>sanitas autem vel felicitas amatur amore concupiscentiae ergo illud  
+          <lb ed="#U" n="36"/>quod amatur amore amicitiae est finis ultimorum quam ad istorum  
+          <lb ed="#U" n="37"/>tale est corpus ex una parte et anima est alia ergo et si hic esset subiectum  
+          <lb ed="#U" n="38"/>huius scientiae secundum animam iapl? corpus sequitur quod finis est subiectum  
+          <lb ed="#U" n="39"/>huius scientiae 
+        </p>
+        </div>
+        <div xml:id="J5LijF-d1e109-Dd1e640">
+        <p xml:id="J5LijF-d1e109-d1e642">
+          <pc type="#pilcrow"/>Circa istam quaestionem sciendum est quod quantum ad theologiam 
+          <lb ed="#U" n="40"/>in se et quantum ad theologiam ut est in dicto deo et  
+          <lb ed="#U" n="41"/>beatis satis expresse habetur intellectio sua quid scilicet sit subiectum sed quan<lb ed="#U" n="42"/>tum 
+          ad theologiam ut est in nobis non satis clare potest  
+          <lb ed="#U" n="43"/>pate?a sua intentio ex dictis spiritus sancti in ista quaestione sciendum  
+          <lb ed="#U" n="44"/>est etiam scilicet quod ipse solvit istam quaestionem duabus sequentibus simul  
+          <lb ed="#U" n="45"/>arguo autem contra ea quae dicit in ista quaestione et sunt duo 
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e660">
+          primum  
+          <lb ed="#U" n="46"/>est quia quantum videtur haberi ex dictis spiritus sancti ens infinitum est subiectum theologiae  
+          <lb ed="#U" n="47"/>nostrae tam respectu neccesariorum quam respectu contingentium
+        </p>
+        
+        <p xml:id="J5LijF-d1e109-d1e667">
+          Istud non videtur 
+          <lb ed="#U" n="48"/>verum primo quia idem est subiectum theologiae nostrae et fidei nostrae quia ipsa 
+          <!--5r.xml-->
+          <pb ed="#U" n="5-r"/>
+          <cb ed="#U" n="a"/>
+          <lb ed="#U" n="1"/>sunt principa totius theologiae nostrae sed articuli fidei non sunt de ente 
+          <lb ed="#U" n="2"/>infinito sub ista scilicet ratione prout scilicet ens infinitum distinguitur  
+          <lb ed="#U" n="3"/>contra rationem dei ergo etc minor patet quia ad articulos fidei  
+          <lb ed="#U" n="4"/>distincte credendos obligantur omnes usum rationis habentes 
+          <lb ed="#U" n="5"/>sed cum explicantur articuli laycis non dicitur quo ens in infinitum  
+          <lb ed="#U" n="6"/>est trinum et unum vel quod ens in infinitum est incarnatum sed quod  
+          <lb ed="#U" n="7"/>deus est trinus et unus et sic de aliis ergo istud quod est infi<lb ed="#U" n="8"/>nitum 
+          est trinum et unum sub ista forma non est articulus fidei  
+          <lb ed="#U" n="9"/>nec ad hoc credendum explicite tenetur omnes ergo etc
+        </p> 
+        <p xml:id="J5LijF-d1e109-d1e698">
+          Item 2o sic  
+          <lb ed="#U" n="10"/>subiectum primum praesuppositum quantum ad sui notitiam saltem quia  
+          <lb ed="#U" n="11"/>est et etiam quid est loquendo de quidditate nominis cuiuslibet scientiae  
+          <lb ed="#U" n="12"/>quia principia non cognoscuntur nisi cognitis terminis sed notitia arti 
+          <lb ed="#U" n="13"/>culorum fidei quae sunt principia huius scientiae non praesupponit neccessario cognitionem  
+          <lb ed="#U" n="14"/>entis infiniti esse ergo etc probatio minoris quia si praesupponeretur  
+          <lb ed="#U" n="15"/>talis notitia entis infinita aut ergo notitia illa esset fidei vel  
+          <lb ed="#U" n="16"/>notitia ex puris naturalibus acquisita sed primo modo ergo ergo primus  
+          <lb ed="#U" n="17"/>articulus fidei praesuppositus omni alteri articulo esset deum  
+          <lb ed="#U" n="18"/>esse infinitum vel infinitum esse in rr natura consequens falsum certum est si 
+          <lb ed="#U" n="19"/>2o modo contra notitia naturali non potest ad hoc deveniri nisi per lon<lb ed="#U" n="20"/>gun 
+          discursum ymmo et aliqui se putarent impossibilis probare  
+          <lb ed="#U" n="21"/>deum esse infinitum intentione vel aliquid tale esse in rr natura ergo huiusmodi  
+          <lb ed="#U" n="22"/>notitia non potest ab omnibus exigi ergo etc.
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e732">
+          3o de deo tamquam  
+          <lb ed="#U" n="23"/>de primo subiecto possimus aliquid credere per revelationem quod  
+          <lb ed="#U" n="24"/>patet quia secundum istum multa ut sic sunt de eo scibilia ergo et  
+          <lb ed="#U" n="25"/>credibilia quod cum omne scibile absque quacumque variatione  
+          <lb ed="#U" n="26"/>posset esse alicui credibile Si ergo credibilia quae modo credimus  
+          <lb ed="#U" n="27"/>non essent de deo ut de primo subiecto sequeretur quod aliqua alia  
+          <lb ed="#U" n="28"/>credibilia essent notiora quam ista quae modo credimus consequens  
+          <lb ed="#U" n="29"/>falsum ergo etc
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e750">
+          <pc type="#pilcrow"/> 4o quia magis notum est deum esse quam ens infinitum 
+          <lb ed="#U" n="30"/>esse tun uni assentiat statui quilibet quantumcumque laicus et  
+          <lb ed="#U" n="31"/>non altitia ergo magis possimus habere notitiam de deo etc in vita  
+          <lb ed="#U" n="32"/>ita quam de ente infinito ergo etc
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e761">
+          Secundo dicit ipse quod visio beatorum 
+          <lb ed="#U" n="33"/>est non esset theologia eorum sed notitia incomplexa praecedens naturaliter scientiam  
+          <lb ed="#U" n="34"/>theologiae
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e768">
+          Istud non noster <!-- videtur --> bene dictum primo quia secundum hoc comparatio  
+          <lb ed="#U" n="35"/>visionis beatae ad habitum theologiae beatorum esset sic comparatio  
+          <lb ed="#U" n="36"/>visionis beatae incomplexi termini ad notitiam totius complexi et  
+          <lb ed="#U" n="37"/>per consequens tota notitia complexi sit perfectior quam notitia incomplexi  
+          <lb ed="#U" n="38"/>sicut apprehensio huius totius homo est animal quam solus hominis quia  
+          <lb ed="#U" n="39"/>una est pars alterius sequitur quod theologia bonorum vel actus eli 
+          <lb ed="#U" n="40"/>citus a tali habitu esset perfectior quam visio beata sicut totum est perfectius 
+          <lb ed="#U" n="41"/>parte consequens falsum ergo etc
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e788">
+          Secundo sequitur eadem conclusio quia illud quod  
+          <lb ed="#U" n="42"/>includit aliquid et plus et perfectius quam illud quod includit  
+          <lb ed="#U" n="43"/>alterum solum sed habitus theologiae secundum istud includit vi<lb ed="#U" n="44"/>sionem 
+          tamquam notitiam incomplexam ergo etc
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e797">
+          3o videtur male 
+          <lb ed="#U" n="45"/>dictum quia in beatis non videtur esse aliqua notitia complexa 
+          <lb ed="#U" n="46"/>sed omnis notitia beatorum in quantum dei sunt videntur esse simplex  
+          <lb ed="#U" n="47"/>quamvis beatus cognoscat complexa et composita non tamen complexe  
+          <lb ed="#U" n="48"/>quod patet quia uno simplici actu in essentia divina videt omnia 
+          <!--5r.xml-->
+          <pb ed="#U" n="5-r"/>
+          <cb ed="#U" n="b"/>
+          <lb ed="#U" n="1"/>complex frustra ergo super visionem illam adderetur alia notitia  
+          <lb ed="#U" n="2"/>composita et complexa 
+          
+          Item si sit ibi notitia complexa et  
+          <lb ed="#U" n="3"/>composita ergo oportet ipsos neccessario habere divisos conceptus  
+          <lb ed="#U" n="4"/>de deo quos componant consequens est falsum quia si beatus formet diver<lb ed="#U" n="5"/>sos 
+          conceptus de deo simpliciter puta conceptum subiecti et  
+          <lb ed="#U" n="6"/>praedicati quaero igitur unum utrum conceptus subiecti sit beatificus vel  
+          <lb ed="#U" n="7"/>apprehentio correspondens tali conceptui aut non. 
+          
+          Si non contra  
+          <lb ed="#U" n="8"/>sic concipiens vel apprehendens apprehendit ipsam essentiam dei  
+          <lb ed="#U" n="9"/>unde et non mediante alio velamine quia sic esset apprehensio fidei  
+          <lb ed="#U" n="10"/>sed omnis apprehensio divinae essentiae unde in se est beatifica oportet ergo quod  
+          <lb ed="#U" n="11"/>sit beatifica sed eodem modo oportet quod apprehensio praedicati sit beatifica propter  
+          <lb ed="#U" n="12"/>eandem rationem Si ergo essent distincte apprehentiones vel con<lb ed="#U" n="13"/>ceptus 
+          realiter oporteret ponere in beatis plures apprehensiones  
+          <lb ed="#U" n="14"/>quarum unaqueque esset beatificans quod non videtur 
+        </p>
+        <p xml:id="J5LijF-d1e109-d1e846">
+          4o sic prius  
+          <lb ed="#U" n="15"/>natum est ablui a posteriori saltem absque implicatione  
+          <lb ed="#U" n="16"/>contradictionis si ergo visio illa naturaliter prior esset theologia beatorum pos<lb ed="#U" n="17"/>set 
+          absque omni repugnantia esse perfecte beatus et tamen non esse bonus 
+          <lb ed="#U" n="18"/>theologus quid videtur absurdum
+        </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

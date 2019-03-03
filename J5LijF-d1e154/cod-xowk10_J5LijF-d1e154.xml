@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus, Quaestio 7 [Urb lat 120 Transcription]</title>
+        <author>Thomas Sutton</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Prologus, Quaestio 7 [Urb lat 120 Transcription]</title>
+          <date when="2019-03-02">March 02, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U" n="cod-xowk10">Vatican, Urb. Lat. 120</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#U" n="7-r"/>
+        <cb ed="#U" n="b"/>
+        <lb ed="#U" n="13"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="J5LijF-d1e154">
+        <head>Quaestio 7 [Urb lat 120 Transcription]</head>
+        <p>
+    <lb ed="#U" n="13"/>Utrum ista scientia habeat aliquam habitudinem sub 
+    <lb ed="#U" n="14"/>alternantis ad aliam scientiam 
+  </p>
+  <p>
+    Ad istam quaestionem Respondeo  
+    <lb ed="#U" n="15"/>sic dico enim quod ista scientia nulli subalternatur quia  
+    <lb ed="#U" n="16"/>licet subiectum eius possit contineri sub subiecto alterius scientiae puta metaphysicae 
+    <lb ed="#U" n="17"/>tamen non accipitur principia ab ea quia per principia entis nulla conclusio  
+    <lb ed="#U" n="18"/>theologica demonstratur de deo nec etiam ipsa aliquam sibi sub<lb ed="#U" n="19"/>alternat 
+    quia nulla alia accipit principia ab ea sed quaelibet alia  
+    <lb ed="#U" n="20"/>habet ultimo resolutionem ad aliqua principia ab ea sed  
+    <lb ed="#U" n="21"/>quaelibet alia habet ultimo resolutionem ad aliqua principia  
+    <lb ed="#U" n="22"/>naturaliter non immediate et si obiciatur quod cognitio non sit in cognitionibus 
+    <lb ed="#U" n="23"/>usque ad perfectissimum cognoscibilis nec de eodem nisi ad idem per<lb ed="#U" n="24"/>fectissime 
+    cognitum linea autem perfectius cognoscitur in  
+    <lb ed="#U" n="25"/>in verbo quam per motionem simplicius ergo resolutio conclusionum  
+    <lb ed="#U" n="26"/>de linea stat solum ad quidditatem lineae vel suorum principiorum  
+    <lb ed="#U" n="27"/>in verbo ergo theologia subalternat sibi alias dicendum quod  
+    <lb ed="#U" n="28"/>principium immediatum de linea potest esse evidens in<lb ed="#U" n="29"/>tellectu 
+    moto a linea et clarius evidens intellectui mo<lb ed="#U" n="30"/>to 
+    a verbo ad notitiam lineae et per consequens linea clarius  
+    <lb ed="#U" n="31"/>videtur tamen principium uno modo cognitum non demonstrant de  
+    <lb ed="#U" n="32"/>aliquo modo motum sed utroque modo stat de aliquo mo 
+    <lb ed="#U" n="33"/>tum sed utroque modo et per se motum licet clarius sit quam sic sed  
+    <lb ed="#U" n="34"/>subalternatio requirit quod notitia principiorum scientiae superior 
+    <lb ed="#U" n="35"/>sit causa scientiae principiorum scientia interioris ideo etc
+  </p>
+  <p>
+    <lb ed="#U" n="36"/><pc type="#pilcrow"/>In ista quaestione tenet doctor iste contra doctrinam communem et ideo  
+    <lb ed="#U" n="37"/>ad intellectum debet quomodo doctrina communis veritatem habeat sciendum  
+    <lb ed="#U" n="38"/>est quod aliqua scientia subalternatur alteri temporaliter uno modo scilicet ex parte  
+    <lb ed="#U" n="39"/>finis quia scilicet finis unius ordinatur ad alterum finem  
+    <lb ed="#U" n="40"/>et sic omnis scientia practica subalternatur politice per <ref><name ref="#Aristotle">philosophum</name> 
+    <lb ed="#U" n="41"/>primo <title>ethicorum</title></ref> 
+  </p>
+  <p>
+    Alio modo ex parte subiecti quia subiectum unius est sub subiecto alterius  
+    <lb ed="#U" n="42"/>hoc autem contingit dupliciter quia subiectum unius potest contingeri sub subiecto di<lb ed="#U" n="43"/>recte 
+    et per se sicut corpus celeste mobilis sub corpore mobili vel sicut  
+    <lb ed="#U" n="44"/>omnia continentur sub ente et sic dicitur metaphysica habet sub se omnis alias  
+    <lb ed="#U" n="45"/>scientias et sic etiam scientia caeli et mundi est sub scientia libri physicorum  
+    <lb ed="#U" n="46"/>tum quia istud sub et supra vel ista continentia non est nisi rationis 
+    <lb ed="#U" n="47"/>solum ideo non dicitur proprie una scientia subalternari alteri isto modo  
+    <lb ed="#U" n="48"/>sed alio modo subiectum esse sub subiecto per accidens et quasi addens rem distinctam 
+    <!--7v.xml-->
+    <pb ed="#U" n="7-v"/>
+    <cb ed="#U" n="a"/>
+    <lb ed="#U" n="1"/>omnino quam per se non includit distincte vel indistincte subiectum  
+    <lb ed="#U" n="2"/>superior scientiae sic linea enim visualitatem non includit ullo modo  
+    <lb ed="#U" n="3"/>et ideo illa naturae distinguuntur scilicet linea et visualis et ideo talis  
+    <lb ed="#U" n="4"/>scientia quae consideratur de linea inquantum visualis  
+    <lb ed="#U" n="5"/>est subalternatur illi quae considerat de linea absolute 
+  </p>
+  <p>
+    3o modo  
+    <lb ed="#U" n="6"/>subalternatio ex parte principiorum quando principia unius ex principiis al<lb ed="#U" n="7"/>terius 
+    innotescit est autem hoc generale quod quarumcumque scientiarum subiecta  
+    <lb ed="#U" n="8"/>sunt subalternata realiter quod principia et scientiarum considerantium  
+    <lb ed="#U" n="9"/>illa substantia se habent adinvicem isto modo sed non oportet econverso quia me?na 
+    <lb ed="#U" n="10"/>theologica et practica idem subiectum considerant primae et per se scilicet  
+    <lb ed="#U" n="11"/>corpus humanum inquantum subiectum aegritudinis et sanitatis  
+    <lb ed="#U" n="12"/>et tamen principia practice innotescunt et praesupponunt principia theologice
+  </p>
+  <p>
+    <lb ed="#U" n="13"/>hiis visis dico quod theologia nostra subalternatur scientia beatorum  
+    <lb ed="#U" n="14"/>primo modo quod patet quia si una scientia est sub altera quia finis  
+    <lb ed="#U" n="15"/>unius est sub fine alterius multo magis una est sub altera  
+    <lb ed="#U" n="16"/>si una ordinetur ad alteram tamquam ad finem sed theologia  
+    <lb ed="#U" n="17"/>nostra ordinatur ad scientiam beatorum tamquam ad finem ergo 
+  </p>
+  <p>
+    2o modo non  
+    <lb ed="#U" n="18"/>subalternatur sibi quia idem est subiectum utrius 
+  </p>
+  <p>
+    <pc type="virgula">/</pc> 3o modo dico quod ista  
+    <lb ed="#U" n="19"/>subalternatur illi quia beati congnoscunt deum quidditative in qua  
+    <lb ed="#U" n="20"/>cognitione clarissime videntur principia huius scientia omnia et  
+    <lb ed="#U" n="21"/>hic supponitur in ista scientia
+  </p>
+  <p>
+    et per hoc et patet ad rationem positionis  
+    <lb ed="#U" n="22"/>suae et dico etiam quod primo modo subalternationis ista subalter<lb ed="#U" n="23"/>nat 
+    sibi omnes alias quia fines omnium aliarum ordinantur  
+    <lb ed="#U" n="24"/>ad finem huius et est ista subalternatio secundum ordinem supernaturalem
+  </p>
+
+        
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus, Quaestio 6 [Urb lat 120 Transcription]</title>
+        <author>Thomas Sutton</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Prologus, Quaestio 6 [Urb lat 120 Transcription]</title>
+          <date when="2019-02-07">February 07, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U" n="cod-xowk10">Vatican, Urb. Lat. 120</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-02-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#U" n="6-r"/>
+        <cb ed="#U" n="b"/>
+        <lb ed="#U" n="39"/>
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="J5LijF-d1e143">
+        <head>Quaestio 6 [Urb lat 120 Transcription]</head>
+        <head type="question-title">Utrum theologia sit scientia in se</head>
+        <p>
+          <lb ed="#U" n="39"/>Utrum theologia sit scientia in se
+        </p>
+        <p>
+          Ad istam quaestionem Respondeo sine
+          <lb ed="#U" n="40"/>argumentis praemittens ea quae scientia includit 
+          
+          di<lb ed="#U" n="41"/>co 
+          enim quod scientia stricte sumpta includit 4or  
+          <lb ed="#U" n="42"/>videlicet quod sit cognitio circa hoc et absque dubitatione et de<lb ed="#U" n="43"/>ceptione 
+          2o quod sit de cognito neccessario 3o quod sit causata a causa evidente 
+          <lb ed="#U" n="44"/>intellectui 4o quod causa sit applicata ad cognitum per discur<lb ed="#U" n="45"/>sum 
+          silogisticum 
+          
+          ista patent per <ref><name ref="#Aristotle">philosophum</name> primo <title>posteriorum</title>  
+            <lb ed="#U" n="46"/>ultimum</ref> cum videlicet causatio scientiae per discursum includit  
+          <lb ed="#U" n="47"/>imperfectionem et ita potentialitatem respectu intellectus recipientis et per  
+          <lb ed="#U" n="48"/>consequens theologia in se non est scientia quantum ad ultimam conclusionem sed 
+          <!--6v.xml-->
+          <pb ed="#U" n="6-v"/>
+          <cb ed="#U" n="a"/>
+          <lb ed="#U" n="1"/>quantum ad 3 alias est scientia in se et intellectu divino
+        </p>
+        <p>
+          sed utrum  
+          <lb ed="#U" n="2"/>sit scientia quantum ad quartam conclusionem ut est in intellectu beatorum 
+          <lb ed="#U" n="3"/>dubium
+        </p>
+        <p>
+          et videtur quod non per <ref><name>augustinum</name> 15 <title>de civitate <!-- de trinitate --></title> capitulo 14 de  
+            <lb ed="#U" n="4"/>parvis</ref> <quote>fortasse inquit non erunt ibi cogitationes voluntibiles</quote>  
+          <lb ed="#U" n="5"/>ergo etc tamen oppositum videtur per rationem quia quidditas in quocumque  
+          <lb ed="#U" n="6"/>lumine videtur continet virtualiter veritates quas potest facere notas  
+          <lb ed="#U" n="7"/>de se ergo si quid di?s lineae visae in lumine naturali potest facere  
+          <lb ed="#U" n="8"/>veritates in se contentas notas intellectui in eo pari ratione  
+          <lb ed="#U" n="9"/>et ut visa in essentia divina sed omnis veritas causata in intelletu  
+          <lb ed="#U" n="10"/>nostr per aliquid prius notum causatur per discursum quia discur<lb ed="#U" n="11"/>sus 
+          non requirit ordinem temporis sed naturae ita valet quod principium  
+          <lb ed="#U" n="12"/>discursus sit naturaliter prius notum ut sit causativum alterius esse ex  
+          <lb ed="#U" n="13"/>tremi 
+          
+          et hoc potest concedi valet quod beatus potest habere cognitionem theologicam  
+          <lb ed="#U" n="14"/>quantum ad omnes eius conditiones auctoritas vero <name ref="#Augustine">augustini</name> non agit  
+          <lb ed="#U" n="15"/>quidquam quia loquitur dubitative et similiter potest intelligi de  
+          <lb ed="#U" n="16"/>visione beata quae tantum respicit essentialia in deo 
+          
+          sed adhuc est alia  
+          <lb ed="#U" n="17"/>dubitatio quia theologia respicit quaedam contingentia sic incarnationem  
+          <lb ed="#U" n="18"/>et huiusmodi de contractibus autem non videtur posse esse scientia ergo  
+          <lb ed="#U" n="19"/>theologia secundum se totam non potest habere rationem scientiae
+        </p>
+        <p>
+          sed ad  
+          <lb ed="#U" n="20"/>istud Responsio <!-- respondeo?? --> et dico duo primum est quod respectu contingentium habet  
+          <lb ed="#U" n="21"/>theologia perfectiorem cognitionem quam sit scientia et hoc ostendo quia  
+          <lb ed="#U" n="22"/>quod scientia sit certa et evidens hoc est perfectionis Quod autem  
+          <lb ed="#U" n="23"/>sit de neccessario haec est conditio obiecti non cogitationis quia quaecumque  
+          <lb ed="#U" n="24"/>scientia etiam de neccessario potest esse in se contingens et per oblivi<lb ed="#U" n="25"/>onem 
+          deleri Si ergo est aliqua cognitio certa et evidens  
+          <lb ed="#U" n="26"/>et quantum est de se perpetua ipsa videtur formaliter perfectior  
+          <lb ed="#U" n="27"/>quam scientia quae requirit neccessitatem obiecti et est in se contingens  
+          <lb ed="#U" n="28"/>scilicet contingentia ut pertinent ad theologiam habent cognitionem certam  
+          <lb ed="#U" n="29"/>et evidentem et quantum est ex parte evidentiae perpetuam quia  
+          <lb ed="#U" n="30"/>omnia nata videri sunt in primo obiecto theologico quod est essentia  
+          <lb ed="#U" n="31"/>divina ergo etc 
+        </p>
+        <p>
+          Secundum est quod loquendo de scientia sicut <ref><name ref="#Aristotle">philosophus</name> loquitur  
+            <lb ed="#U" n="32"/>in primo <title>posteriorum</title></ref> quantum valet <!-- videlicet --> ad illam conditionem  
+          <lb ed="#U" n="33"/>ibi positam de neccessitate obiecti sicut theologia non est scientia respectu con<lb ed="#U" n="34"/>tingentium 
+          quia cognoscere contingens ut neccessariam non est cognoscere 
+          <lb ed="#U" n="35"/>contingens tamen accipiendo scientiam sicut <ref><name ref="#Aristotle">philosophus</name> accipit 6 <title>ethicorum</title></ref>  
+          <lb ed="#U" n="36"/>ut dividit contra opynionem et suspitionem potest esse scientia respectu contin<lb ed="#U" n="37"/>gentium 
+          quia est habitus quo determinante verum dicimus 
+          <lb ed="#U" n="38"/>sed tamen magis proprie dicitur quod theologia est sapientia ita quod notitia con<lb ed="#U" n="39"/>tingentium 
+          ut habere ea magis assimilatur intellectum principiorum quam  
+          <lb ed="#U" n="40"/>conclusionem scientiae sic ergo dico ad istam quaestionem
+        </p>
+        <!-- thomas sutton's response -->
+        <p>
+          <pc type="#pilcrow"/>Videtur autem quod in ista  
+          <lb ed="#U" n="41"/>quaestio multa dicit minus bene primo quantum ad hoc quod  
+          <lb ed="#U" n="42"/>dicit de ratione scientiae esse quod acquiratur per discursum 
+          
+          <!--- homoteleuton missing text Istud enim non videtur quia scientia comparatur ad discursum sicut effectus -->
+          sicut  
+          <lb ed="#U" n="43"/>effectus ad causam inferi vel sicut motus ad terminum terminus autem  
+          <lb ed="#U" n="44"/>in sui ratione non includit motu nec et effectus causam infieri  
+          <lb ed="#U" n="45"/>et hanc effectivam per quem modum principia cum sint causa conclusionum per <ref><name>philosophum</name> 
+            <lb ed="#U" n="46"/>2o <title>physicorum</title></ref> et <ref>5 metaphysicae</ref> ergo etc quod aut discursus non sit causa in 
+          <lb ed="#U" n="47"/>fieri patet quia cessante tali discursu adhuc manet scientia quae est  
+          <lb ed="#U" n="48"/>habitus ergo etc
+        </p>
+        <p>
+          Ex hoc etiam patet quod talis effectus non includit  
+          <!-- 6vb -->
+          <cb ed="#U" n="b"/>
+          <lb ed="#U" n="1"/>talem causam Auctoritas autem <ref><name ref="#Aristotle">philosophi</name> primo <title>posteriorum</title></ref> non facit pro eo quia  
+          <lb ed="#U" n="2"/>licet scientia acquiratur per discursum sicut homo producitur per  
+          <lb ed="#U" n="3"/>generationem cum ex hoc non plus sequitur quod de ratione scientiae sit  
+          <lb ed="#U" n="4"/>acquiri per discursum quoniam est est de ratione hominis quod producitur  
+          <lb ed="#U" n="5"/>per generationem quod sit adam vel eva autem hoc non sit de ratione hominis  
+          <lb ed="#U" n="6"/>patet si adam et eva et christus non fuissent ita verae homines  
+          <lb ed="#U" n="7"/>sicut Ioannes consequens est falsum
+        </p>
+        <p>
+          2o quantum ad hoc quod ponit in beatis dis<lb ed="#U" n="8"/>cursum 
+          contra hoc enim potest argui sic argumentum fuit quaestio 3 ad probandum  
+          <lb ed="#U" n="9"/>quod beati non componunt nec dividunt
+        </p>
+        <p>
+          Item quod dicit de ratione discursus  
+          <lb ed="#U" n="10"/>non est nisi ordinem naturae et non causalitatem cognitionis 
+          
+          istud  
+          <lb ed="#U" n="11"/>vero videtur verum quia visus ordine naturae prius apprehendit colora<lb ed="#U" n="12"/>tum 
+          inquantum est coloratum quam inquantum est quantum et apprae<lb ed="#U" n="13"/>hensio 
+          colorati est causa apprehensionis quanti et tamen visus non dicitur  
+          <lb ed="#U" n="14"/>discurrere
+        </p>
+        <!-- this again/item belongs to ther esponse to this particular opinion of scotus. Could be collapsed with above -->
+        <p>
+          Item prius ordine naturae videtur ymago cognoscitur  
+          <lb ed="#U" n="15"/>per ymagine et tamen non dicitur visus in hoc discurere ergo etc
+        </p>
+        <p>
+          3o  
+          <lb ed="#U" n="16"/>quantum ad rationem quam facit de quidditate visa quia si illa  
+          <lb ed="#U" n="17"/>propositio sit vera valet <!-- videlicet --> quod quidditas subiecti in quocumque lumine videtur continet  
+          <lb ed="#U" n="18"/>virtualiter veritates quas de se potest facere notas ergo iste quid<lb ed="#U" n="19"/>ditas 
+          ut in intellectu divisio concurrent tales veritates et secundum  
+          <lb ed="#U" n="20"/>modum suum arguendi intellectus divinus possit discurrere  
+          <lb ed="#U" n="21"/>quod tamen ipse negat 
+        </p>
+        <p>
+          4o quantum ad hoc quod distingui de scientia  
+          <lb ed="#U" n="22"/><ref>primo <title>posteriorum</title> et 6o <title>ethicorum</title></ref> quia certum est quod <name ref="#Aristotle">philosophus</name> non intendit  
+          <lb ed="#U" n="23"/>distinguere cum ipse <ref>6 <title>ethicorum</title></ref> expresse remittat ad conclusiones  
+          <lb ed="#U" n="24"/>scientiae positas inanale?as <!-- in analecticis --> et similiter expresse dicit in 6 quod <!-- quote --> scientia  
+          <lb ed="#U" n="25"/>est eorum quae non contingit aliter se habere et neccessariorum ergo etc 
+        </p>
+        <p>
+          5o  
+          <lb ed="#U" n="26"/>quantum ad hoc quod dicit quod theologia ut est contingentium sic est  
+          <lb ed="#U" n="27"/>magis intellectus quam scientia hoc non videtur 
+          
+          primo quia certum est  
+          <lb ed="#U" n="28"/>quod ex illis contingentibus de quibus ponitur esse fides possunt multae  
+          <lb ed="#U" n="29"/>aliae conclusiones contingentes neccessario inferri quae omnes pertinet ac theo<lb ed="#U" n="30"/>logiam 
+          sic ergo respectu praemorum contingentium se haberet sicut scientia quia notitia  
+          <lb ed="#U" n="31"/>deducta ex habitu primorum principiorum eset scientia et per consequens  
+          <lb ed="#U" n="32"/>non magis erit theologia respectu contingentium intellectum quam scientia 
+          
+          2o  
+          <lb ed="#U" n="33"/>quia tantam neccessitatem requiritur habitus principiorum <!-- primorum --> principiorum  
+          <lb ed="#U" n="34"/>quantam facit scientia et maiorem sicut probat <ref><name ref="#Aristotle">philosophus</name> primo <title>posteriorum</title></ref>  
+          <lb ed="#U" n="35"/>et Similiter <ref>6 <title>ethicorum</title></ref> ergo respectu contingentium quae non habent talem neccessitatem  
+          <lb ed="#U" n="36"/>magis erit theologia scientia quam intellectus 
+          
+          <!-- missing "3o" -->
+          quia si respectu illorum non sit scientia  
+          <lb ed="#U" n="37"/>ergo oportet quod sit fides vel opynio vel sapientia vel aliquis alius habitus et  
+          <lb ed="#U" n="38"/>hoc proprie cum sit habitus proprie 
+          
+          sed non est proprie sapientia cum sapientia  
+          <lb ed="#U" n="39"/>proprie non sit nisi aeternorum et non contingentium ut contingentia  
+          <lb ed="#U" n="40"/>sunt nec est opynio nec intellectus proprie nec ars certum est ergo quod vel  
+          <!-- missing text here -->
+          <lb ed="#U" n="41"/>erat fides proprie vel scientia sed fidem non potest eam ergo est proprie scientia  
+          
+          <lb ed="#U" n="42"/>Item si non est scientia proprie respectu illorum contingentium sed respectu ne<lb ed="#U" n="43"/>cessariorum 
+          sit proprie scientia ergo cum scientia proprie distinguuntur aliquo  
+          <lb ed="#U" n="44"/>cumque alio habitu specie vel genere sequitur quod non est ?? habitus  
+          <lb ed="#U" n="45"/>theologiae respectu neccessariorum et contingentium consequens falsum est secundum eum quia  
+          <lb ed="#U" n="46"/>eodem modo numero cognoscuntur haec et in illa 5o etc 
+        </p>
+        <!-- determinatio Thomae in margin-->
+        <p>
+          <lb ed="#U" n="47"/><pc type="#pilcrow"/>Quantum ad istam quaestionem videtur mihi quod theologia in se est scientia proprie  
+          <lb ed="#U" n="48"/>dicta et etiam immediate beatorum et hoc quia non videtur mihi plus  
+          <!--7r.xml-->
+          <pb ed="#U" n="7-r"/>
+          <cb ed="#U" n="a"/>
+          <lb ed="#U" n="1"/>de ratione scientiae nisis quod sit notitia alicuius necessari in ordine ad  
+          <lb ed="#U" n="2"/>alterum neccessarium ut in quo vel ex quo formaliter habeat suam noscibilitatem  
+          <lb ed="#U" n="3"/>ita quod causalitas illa quae videtur esse inter conclusionem et principia effectiva  
+          <lb ed="#U" n="4"/>non est de ratione scientiae sed solum causalitas formalis eo quod principia sunt quasi  
+          <lb ed="#U" n="5"/>formalis ratio cognoscendi conclusiones vel noscibilitatio conclusionem et ista causalitas  
+          <lb ed="#U" n="6"/>sed tenet solem ex parte obiecti causalitas autem effectiva se tenet  
+          <lb ed="#U" n="7"/>ex parte cognoscentis et est solum in nobis quia non solum principia sunt  
+          <lb ed="#U" n="8"/>causa noscibilitatis conclusionum sed etiam sunt causae notitiae ex parte cognos<lb ed="#U" n="9"/>cibilitatis 
+          in nobis quia notitia in nobis respectu conclusionum producitur  
+          <lb ed="#U" n="10"/>a notitia principiorum et sunt distincte notitiae ratione cuius  
+          <lb ed="#U" n="11"/>est discursus inter ea haec autem uno actu simplici videntur principium  
+          <lb ed="#U" n="12"/>et in principio conclusionem non esset ibi discursus aliquis per istum enim modum  
+          <lb ed="#U" n="13"/>videt conclusionem iam deductam conclusio autem non est discursus sed discur<lb ed="#U" n="14"/>sum 
+          praesupponens isto modo cognoscunt beati multa et ideo habent  
+          <lb ed="#U" n="15"/>scientiam proprie dictam quantum ad omnes conclusiones scientiae neccessario requisi<lb ed="#U" n="16"/>tas 
+          et verius quam nos et dico etiam quod theologia eorum non est per se  
+          <lb ed="#U" n="17"/>respectu contingentum ut contingentia sunt sicut nec et theologia nostra  
+          <lb ed="#U" n="18"/>vel fides quamvis enim ex fide credamus dictum incarnatum tamen in  
+          <lb ed="#U" n="19"/>hoc quod dico deus incarnatus aliquid est quod non cadit per se sed solum  
+          <lb ed="#U" n="20"/>per accidens ex fide scilicet habitudo incarnationis ad tempus praeteri<lb ed="#U" n="21"/>tum 
+          est Si enim illa habitudino esse per se sub fide beata virgo quae  
+          <lb ed="#U" n="22"/>credidit primo deum incarnandum et postmodum deum incarnatum  
+          <lb ed="#U" n="23"/>esse et 3o incarnatum fuisse habuisset 3 habitus fidei succcessive  
+          <lb ed="#U" n="24"/>consequens falsum et ideo oportet ymaginari quando dico ista tra deus erti  
+          <lb ed="#U" n="25"/>incarnatus deus est incarnatus deus fuit incarnatus quod circum 
+          <lb ed="#U" n="26"/>scribatur omnis differentia temporis connotata et ut sic manet  
+          <lb ed="#U" n="27"/>solum illud quod per se cadit sub fide et illud est neccessariam ma<lb ed="#U" n="28"/>gis 
+          quam quod sol orietur cras Si ergo haberemus verbum significa 
+          <lb ed="#U" n="29"/>tum sine tempore conotato pateret faciliter quod theologia non est personae  
+          <lb ed="#U" n="30"/>contingentium sed solum neccessariorum Si autem loquamur de theologia 
+          <lb ed="#U" n="31"/>nostra sic vidit mihi quod non est scientia proprie dicta est tamen scientia per modum  
+          <lb ed="#U" n="32"/>illum quo dicit beatus augustinus in libro retractationum capitulo haec proprie cum loquitur  
+          <lb ed="#U" n="33"/>illud solum scire dicuntur dicimur quod mentis firmatione comprehen<lb ed="#U" n="34"/>dimus 
+          cum verbo loquimur verbus consuetudini aptionibus sicut  
+          <lb ed="#U" n="35"/>loquitur in scriptura divina non dubitemus dicere nos scire et  
+          <lb ed="#U" n="36"/>quod percipimus nostri cordis sensibus et quod fide dignis cre<lb ed="#U" n="37"/>dimus 
+          testibus 
+        </p>
+        <p>
+          Ad rationes autem quibus confirmat dicta  
+          <lb ed="#U" n="38"/>Respondeo ad illo quo probat conditionem quartam scientiae dico quando <name ref="#Aristotle">philosophus</name>  
+          <lb ed="#U" n="39"/>dicit quod scire est per causam cognoscere dico quod haec est verum  
+          <lb ed="#U" n="40"/>si ly per non dicit causalitatem ex parte cognoscentis sic non  
+          <lb ed="#U" n="41"/>competit haec scientia absolute sed solum ut in intellectu nostr pro  
+          <lb ed="#U" n="42"/>ductae modo naturali ab ipso intellectu cui tamen non repugnat  
+          <lb ed="#U" n="43"/>alio modo produci quia et etiam in nobis forte aliqua scientia acquiritur  
+          <lb ed="#U" n="44"/>absque omni discursu sicut istum cognoscimus omnis linea  
+          <lb ed="#U" n="45"/>eset maiore sua parte propter propinquitatem ad istam omne totum 
+          <lb ed="#U" n="46"/>est maius sua parte statim absque omni discursu sed istam  
+          <lb ed="#U" n="47"/>notitiam non acquirit intellectus a seipso sed eam recipit ab extrinseco  
+          <lb ed="#U" n="48"/>sicut notitia primorum et terminorum 
+        </p>
+        <p>
+          Ad aliud quo probat in intellectu 
+          <!--7r.xml-->
+          <cb ed="#U" n="b"/> <!-- 7rb -->
+          <lb ed="#U" n="1"/>bonorum esse discursum dico quod membris quidditas subiecti conti 
+          <lb ed="#U" n="2"/>net virtualiter veritates quas potest facere notas de se  
+          <lb ed="#U" n="3"/>tamen ex hoc non sequitur quod per discursum faciet eas cognosci quia eadem 
+          <lb ed="#U" n="4"/>est notitia virtus et non alia nisi ex parte obiecti est causalitas  
+          <lb ed="#U" n="5"/>formalis ut dictum est quia sicut finis est ratio volendi ea qua sunt 
+          <lb ed="#U" n="6"/>ad finem ita principium est ratio sumendi conclusionem et quando dicitur quod  
+          <lb ed="#U" n="7"/>discursus non requirit ordinem temporis sed naturae dico quod verum  
+          <lb ed="#U" n="8"/>est quod quando dicitur quod non plus requiritur nisi talis ordo et  
+          <lb ed="#U" n="9"/>quod unum extremum sit causativum alterius extremi dico quod non est  
+          <lb ed="#U" n="10"/>verum quia non sequitur requiritur quod non solum sit causatimum extremi  
+          <lb ed="#U" n="11"/>sed notitiae extremi ex parte cognoscentis ita quod sit duplex  
+          <lb ed="#U" n="12"/>notitia quod non est in proposito
+        </p>
+        
+        
+      </div>
+    </body>
+  </text>
+</TEI>

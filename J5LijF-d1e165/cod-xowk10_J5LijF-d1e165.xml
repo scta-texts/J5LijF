@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus, Quaestio 9 [Urb lat 120 Transcription]</title>
+        <author>Thomas Sutton</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Prologus, Quaestio 9 [Urb lat 120 Transcription]</title>
+          <date when="2019-03-02">March 02, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U" n="cod-xowk10">Vatican, Urb. Lat. 120</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#U" n="9-v"/>
+        <cb ed="#U" n="b"/>
+        <lb ed="#U" n="30"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="J5LijF-d1e165">
+        <head>Quaestio 9 [Urb lat 120 Transcription]</head>
+        <p>
+    <lb ed="#U" n="30"/>Utrum theologia quae est de neccessariis sit practica
+  </p>
+  <p>
+    quod non  
+    <lb ed="#U" n="31"/>in Iohanne scribitur 2o <quote ana="#io20_31">haec autem scripta sunt ut  
+    <lb ed="#U" n="32"/>credatis</quote> Credere autem speculativum ei succedit  
+    <lb ed="#U" n="33"/>visio ergo etc
+  </p>
+  <p>
+    Item omni practica aliqua speculativa sit nobilior  
+    <lb ed="#U" n="34"/>1 metaphysicae tamen quia sui causa quia certior sed nulla est  
+    <lb ed="#U" n="35"/>ergo etc
+  </p>
+  <p>
+    Item haec inventa est omnibus exempli neccessariis propter fugam ig<lb ed="#U" n="36"/>norantiae 
+    quod apparet quia sollicitudo circa neccessaria intendi 
+    <lb ed="#U" n="37"/>ab inquisitione huius scientiae ergo ipsa est speculativa sic  
+    <lb ed="#U" n="38"/>arguit <ref><name ref="#Aristotle">philosophus</name> 1 <title>metaphysicae</title></ref> ergo etc Contra <ref>ad Romanos 13</ref> inis  
+    <lb ed="#U" n="39"/><quote ana="#rom13_10">legis est dilectio</quote> ergo etc
+  </p>
+  <p>
+    Item <ref><title>matthaeus</title> 22</ref> <quote ana="#mt22_40">In hiis duobus  
+    <lb ed="#U" n="40"/>universa lex dependet et prophetae</quote>
+  </p>
+  <p>
+    Item <ref><quote>augustinus</quote> de laude  
+    <lb ed="#U" n="41"/>caritatis</ref> ille tenet quidquid latet et quidquid patet in divinis  
+    <lb ed="#U" n="42"/>sermonibus qui caritatem generat in moribus ergo ista scientia  
+    <lb ed="#U" n="43"/>non est praecise propter speculari sed speculativum non quaerit ultra  
+    <lb ed="#U" n="44"/>secundum <ref><name>avicenna</name> 1 <title>metaphysicae</title></ref> ergo etc
+  </p>
+  <p>
+    <pc type="#pilcrow"/>Circa istam quaestionem primo tracta<lb ed="#U" n="45"/>bo 
+    opinionem aliorum et deinde ponam quod mihi videtur
+  </p>
+  <p>
+    <!-- article 1 -->
+    <!-- first opinion -->
+    <lb ed="#U" n="46"/>Et sunt autem sex vel septem opiniones quarum prima est  
+    <lb ed="#U" n="47"/>quod 2plex est actus voluntatis scilicet unus perficiens voluntatem  
+    <lb ed="#U" n="48"/>et ille est respectu finis Alius est perfectius a voluntate et est  
+    <!--10r.xml-->
+    <pb ed="#U" n="10-r"/>
+    <cb ed="#U" n="a"/>
+    <lb ed="#U" n="1"/>est respectu eorum quae sunt ad finem in primo actu non indiget voluntas 
+    <lb ed="#U" n="2"/>congnitione directiva sed sola obiecti ostensio sufficit et talis ac<lb ed="#U" n="3"/>tus 
+    ad scientiam speculativam pertinet in alio actu voluntatis  
+    <lb ed="#U" n="4"/>indiget directivo et hoc pertinet ad scientiam practicam Actus  
+    <lb ed="#U" n="5"/>autem iste 2us non est finis huius scientiae nisi finis sub fine sed so<lb ed="#U" n="6"/>lum 
+    primus actus et ista scientia est speculativa simpliciter et non  
+    <lb ed="#U" n="7"/>practica simpliciter
+  </p>
+  <!-- support for first opinion -->
+  <p>
+    pro ista via primo est auctoritas <ref><name>augustini</name> in sermone  
+    <lb ed="#U" n="8"/>de Iacob et esau</ref> omnia inquit opera nostra sint ut mundetur  
+    <lb ed="#U" n="9"/>oculus quo videatur deus
+  </p>
+  <p>
+    <pc type="#pilcrow"/>2o potest argui sic non requiritur directum 
+    <lb ed="#U" n="10"/>nisi ubi potest esse errror scientia practica est directiva ergo scientia beatorum 
+    <lb ed="#U" n="11"/>non est practica cum ibi non possit esse error ergo etc
+  </p>
+  <p>
+    3o sic  
+    <lb ed="#U" n="12"/>secundum intellectum eius alibi deus non habet scientiam practicam Sed  
+    <lb ed="#U" n="13"/>habet istam ergo etc
+  </p>
+  <!-- objections against first opinion -->
+  <p>
+    <pc type="#pilcrow"/>Contra istam opynionem arguo reducendo rationem positio 
+    <lb ed="#U" n="14"/>nis eorum in oppositum primo quia volimus licet non possit errare  
+    <lb ed="#U" n="15"/>circa finem in universali tamen potest errare circa finem in particulari ergo  
+    <lb ed="#U" n="16"/>ad hoc quod recte agatur circa finem finem in particulari requiritur di 
+    <lb ed="#U" n="17"/>rectio sed ostensio finis in particulari ergo etc
+  </p>
+  <p>
+    2o quia habitus directivus  
+    <lb ed="#U" n="18"/>non ponitur per substantiam actus sed propter substantiam comm?di vel aliquid huiuismodi  
+    <lb ed="#U" n="19"/>sed propter cirumcstantiam ergo licet voluntas esset determinata quantum  
+    <lb ed="#U" n="20"/>ad substantiam actus tendentis in finem requireretur tamen propter cirum 
+    <lb ed="#U" n="21"/>stantias directivo ergo etc
+  </p>
+  <p>
+    <pc type="#pilcrow"/>3o quia cuius dilectio intenditur principaliter  
+    <lb ed="#U" n="22"/>extra genus cognitionis eius congnitio principaliter intenditur  
+    <lb ed="#U" n="23"/>intra genus cognitionis sed in qualibet scientia principaliter intenditur  
+    <lb ed="#U" n="24"/>cognitio sui subiecti primi ergo finis est primum subiectum huius scientiae sed  
+    <lb ed="#U" n="25"/>a fine sumuntur principia practica quae concludit conclusiones prac 
+    <lb ed="#U" n="26"/>ticas ergo ista esset practica
+  </p>
+  <p>
+    4o quia ad idem genus cognitionis  
+    <lb ed="#U" n="27"/>spectant principia et conclusiones Sed ex fine tamquam principio su<lb ed="#U" n="28"/>muntur 
+    ea quae sunt ad finem tamquam conclusiones ergo si cognitio earum  
+    <lb ed="#U" n="29"/>quae sunt ad finem sit practica cognitio finis erit praedicta et ita  
+    <lb ed="#U" n="30"/>patet quod quamvis volumus ex se esset determinata adhuc tamen cogni<lb ed="#U" n="31"/>tio 
+    esset practica
+  </p>
+  <p>
+    Ad auctoritatem <name>beati augustini</name> quae videtur concludere quod vi<lb ed="#U" n="32"/>sio 
+    dei sit finis huius scientiae quod ipsi non concedit dicendum quod auctoritas 
+    <lb ed="#U" n="33"/>loquitur de istis operationibus exterioribus quae sunt Ieremia orationes et  
+    <lb ed="#U" n="34"/>huius tamen actus quilibet actus exterior natus sit conformari  
+    <lb ed="#U" n="35"/>alicui interiora aliquo habet suam bonitatem et ad actum interiorem  
+    <lb ed="#U" n="36"/>ordinati et finaliter advelle 
+  </p>
+  <p>
+    Ad 3 patebit post quid  
+    <lb ed="#U" n="37"/>sit dicendum
+  </p>
+  <!-- END objections to first opinion -->
+  <!-- second opinion -->
+  <p>
+    <pc type="virgula">//</pc> 2a opinio est quod licet possit elici recte et non recte  
+    <lb ed="#U" n="38"/>ipsa dilectio finis tamen ipsa dilectio non est praxis quia non  
+    <lb ed="#U" n="39"/>est circa obiectum contingens quod tamen requiritur quia secundum commentatorem 
+    <lb ed="#U" n="40"/>primo ethicorum praxis est operatio secundum electionem electio autem est  
+    <lb ed="#U" n="41"/>circa contingens per <ref><name ref="#Aristotle">philosophum</name> 3o <name>ethicorum</name></ref> quia est appetitus conciliatius  
+    <lb ed="#U" n="42"/>concilium autem non est nisi de contingente et consequenter dicit ista positio  
+    <lb ed="#U" n="43"/>quod nulla notitia est practica quae tantum extenditur ad volitionem  
+    <lb ed="#U" n="44"/>ultimi finis quia non est verum contingens Contra istam positionem  
+    <lb ed="#U" n="45"/>est 4a ratio facta contra praecedentem quaestionem
+  </p>
+  <p>
+    Item 2o sic vere  
+    <lb ed="#U" n="46"/>praxis est ista ad quam india?nt virtus moralis quia quaelibet 
+    <lb ed="#U" n="47"/>est habitus electivus et electio est praxis ut ostendetur  
+    <lb ed="#U" n="48"/>Sed ad dilectionem finis non tantum indi?at caritas  
+    <cb ed="#U" n="b"/> <!-- 10rb -->
+    <lb ed="#U" n="1"/>Sed etiam amor acquisitus habitualis qui est virtus consonus rectae  
+    <lb ed="#U" n="2"/>rationi ergo etc Motivum autem huius solvitur infra in solutione  
+    <lb ed="#U" n="3"/>2ae rationis principalis
+  </p>
+  <!-- begin third opinion -->
+  <p>
+    <pc type="virgula">//</pc> 3a opinio est quod electio non est praxis ut 
+    <lb ed="#U" n="4"/>ostendetur 1a sed ad dilectionem finis non sed tantum actus ea posterior  
+    <lb ed="#U" n="5"/>vel si est praxis hoc non est nisi in ordine ad actum aliquam impera  
+    <lb ed="#U" n="6"/>tum potentiae inferior pro illa opinione arguitur primo quia  
+    <lb ed="#U" n="7"/>per philosophum 2o ethicorum actus principium est electio non cuius gratia sed  
+    <lb ed="#U" n="8"/>unde motus et non principium sili?ve sed effective effectum autem  
+    <lb ed="#U" n="9"/>naturaliter praecedit effectum ergo etc
+  </p>
+  <p>
+    2o quia habitus practicus generatur  
+    <lb ed="#U" n="10"/>ex praxibus sed habitus practicus generatur ex actibus sequentibus  
+    <lb ed="#U" n="11"/>electionem ergo etc
+  </p>
+  <p>
+    3o quia <ref><name>commentator</name> 4o <title>ethicorum</title></ref> dicit quod praxis  
+    <lb ed="#U" n="12"/>est operatio secundum electionem ergo praxis sequitur electionem
+  </p>
+  <!-- against third opinion -->
+  <p>
+    Contra  
+    <lb ed="#U" n="13"/>istud quod non est tantum actus talis sit praxis videtur primo quia  
+    <lb ed="#U" n="14"/><ref>6o <title>ethicorum</title></ref> dicit <name ref="#Aristotle">philosophus</name> quod non electio recta sub ratione recta et  
+    <lb ed="#U" n="15"/>habitu virtutis ergo virtus per se requiratur ad electionem  
+    <lb ed="#U" n="16"/>sed non requireretur Si generaretur ex actibus posterioribus  
+    <lb ed="#U" n="17"/>electione ergo etc
+  </p>
+  <p>
+    Item arguitur sub alia forma quia habitus ex  
+    <lb ed="#U" n="18"/>eisdem actibus generatur ad quos inclinant per <ref><name ref="#Aristotle">philosophum</name> 2o <title>ethicorum</title></ref>
+    <lb ed="#U" n="19"/>Sed virtus moralis per se inclinat ad electionem rectam quia  
+    <lb ed="#U" n="20"/>virtus est habitus etc ergo ex electionibus per se generatur virtus  
+    <lb ed="#U" n="21"/>moralis ergo etc
+  </p>
+  <p>
+    Item non solum est falsum negare electionem esse  
+    <lb ed="#U" n="22"/>praxim sed sicut probatum fuit quaestione praecedente actus voluntatis eli 
+    <lb ed="#U" n="23"/>citus est primo praxis et imperatus non nisi propter ipsum actum  
+    <lb ed="#U" n="24"/>elicitum ergo electio sine opere extrinseco est vere praxis  
+    <lb ed="#U" n="25"/>hoc posset sic non habens pecunias situm liberaliter eligat  
+    <lb ed="#U" n="26"/>illas distribuere si haberet et quantum ad actum et habitum  
+    <lb ed="#U" n="27"/>virtutis non requiritur ulterior prosecutio ergo etc
+  </p>
+  <p>
+    Item ordo electionis  
+    <lb ed="#U" n="28"/>ad actum extrinsecum non potest esse nisi ut esse habet ad effectum  
+    <lb ed="#U" n="29"/>sed casa nihil habet ab effectu vel ordine ad ipsum ergo ex tali ordine  
+    <lb ed="#U" n="30"/>non erit electio praxis Ad philosophum ergo 6 ethicorum dicendum quod philosophus  
+    <lb ed="#U" n="31"/>ibidem statim subdit Electionis autem appetitus et ratio quae  
+    <lb ed="#U" n="32"/>gratia alicuius et practica supple sunt principium
+  </p>
+  <p>
+    Ad hoc ergo  
+    <lb ed="#U" n="33"/>quod electio sit recta requiritur virtus in appetitu unde sequitur neque  
+    <lb ed="#U" n="34"/>sine habitu moralis est recta electio scilicet recta ergo virtus habet actum  
+    <lb ed="#U" n="35"/>elicitum immediatiorem sibi quam sit ille actus cuius e 
+    <lb ed="#U" n="36"/>lectio est principium ut imperans Educetur ergo illa auctoritas quia  
+    <lb ed="#U" n="37"/>electio est principium actus quia actus ab ipsa imperatus  
+    <lb ed="#U" n="38"/>est et moralis Sed ex hoc non sequitur quod solus ille actus  
+    <lb ed="#U" n="39"/>sit actus sive praxis per quam et ista est praxis
+  </p>
+  <p>
+    Ad  
+    <lb ed="#U" n="40"/>aliud quod actus imperati sunt impossibilis voluntas vero frequenter 
+    <lb ed="#U" n="41"/>eligit recte circa naturam illorum actuum quia quod non creditur  
+    <lb ed="#U" n="42"/>possibilis alicui aut non vult aut renuit secundum augustinum 10 generatur  
+    <lb ed="#U" n="43"/>habitus practicus sive praxibus imperatus sequentibus election 
+    <lb ed="#U" n="44"/>nem non tamen generantur ex illis sequentibus electionem sed  
+    <lb ed="#U" n="45"/>magis proprie ex ipsis electionibus in quibus et formalis virtus  
+    <lb ed="#U" n="46"/>moralis
+  </p>
+  <p>
+    Ad aliud quod li secundum in d communem non est nota causae efficienter  
+    <lb ed="#U" n="47"/>sed diffinitio debet esse convertibilis cum diffinito vel descripto sed dicit  
+    <lb ed="#U" n="48"/>intelligi effective vel formaliter vel electio accipitur ibi pro libertate 
+    <!--10v.xml-->
+    <pb ed="#U" n="10-v"/>
+    <cb ed="#U" n="a"/>
+    <lb ed="#U" n="1"/>sunt positae dominativa vel ibi accipitur electio pro electione  
+    <lb ed="#U" n="2"/>actus volendi quae non est electio vel volitio aliquas Sed  
+    <lb ed="#U" n="3"/>actio de genere actionis et secundum istam electionem quasi secundum prinicpium  
+    <lb ed="#U" n="4"/>actum est omnis praxis sive sit electio sive sequens elec 
+    <lb ed="#U" n="5"/>tionem
+  </p>
+  <!-- statement about above 3 opinions -->
+  <p>
+    Istae 3 opiniones conveniunt in hoc quod ista scientia est spe<lb ed="#U" n="6"/>culativa 
+    prue non obstante quod extendatur ad dilec<lb ed="#U" n="7"/>tionem 
+    finis et possunt habere rationes communes
+  </p>
+  <p>
+    ad probandum quod talis  
+    <lb ed="#U" n="8"/>extensio non concludit istam esse practicam primo quia tunc  
+    <lb ed="#U" n="9"/>quaelibet notitia esset practica quia quamlibet sequatur aliqua delectio
+  </p>
+  <p>
+    2o  
+    <lb ed="#U" n="10"/>quia <ref><name>philosophus</name> 4 <title>ethicorum</title></ref> dicit quod felix est dei amatissimus et tamen illam  
+    <lb ed="#U" n="11"/>felicitatem ponit philosophus sepeculativam ergo etc
+  </p>
+  <p>
+    Contra eas 
+    <lb ed="#U" n="12"/>et quantum ad illud in quo conveniunt potest argui quia secundum hoc  
+    <lb ed="#U" n="13"/>sequitur quod aliqua operatio hominis est in potestate hominis et tamen non est  
+    <lb ed="#U" n="14"/>proprie speculativo nec praxis puta amor finis
+  </p>
+  <p>
+    Item sequitur  
+    <lb ed="#U" n="15"/>quod cognitio directiva involitione quacumque non sit practica qui sit  
+    <lb ed="#U" n="16"/>veritas confesse se habens appetitui recto quod videtur inconveniens  
+    <lb ed="#U" n="17"/>quia talis veritas est proprium opus mentis ex vi ethicorum Quod  
+    <lb ed="#U" n="18"/>adducitur de delectione non est ad propositum quia electio est  
+    <lb ed="#U" n="19"/>passio naturaliter consequens operationem perfectam et sive sit de speculante  
+    <lb ed="#U" n="20"/>propter illam extentionem non ponitur scientia practica quia nec illa est praxis  
+    <lb ed="#U" n="21"/>proprie loquendo sed amare videtur desiderare obiectum cognitum  
+    <lb ed="#U" n="22"/>sicut vel sic circumstantionatum est vere praxis nec naturaliter consequens apprehen<lb ed="#U" n="23"/>sionem 
+    vel libere recte vel non recte eligibilis Quod vero dicit <name ref="#Aristotle">philosophus</name>  
+    <lb ed="#U" n="24"/>felicem dei amatissimum nihil facit ad propositum quia loquitur  
+    <lb ed="#U" n="25"/>passive videlicet quod est amatus non active
+  </p>
+  <p>
+    Sed iuxta hoc est  
+    <lb ed="#U" n="26"/>dubitatio utrum videlicet felix speculative secundum philosophum amet finem  
+    <lb ed="#U" n="27"/>ut amare distinguitur contra delectionem sive de speculatione  
+    <lb ed="#U" n="28"/>sive de obiecto speculato dicendum est autem quod sic quia secundum eundem  
+    <lb ed="#U" n="29"/><ref>xii <title>metaphysicae</title></ref> primum movet ut amatum et tamen illius feli<lb ed="#U" n="30"/>citatem 
+    poneret in speculatione ut patet ex <ref>x <title>ethicorum</title></ref> et per  
+    <lb ed="#U" n="31"/>consequens sub speculatione comprehendit etiam amare prout  
+    <lb ed="#U" n="32"/>amare distinguitur a delectari
+  </p>
+  <p>
+    Sed tunc est alia dubio 
+    <lb ed="#U" n="33"/>quare scilicet <name ref="#Aristotle">philosophus</name> non tenetur in hoc cum ratio scientiae speculativae et practice  
+    <lb ed="#U" n="34"/>sub eo accipere et ita duae primae hic negans istam scientiam  
+    <lb ed="#U" n="35"/>est esse speculativam unde poni secundum philosophum dicendum quod istud  
+    <lb ed="#U" n="36"/>amare quod <name ref="#Aristotle">philosophus</name> ponit in intelligentia ponit naturali neccessitate sibi  
+    <lb ed="#U" n="37"/>in esse ita quod non contingeret eam exxare ita quod respectu illius  
+    <lb ed="#U" n="38"/>notitia esset tantum ostensiva non autem directiva nec quantum  
+    <lb ed="#U" n="39"/>ad obiectum u? nec et in particulari nec quantum ad aliquam  
+    <lb ed="#U" n="40"/>conditionem vel circo stantiam actus voluntatis hoc modo  
+    <lb ed="#U" n="41"/>non different theologi
+  </p>
+  <p>
+    Si ergo convenisset nobiscum ponendo  
+    <lb ed="#U" n="42"/>amare finem libere et recte et non recte nec posse recte  
+    <lb ed="#U" n="43"/>elici nisi conformiter rationi non tantum ostendenti obiectum sed do 
+    <lb ed="#U" n="44"/>nanti illud sic eliciendum forte posuisset respectu talis notitiam  
+    <lb ed="#U" n="45"/>practicam non speculativam et ideo melius est theologo qui  
+    <lb ed="#U" n="46"/>habet ab eo discordare in minore discordare in concludione quam  
+    <lb ed="#U" n="47"/>convenire in conclusione quam ipse non teneret si minorem cum theo<lb ed="#U" n="48"/>logo 
+    teneret Sed adhuc est dubitatio posito quod talis 
+    <cb ed="#U" n="b"/> <!-- 10-vb -->
+    <lb ed="#U" n="1"/>neccessitas sit intelligentia ad amandum deum ex natura voluntatis utrum  
+    <lb ed="#U" n="2"/>ita posset in voluntate spaientis quam ipse poneret  
+    <lb ed="#U" n="3"/>felicem naturaliter si non ergo ille potest dirigi intelligi actu dicendum quod prac<lb ed="#U" n="4"/>ticam 
+    a tali actu non negavit nisi quia felicitatem eius  
+    <lb ed="#U" n="5"/>dixi speculativam 
+  </p>
+  <!--- begin fourth opinion -->
+  <p>
+    <pc type="#pilcrow"/>4a est opinio quae potest theologiam esse affec<lb ed="#U" n="6"/>tivam 
+    quod bene intelligi potest si affirmativa ponatur practica Si  
+    <lb ed="#U" n="7"/>autem effectiva ponatur 3 membrum divisum contra speculativum  
+    <lb ed="#U" n="8"/>et practicum sic est contra illud ostensum fuit scilicet delectationem  
+    <lb ed="#U" n="9"/>esse vere praximi et etiam contra multas auctoritas quae dividit tantum scientiam  
+    <lb ed="#U" n="10"/>in speculativum et practicum
+  </p>
+  <!--- begin fifth opinion -->
+  <p>
+    <pc type="#pilcrow"/>Quinta opynio est quod theologia est  
+    <lb ed="#U" n="11"/>contemplativa secundum <ref><name ref="#Augustinum">augustinum</name> 12 <title>de trinitate</title></ref> ubi vult quod sapientia est respectu  
+    <lb ed="#U" n="12"/>contemplationis scientia respectu actionis Cum ergo theologia sit  
+    <lb ed="#U" n="13"/>proprie sapientia erit contemplativam dicendum quod contemplatio de 
+    <lb ed="#U" n="14"/>qua loquitur augustinus non determinatur ad speculativam contra enim  
+    <lb ed="#U" n="15"/>illud contemplativam memoriam intelligentiam et totalitatem  
+    <lb ed="#U" n="16"/>et ita in contemplatio illo potest esse extensio extra genus scientiae
+  </p>
+  <!--- begin sixth opinion -->
+  <p>
+    <lb ed="#U" n="17"/>Sexta opinio quae ponit quod si theologia est speculativa et practica  
+    <lb ed="#U" n="18"/>quod probatur sic sicut doctrina illa in qua scribuntur  
+    <lb ed="#U" n="19"/>aliqua de iure et de philosophia esset speculativa et practica sumi  
+    <lb ed="#U" n="20"/>scribentur in distinctas liberis sine inter scalantur et conmixti  
+    <lb ed="#U" n="21"/>ita quod in ista scientia simul speculativa et practica ?aiantur 
+    <lb ed="#U" n="22"/>ergo est speculativa et practica sive scribentur in distinctis 
+    <lb ed="#U" n="23"/>liberis ¶ Assumptum patet quia ista scientia distinctius quam requiratur  
+    <lb ed="#U" n="24"/>ad praxim quod patet quia hic tractat de operationi et di<lb ed="#U" n="25"/>stincte 
+    ac si esset praecise de ipsis ergo etc
+  </p>
+  <!-- objections to sixth opinion -->
+  <p>
+    Contra istam opynionem  
+    <lb ed="#U" n="26"/>arguitur primo quia habitus non habens evidentiam ex obiecto  
+    <lb ed="#U" n="27"/>non distinguitur ex distinctione obiecoturm quia tunc oportet  
+    <lb ed="#U" n="28"/>ponere duas fides infusas sed habitus theologiae non habet  
+    <lb ed="#U" n="29"/>evidentiam ex obiecto ergo non distinguitur secundum distinctionem obiectorum  
+    <lb ed="#U" n="30"/>scilicet propter diffinitionem speculabilium et operabilium
+  </p>
+  <p>
+    Secundo quia si  
+    <lb ed="#U" n="31"/>ista obiecto posset habere aliquam probabiliter et de theologia  
+    <lb ed="#U" n="32"/>ut traditur in sacra scriptura tamen de theologia in se cuius  
+    <lb ed="#U" n="33"/>subiectum est essentia divina ut haec essentia non videtur probabilis ista  
+    <lb ed="#U" n="34"/>positio quia de subiecto tun sic unum nata est haberi aliquo cognitio  
+    <lb ed="#U" n="35"/>vera una illa non est nisi theologia in se ergo theologia in se  
+    <lb ed="#U" n="36"/>est una
+  </p>
+  <p>
+    3o quia ordo scientiarum secundum eminentiam stat ad unum  
+    <lb ed="#U" n="37"/>tantum quia non possunt esse duae primae simpliciter illam una et eminen<lb ed="#U" n="38"/>tem 
+    dico theologiam
+  </p>
+  <p>
+    <pc type="#pilcrow"/>¶ 4o potest ratio eorum deduci ad opinionem  
+    <lb ed="#U" n="39"/>quia illa cognitio est practica in qua non determinatur de speculabilibus  
+    <lb ed="#U" n="40"/>plus quam cognitio eorum participat ad praxim sed sic est haec  
+    <lb ed="#U" n="41"/>probatio quia quaelibet cognitio de conclusionibus appetibilibus finis  
+    <lb ed="#U" n="42"/>et eorum quae sunt ad finem quatenus sunt ad finem et  
+    <lb ed="#U" n="43"/>a?e cognitionibus illis circa quas contingit potentiam operativam errare  
+    <lb ed="#U" n="44"/>nisi erigatur est perfectam neccessaria ad cogitionem practicam sed nulla  
+    <lb ed="#U" n="45"/>conditio traditur ne fine vel hiis quaesivit ad finem nisi talis  
+    <lb ed="#U" n="46"/>sicut patet quod licet finitas personarum non ostendat finem  
+    <lb ed="#U" n="47"/>appetitem quam si deus esst trinsu tamen voluntatem ignorantem  
+    <lb ed="#U" n="48"/>trinitatem contingit errare in amando vel fruendo una 
+  <!--11r.xml-->
+    <pb ed="#U" n="11-r"/>
+    <cb ed="#U" n="a"/>
+    <lb ed="#U" n="1"/>una persona sive alia Similiter ignorantem deum mundum fe<lb ed="#U" n="2"/>cisse 
+    contingit errare non repetentio amorem qualem gratitudo requireret  
+    <lb ed="#U" n="3"/>propter tantam communicaitonem bonitatis suae et ita etiam de ignorante articulos  
+    <lb ed="#U" n="4"/>fidei reparationis nostrae ergo etc
+  </p>
+  <p>
+    Ad rationem eorum dico  
+    <lb ed="#U" n="5"/>quod non possit indistincte tractare de fine cognito et  
+    <lb ed="#U" n="6"/>de hiis quae sunt ad finem quin illa notitia esset practica in<lb ed="#U" n="7"/>tellectu 
+    causato quia tota illa congnitio nata est ostendere finem sub  
+    <lb ed="#U" n="8"/>ratione appetibilis et ea quae sunt ad finem sub ratione appetibilis 
+    <lb ed="#U" n="9"/>ordinis vel ea circa quae non posset voluntas non recte er 
+    <lb ed="#U" n="10"/>rare
+  </p>
+  <!-- seventh opinion -->
+  <p>
+    Alia est opinio tenens eadem conclusionem sed simul  
+    <lb ed="#U" n="11"/>cum hoc tenet quod theologia est unus habitus finis sed satis  
+    <lb ed="#U" n="12"/>dictum est de opinionem aliorum
+  </p>
+  <!-- end of opinions, start of article 2 -->
+  <p>
+    2o ponam quod mihi videtur et  
+    <lb ed="#U" n="13"/>teneo quod theologia tota neccessaria est intellectui creato practico quod  
+    <lb ed="#U" n="14"/>ostendo sic quia illa cognitio practica quae est aptitudinaliter  
+    <lb ed="#U" n="15"/>conformis volitioni rectae et naturaliter prior tempora sicut ex osten 
+    <lb ed="#U" n="16"/>sis in praecedente quaestione sed tota theologia neccessaria est huius per comparationem  
+    <lb ed="#U" n="17"/>ad intellectum comparatum creatum ergo etc probatio minor quia obiectum  
+    <lb ed="#U" n="18"/>theologiae est conforme virtualiter volitioni rectae quia actione  
+    <lb ed="#U" n="19"/>eius sumuntur principia rectitudinis in volitione ipsum et de 
+    <lb ed="#U" n="20"/>terminat intellectum causatum ad notitiam certitudinis ipsius praxis  
+    <lb ed="#U" n="21"/>quo ad obiecta theologica neccessaria prius naturaliter quam aliqua voluntas  
+    <lb ed="#U" n="22"/>velit animal non esset neccessaria ergo sequitur quod ex primo obiecto habetur  
+    <lb ed="#U" n="23"/>tam conformitas quam prioritas theologiae ad volitionem  
+    <lb ed="#U" n="24"/>et per consequens habetur extensio a qua ipsa cognitio est dicenda practica Confir<lb ed="#U" n="25"/>matur 
+    ratio ista quia circa primum obiectum theologiae sit finis ultimus et  
+    <lb ed="#U" n="26"/>principia in intellectu creato sumpta a fine ultimo sint practica  
+    <lb ed="#U" n="27"/>ergo principia theologiae sunt practica ergo et conclusiones ergo etc
+  </p>
+  <p>
+    Contra dicta  
+    <lb ed="#U" n="28"/>potest 4r argui primo sic deus non est hoc subiectum inquantum finis ut patet  
+    <lb ed="#U" n="29"/>ex quaestione praecedente principia autem sumpta a fine inquantum finis sunt  
+    <lb ed="#U" n="30"/>practica non autem sumpta ab eo inquantum est haec essentia ero etc
+  </p>
+  <p>
+    <pc type="virgula">//</pc> 2o sic  
+    <lb ed="#U" n="31"/>cognitio finis ultimi non est immediate conformis nec est nata esse con 
+    <lb ed="#U" n="32"/>formis praxi elicidendae ergo non est proprie practica
+  </p>
+  <p>
+    <pc type="virgula">//</pc> 3o sic primum obiectum  
+    <lb ed="#U" n="33"/>includit virtualiter conformitatem ad praxim rectam non tamen cognitionem  
+    <lb ed="#U" n="34"/>sic conformem Alioquin cognitio esset neccessaria non posset esse cognitio  
+    <lb ed="#U" n="35"/>speculativa quod videtur inconveniens Ista enim veritas deus est trinus   
+    <lb ed="#U" n="36"/>et unus pater generat filium non videtur practica sequitur ergo quod ex con 
+    <lb ed="#U" n="37"/>formitate virtuali primum obiecti ad praxim non sequitur theologiam esse practicam  
+    <lb ed="#U" n="38"/>quia est de eodem subiecto primo cum veritates quae maxime sunt theologicae  
+    <lb ed="#U" n="39"/>ut theologia distinguit a metaphysica sint speculative
+  </p>
+  <p>
+    <pc type="virgula">//</pc> 4o quia scientia  
+    <lb ed="#U" n="40"/>dei tunc esset practica quia est de eodem subiecto primo et videtur quod  
+    <lb ed="#U" n="41"/>ratio positionis possit applicari ad intellectum divinum sicut ad intellectum  
+    <lb ed="#U" n="42"/>creatum
+  </p>
+  <p>
+    Ad primum istorum quod effectus finis non a quo  
+    <lb ed="#U" n="43"/>sumuntur principia in aliqua scientia sed obiectum illud in quo fundatur respectus ibi  
+    <lb ed="#U" n="44"/>dem haec essentia
+  </p>
+  <p>
+    Ad 2m quod virtualiter continens cognitionem con<lb ed="#U" n="45"/>formem 
+    esse virtualiter conforme et ita eius cognitio est practica  
+    <lb ed="#U" n="46"/>practica autem cognitio illa quae est de fine est cognitio fruitionis  
+    <lb ed="#U" n="47"/>finis et illa est nata esse conformis virtualiter praxi frui<lb ed="#U" n="48"/>tionis 
+    immediate
+  </p>
+  <p>
+    Ad 3 quod primum obiectum tantum includit notitiam 
+    <cb ed="#U" n="b"/> <!-- 11rb -->
+    <lb ed="#U" n="1"/>conformem volitioni rectae quia virtute eius nihil de eo cogniscitur quod  
+    <lb ed="#U" n="2"/>non sit vel rectitutdo volitionis alicuius vel virtualiter includens  
+    <lb ed="#U" n="3"/>notitiam talis rectitudinis et concedendum est quod de ipso nulla  
+    <lb ed="#U" n="4"/>potest esse scientia speculativa neccessaria notitita enim eius et cuiuscumque  
+    <lb ed="#U" n="5"/>intrinsici per ipsum cogniti conformis ex praxi aptitudines  
+    <lb ed="#U" n="6"/>et prior est si cognitum est neccessariam Et cum instatur de istis virtutibus  
+    <lb ed="#U" n="7"/>deus est trinus et unus et ipse generat filium dicendum quod ille  
+    <lb ed="#U" n="8"/>sunt practice quia prima includit notitiam virtualiter recti<lb ed="#U" n="9"/>tudinis 
+    dilectionis tendentis in 3 personas 2a inducit no<lb ed="#U" n="10"/>titiam 
+    rectitudinis actus dilectionis dicit duas personas quamvis  
+    <lb ed="#U" n="11"/>enim essentia sit ratio absolute terminandi actum amandi ut propter quam  
+    <lb ed="#U" n="12"/>tamen personae sunt quae amantur ideo utriusque notitia requiritur ad actum  
+    <lb ed="#U" n="13"/>rectum dilectionis 
+  </p>
+  <p>
+    Ad 4 responderi potest dupliciter primo modo quod theologia  
+    <lb ed="#U" n="14"/>sit de neccessariis est practica quia in intellectu suo natum est primum  
+    <lb ed="#U" n="15"/>obiectum gignere notitiam conformem volitionis rectae ut de  
+    <lb ed="#U" n="16"/>se patet et similiter priorem naturaliter ipsa volitione quod probatur primo 
+    <lb ed="#U" n="17"/>quia primus intellectus naturaliter intelligit obiectum primum quam voluntas  
+    <lb ed="#U" n="18"/>velit illud ergo potest habere omnem notitiam sufficienter virtualiter  
+    <lb ed="#U" n="19"/>inclusam in intellectione primi obiecti prius ipsa volitione talis  
+    <lb ed="#U" n="20"/>est quaecumque notitia neccessaria de primo obiecto quia exclusa per impossibile  
+    <lb ed="#U" n="21"/>omni voluntate posset habere omnem notitiam sufficienter  
+    <lb ed="#U" n="22"/>virtualiter inclusam in intellectione primi obiecti cum prima intellectio  
+    <lb ed="#U" n="23"/>praecedat omnem volitionem 
+  </p>
+  <p>
+  
+    3o <!-- 2o?? -->quod intellectus divinus non dis 
+    <lb ed="#U" n="24"/>currit et per consequens non prius naturaliter inclusum ergo si prius in<lb ed="#U" n="25"/>telligit 
+    primum obiectum quam voluntas aliquid velit ergo etc Contra  
+    <lb ed="#U" n="26"/>istud potest argui primo quia tunc voluntas divina non esset  
+    <lb ed="#U" n="27"/>prima regula in actibus spiritus sancti si notitia praecedat consequens videtur inconveniens  
+    <lb ed="#U" n="28"/>quia tollit summam libertatem voluntatis divinae si ab alio  
+    <lb ed="#U" n="29"/>determinetur et non ex se primo 
+    <!-- division unclear -->
+    2o quia dictum est supra philosophum beati dicere  
+    <lb ed="#U" n="30"/>contingenter si intellectus naturaliter amet deum visum quod notitia illa  
+    <lb ed="#U" n="31"/>non est practica eodem modo potest argui de deo naturaliter amante  
+    <lb ed="#U" n="32"/>se 
+    <!-- division unclear -->
+    2o quia dirigens est aliquo modo causa directi ergo est diffinitio  
+    <lb ed="#U" n="33"/>realis inter ipsa sed non est talis distinctio intellectionis divinae  
+    <lb ed="#U" n="34"/>ad velle ergo etc
+  </p>
+  <p>
+    Ad primum dicendum est consequenter quod prima rectitudo  
+    <lb ed="#U" n="35"/>vel regula praxi est finis ultimus qui ordinate rectificat in<lb ed="#U" n="36"/>tellectum 
+    et voluntate sicut potentiae natae sunt ordinatae agere  
+    <lb ed="#U" n="37"/>ita quod prius gignit notitiam conformem praxi rectae quam recti<lb ed="#U" n="38"/>ficet 
+    praxim ita quod primum consequens ad quod deducitur esse  
+    <lb ed="#U" n="39"/>verum et ad illud contra potest dici quod illud non tollit libertatem  
+    <lb ed="#U" n="40"/>Et quando dicitur quia determinatur alium dicendum est quod non loquendo de  
+    <lb ed="#U" n="41"/>distantione quae est per agens sufficiens quia licet non possit  
+    <lb ed="#U" n="42"/>dissentire a notitia recta et priori praxi tamen illa notitia  
+    <lb ed="#U" n="43"/>non est sufficienter active determinans ipsam ad actum sed  
+    <lb ed="#U" n="44"/>hoc est ex perfectione voluntatis quod ipsa nata est tantum conformi 
+    <lb ed="#U" n="45"/>tere agere potentiae priori in agendo et hoc quando illa potentiae perfecte agit  
+    <lb ed="#U" n="46"/>prius haec est novit quantum potest nolle quod dicitur pro contingen<lb ed="#U" n="47"/>tibus 
+    quorum intellectus divinus non habet notitiam sibi possibilem  
+    <lb ed="#U" n="48"/>ante omnem actum voluntatis et ideo circa illa non oportet 
+    <!--11v.xml-->
+    <pb ed="#U" n="11-v"/>
+    <cb ed="#U" n="a"/>
+    <lb ed="#U" n="1"/>quod voluntas agat conformiter potentiae priori non sic est circa obiecta neccessaria  
+    <lb ed="#U" n="2"/>quam agat conformit aut possit sic dici ad raitonem istam  
+    <lb ed="#U" n="3"/>et sequentem tamen aliter possit dici
+  </p>
+  <p>
+    2o ad rationem 4am supra factam  
+    <lb ed="#U" n="4"/>quod theologia neccessaria in intellectu divino non est practica quia non est naturaliter prio 
+    <lb ed="#U" n="5"/>ritas intellectionis ad volitionem quaestio conformativi ad ipsum con 
+    <lb ed="#U" n="6"/>formandum sive directum ad dirigendum quia quamvis ipsa  
+    <lb ed="#U" n="7"/>notitia rectitudinis ipsius praxis quantum est ipse posset con<lb ed="#U" n="8"/>formare 
+    potentiam conformalem aliunde non tamen potest conformare  
+    <lb ed="#U" n="9"/>sic voluntatem divinam respectu sui primi obiecti quae ex se sola respectu ipsius rectifi<lb ed="#U" n="10"/>catur 
+    quia vel naturaliter in illud vel si libere nullo modo est de se quasi indifferens  
+    <lb ed="#U" n="11"/>ad rectitudinem quasi habens eam aliunde ita quod notitia rectitudinis  
+    <lb ed="#U" n="12"/>determinativa vel directiva sit neccessario prior volitione sed tantum notitia obiecti  
+    <lb ed="#U" n="13"/>ostensiva ita quod si posset praecedre volitionem notitia ostensiva et  
+    <lb ed="#U" n="14"/>sequi ipsam volitionem noctia directiva sicut diceretur de  
+    <lb ed="#U" n="15"/>praxi contra contingentia aeque recte eleiceretur volitio tunc et nunc  
+    <lb ed="#U" n="16"/>et per hoc patet modo responsio ad argumentum probans prioritatem notitiae  
+    <lb ed="#U" n="17"/>rectitudinis ad ipsam praximi unde patet quod tota contraversa ista est  
+    <lb ed="#U" n="18"/>de hoc utrum notitia quae de se esset directiva in angendo dato  
+    <lb ed="#U" n="19"/>quod potentia practicans in sciente esset dirigibilis in agendo sit practicam  
+    <lb ed="#U" n="20"/>ex hoc sola quod sic esset directiva vel non practica ex hoc quod potentia  
+    <lb ed="#U" n="21"/>practicans in sciente non est dirigibilis et quia alteram partem  
+    <lb ed="#U" n="22"/>tenet dicat consequenter
+  </p>
+  <p>
+    Ad primum principale quod fides non est  
+    <lb ed="#U" n="23"/>habitus speculativius nec credere est actus speculativus  
+    <lb ed="#U" n="24"/>nec visio sequens est operatio speculativa sed practica quia nata est  
+    <lb ed="#U" n="25"/>esse conformis fruitio et prius naturaliter est intellectu creato quoniam  
+    <lb ed="#U" n="26"/>fruitio eliciatur
+  </p>
+  <p>
+    Ad 2m dicendum quod nobilitas est in infe<lb ed="#U" n="27"/>rioria 
+    attingere sensum superius unde sensitiva hominis nobilior est quam bruti  
+    <lb ed="#U" n="28"/>quia ordinatur ad intellectivam et ideo nobilitas in scientia est  
+    <lb ed="#U" n="29"/>ordinari ad actum voluntatis potentiae licet philosophus non ponat  
+    <lb ed="#U" n="30"/>aliquam scientiam non esse conformem praxi voluntatis circa  
+    <lb ed="#U" n="31"/>finem quia non posuit voluntatem circa finem habere praxim  
+    <lb ed="#U" n="32"/>sed quasi quamdam motionem simplicem naturalem ideo nullam  
+    <lb ed="#U" n="33"/>scientiam posuit posse esse vo?rem per conformitatem ad finem  
+    <lb ed="#U" n="34"/>sed tamen posuisset praxim circa finem non negasset ut videtur  
+    <lb ed="#U" n="35"/>scientiam practicam respectu illius praxis esse nobiliorem mo<lb ed="#U" n="36"/>rali 
+    scientia et quia nos ponimus veram praxim circa finem  
+    <lb ed="#U" n="37"/>nobiliorem morali scientia et quia nos ponimus veram praxim 
+    <lb ed="#U" n="38"/>omni speculativam ergo prima propositio rationis quae videtur posse sumi  
+    <lb ed="#U" n="39"/>ex primo metaphysicae quamvis eam non dicat expresse negandam et ad  
+    <lb ed="#U" n="40"/>primam probationem eius dicendum quod ita est nobilior quae est  
+    <lb ed="#U" n="41"/>sui gratia qua quae est gratia alicuius actus inferius se quaelibet  
+    <lb ed="#U" n="42"/>autem alia quam posuit ipse practicam esse gratia alicuius ac 
+    <lb ed="#U" n="43"/>tus inferioris quam sit consideratio speculativa quia saltem  
+    <lb ed="#U" n="44"/>circa obiectum aliquod inferius qua circa quod potest esse speculativa  
+    <lb ed="#U" n="45"/>et ideo quaelibet practica quam ipse ponit est ignobilior speculativa  
+    <lb ed="#U" n="46"/>quae autem est gratia alicuius actus inferioris nobilioris  
+    <lb ed="#U" n="47"/>suo proprio actu non est ignobilior propter talem ordinationem
+  </p>
+  <p>
+    <lb ed="#U" n="48"/>Ad 2am probationem dicendum quod quaelibet cognitio scientifica respectu 
+    <cb ed="#U" n="b"/> <!-- 11vb -->
+    <lb ed="#U" n="1"/>sui obiecti est aeque certa secundum proportionem licet non secundum quantitatem 
+    <lb ed="#U" n="2"/>quia obiecta non sunt aeque scibilia sed nos ponimus cognoscibile  
+    <lb ed="#U" n="3"/>operabile hoc est attingibile per operationem nostram quae  
+    <lb ed="#U" n="4"/>est vere praxis maxime cognoscibile quod philosophus non posuit  
+    <lb ed="#U" n="5"/>et ratio ista scientia est certa maxime secundum proportionem vel secundum  
+    <lb ed="#U" n="6"/>quantitatem
+  </p>
+  <p>
+    Ad 3 principale dico quod non est inventa propter  
+    <lb ed="#U" n="7"/>neccessaria extrinseca sed intrinseca videlicet or?em passionum et operationum non  
+    <lb ed="#U" n="8"/>est autem inventa propter guam ignorantiae quia multa plura scibilia  
+    <lb ed="#U" n="9"/>tradi possunt in tanta quantitate doctrinae quam hoc tradantur sed  
+    <lb ed="#U" n="10"/>hoc frequenter replicantur eadem ut efficatius inducatur  
+    <lb ed="#U" n="11"/>auditor ad operationem eorum quae ibi persuadentur
+  </p>
+  <!-- division unclear -->
+  <p>
+    <lb ed="#U" n="12"/>In quaestione ista doctor iste multa loquens in multis deficit  
+    <lb ed="#U" n="13"/>non solum doctrinam communem impugnans aut doctrinam physici sed  
+    <lb ed="#U" n="14"/>sibi contradicit et veritati Quod enim dicit primo in respondendo  
+    <lb ed="#U" n="15"/>ad auctoritatem <name ref="#Augustine">augustini</name> inductam pro prima opynione quod omnis actus ex<lb ed="#U" n="16"/>terior 
+    ordinatur ad interiorem et finaliter ad velle impugnat  
+    <lb ed="#U" n="17"/>veritati et communi doctrinae quia nullum velle est simpliciter maxima  
+    <lb ed="#U" n="18"/>perfectio hominis sed maximam perfectionem et maximum bonum 
+    <lb ed="#U" n="19"/>hominis ordinatur finaliter omnis actus hominis exterior et in<lb ed="#U" n="20"/>terior 
+    ergo etc probatio maior quia nobilissimum velle et 
+    <lb ed="#U" n="21"/>perfectissimum est fruitio finis ultimi puta dei sed fruitio  
+    <lb ed="#U" n="22"/>non est maxima perfectio probatio quia fruitio non est nisi de habito bonae 
+    <lb ed="#U" n="23"/>et per consequens prius oportet habere obiectum quam eo frui et perfecte habere  
+    <lb ed="#U" n="24"/>quam perfecte frui et perfectissime habere quam perfectissime frui  
+    <lb ed="#U" n="25"/>et per consequens oportet aliquam operationem perfectissimum praecedere frui<lb ed="#U" n="26"/>tionem 
+    qua deus perfectissime habeatur ergo fruitio est operatio  
+    <lb ed="#U" n="27"/>nobilissima nec non summa perfectio sed eam praesupponens
+  </p>
+  <p>
+    Item  
+    <lb ed="#U" n="28"/>quia 2o secundo in respondendo ad primum articulum quod erat pro 3bus  
+    <lb ed="#U" n="29"/>primus operationibus valet quod delectio consequens speculationem non est vere  
+    <lb ed="#U" n="30"/>praxis istud non videtur verum tamen quia delectio numquam est sine  
+    <lb ed="#U" n="31"/>apprehensione illius in quo est delectatio quia numquam est delectatio nisi  
+    <lb ed="#U" n="32"/>de amato et per consequens cognito et hoc vult <ref><name>Avicenna</name> 8 <title>metaphysicae</title></ref>  
+    <lb ed="#U" n="33"/>qui dicit quod delectatio est apprehentio convenientis nec sufficit quod  
+    <lb ed="#U" n="34"/>obiectum delectationis apprehendatur qualitercumque sed oportet quod appre 
+    <lb ed="#U" n="35"/>hendatur sub ratione convenientis et boni et per consequens quando aliquid de  
+    <lb ed="#U" n="36"/>lectatur de speculatione apprehendit ipsam speculationem sub ratione  
+    <lb ed="#U" n="37"/>boni convenienter coniuncti et ita est ibi non solum actus direc<lb ed="#U" n="38"/>tus 
+    qui est speculationis sub ratione boni appetibilis sed apprehen<lb ed="#U" n="39"/>dere 
+    aliquid sub ratione appetibilis est apprehendere aliquid confesse  
+    <lb ed="#U" n="40"/>appetitui recto quod est opus practici per philosophum et et istum  
+    <lb ed="#U" n="41"/>ergo etc tamen quia delectatio illa est in potestate nostra et sequitur  
+    <lb ed="#U" n="42"/>operationem intellectus ergo est praxis secundum istum vel contradiceret hiis quae  
+    <lb ed="#U" n="43"/>dixit praxim dissidendo in praecedenti quaestione probatio assumpti  
+    <lb ed="#U" n="44"/>quia in potestate nostra est speculari ergo et delectari in speculando  
+    <lb ed="#U" n="45"/>Si dicatur quod non est in potestate nostra immediata illa delectio sed solum  
+    <lb ed="#U" n="46"/>mediate speculatione Istud non soluit quia nec operatio manus  
+    <lb ed="#U" n="47"/>est in potestate nostra ubi mediate appetitu si enim appetitus mo<lb ed="#U" n="48"/>vet 
+    manum manus non potest non moveri quantum ex se sed 
+    <!--12r.xml-->
+    <pb ed="#U" n="12-r"/>
+    <cb ed="#U" n="a"/>
+    <lb ed="#U" n="1"/>neccessario consequitur manus ad motum appetitus et tamen mo<lb ed="#U" n="2"/>tus 
+    manus est vere praxis eodem modo est de appetitu respectu potentiae  
+    <lb ed="#U" n="3"/>apprehensione ymaginativae quia posita ymaginatione ac?li alicuius  
+    <lb ed="#U" n="4"/>delectabilis secundum sensum appetitus inferior neccessario appetit  
+    <lb ed="#U" n="5"/>et tamen est vere praxis ergo etc
+  </p>
+  <p>
+    Item quod 3o imponit <name ref="#Aristotle">philosophus</name> in solvendo  
+    <lb ed="#U" n="6"/>secundum dubitationem quam movet quod scilicet ipse non tenetur in ista materia  
+    <lb ed="#U" n="7"/>Istud non est veram quia quamvis ab eo non teneatur et sine causa  
+    <lb ed="#U" n="8"/>non tamen sequitur quod ipse non tenet sed est falsa consquentis quod autem sine  
+    <lb ed="#U" n="9"/>causa neget eum patet quod imponit respectu finis scientiam ostensivam  
+    <lb ed="#U" n="10"/>causa neget eum patt quod imponit respectu finis scientiam ostensivam  
+    <lb ed="#U" n="11"/>non directivam in neccessaria quod non habetur a philosopho quod ipse posuit  
+    <lb ed="#U" n="12"/>respectu finis scilicet alicubi et dato quod posuisset intellectivam amare  
+    <lb ed="#U" n="13"/>deum neccessitate ex hoc non sequitur quin intellectus alibi fuisset naturalis  
+    <lb ed="#U" n="14"/>respectu  suae bonitatis inamando finem sicut inamando alia fuit respectu suae  
+    <lb ed="#U" n="15"/>bonitatis vel voluntatis libera imponit et philosopho nimus veram  
+    <lb ed="#U" n="16"/>sicut patebit post 
+  </p>
+  <!-- 4th -->
+  <p>
+    Item quod dicit eo in arguento primo  
+    <lb ed="#U" n="17"/>contra opynionem quod habitus non habentes evidentiam ex obiecto non  
+    <lb ed="#U" n="18"/>distinguitur ex obiectis quia tunc essent duae fides infusae videtur  
+    <lb ed="#U" n="19"/>contra totum quasi quod determinavit in quaestione praecedente quam movit propter  
+    <lb ed="#U" n="20"/>theologiam quae non habet evidentiam ex obiecto dicit enim ibi quod prima  
+    <lb ed="#U" n="21"/>distinctio ex obiectis est essentialis et quod a fine inquantum obiectum  
+    <lb ed="#U" n="22"/>dicitur scientia practica et multa alia nec sequitur propter hoc quod sint  
+    <lb ed="#U" n="23"/>duae fides infusae quia vel loquitur de primis obiectis vel de  
+    <lb ed="#U" n="24"/>obiectis aliis habituum si de primis obiectis vel de obiectis ipse non  
+    <lb ed="#U" n="25"/>vult concedere quod fides infusa habeat talia duo obiecta sed verum  
+    <lb ed="#U" n="26"/>tantum si de aliis c?ia non valet sunt plura obiecta secundaria ergo plures  
+    <lb ed="#U" n="27"/>habitus habeant sive habitus habeant evidentiam ab obiecto sumi  
+    <lb ed="#U" n="28"/>non
+  </p>
+  <p>
+    Item quod dicit 5o in respondendo quod tota theologia neccessaria est  
+    <lb ed="#U" n="29"/>intellectui creato practica Istud videtur sibi ipsi contradicere quia ipse ponit  
+    <lb ed="#U" n="30"/>obiectum primum huius circa divinam essentiam ut haec est haec Ex quo arguo  
+    <lb ed="#U" n="31"/>per eundem et praecedente Scientiae distinguuntur in speculativum et practicum  
+    <lb ed="#U" n="32"/>penes obiecta sed nihil est magis speculabile quam deus vel essentia divina  
+    <lb ed="#U" n="33"/>ut est hic ergo probatio minoris assumti tamen quia nihil est cuius  
+    <lb ed="#U" n="34"/>cognitio propter seipsam sit tantum appetibilis tamen quia essentia divina ut  
+    <lb ed="#U" n="35"/>distinguitur saltem secundum rationem a veritate voluntate et est prior  
+    <lb ed="#U" n="36"/>voluntate et per consequens circumscripta per intellectum voluntate dei adhuc remanet  
+    <lb ed="#U" n="37"/>essentia divina ut hoc est similiter intellectus qui est prior et est per consequens  
+    <lb ed="#U" n="38"/>intellectus considerans essentiam ut hoc non considerat eam nisi  
+    <lb ed="#U" n="39"/>absolute non in ordine ad voluntantem nec ut conformiter se  
+    <lb ed="#U" n="40"/>habentem appetitui recto et per consequens non practice et talis  
+    <lb ed="#U" n="41"/>consideratio essentiae est prior quam considerare ut conformem  
+    <lb ed="#U" n="42"/>voluntati ergo prima sua consideratio erit speculativa non  
+    <lb ed="#U" n="43"/>practica tamen quia ens inquantum ens est maxime speculabile secundum rationem  
+    <lb ed="#U" n="44"/>quia de eo in metaphysica quae est maxime speculativa et per consequens primum  
+    <lb ed="#U" n="45"/>ens secundum rem erit secundum rem speculabilem ergo etc
+  </p>
+  <p>
+    Item 6o ratio positionis  
+    <lb ed="#U" n="46"/>suae non potest habere efficatiam quia quamvis obiectum primum alicuius  
+    <lb ed="#U" n="47"/>scientiae sit virtualiter conforme volitioni rectae et determinet intellectum  
+    <lb ed="#U" n="48"/>ad notitiam rectitudinis prius quam voluntas velit non propter hoc 
+    <lb ed="#U" n="49"/>scientia potest esse practica quia alioquin omnis voluntas consequentia 
+    <cb ed="#U" n="b"/> <!-- 12rb -->
+    <lb ed="#U" n="1"/>rei naturalis foret practica quia si accipiatur obiectum primum cuiuscumque  
+    <lb ed="#U" n="2"/>scientiae est virtualiter conforme volitioni recte quia includit aliquam  
+    <lb ed="#U" n="3"/>rationem bonitatis in se vel finis vel eius quod est ad finem  
+    <lb ed="#U" n="4"/>et per consequens quantum est ex se potest recte appeti et per consequens conformari  
+    <lb ed="#U" n="5"/>volitioni recte et similiter determinare potest intellectum ad notitiam  
+    <lb ed="#U" n="6"/>rectitudinis prius quam voluntas velit ipsum quia bonitatem suam  
+    <lb ed="#U" n="7"/>habet a se formaliter et non a voluntate nec ab intellectu  
+    <lb ed="#U" n="8"/>et per consequens priusquam voluntas velit habet in se unde recte appe<lb ed="#U" n="9"/>tatur 
+    et per consequens potest movere intellectum ad notitiam suae bonitatis  
+    <lb ed="#U" n="10"/>et appetibilitatis rectae quod voluntas regit? ergo etc 
+  </p>
+  <p>
+    <!-- septimo, dbcheck and correct "alio" to "7o" -->
+    Alio <!-- 7o --> quod dicit  
+    <lb ed="#U" n="11"/>in solutione primae rationis contra positionem quod dicit in solutione principia  
+    <lb ed="#U" n="12"/>practica sumuntur ab absoluto subtracto respectu finis non ab  
+    <lb ed="#U" n="13"/>ipso respectu non sufficit quia quamvis ab ipso absoluto sumantur principia  
+    <lb ed="#U" n="14"/>non tamen concluduntur ea quae sunt ad finem sine respectu finis sed oportet  
+    <lb ed="#U" n="15"/>neccessario coaccipere respectum finis quod patet quia per <ref><name ref="#Aristotle">philosophum</name> 2o <title>physicorum</title></ref>  
+    <lb ed="#U" n="16"/>neccessitas a fine est neccessitas suppositionis non absoluta puta  
+    <lb ed="#U" n="17"/>si debeat acquiri talis finis neccesse est talia esse in ea et per  
+    <lb ed="#U" n="18"/>consequens praesupponitur quod talis finis debeat acquiri antequam  
+    <lb ed="#U" n="19"/>sit neccesse tale medium esse et per consequens ab essentia dei ut hic  
+    <lb ed="#U" n="20"/>non sumuntur ea quae sunt ad finem nisi supponendo quod essenti a divina  
+    <lb ed="#U" n="21"/>intendatur ab aliquo tamquam acquirenda ab aliquo et per  
+    <lb ed="#U" n="22"/>consequens praesupponitur non solum esse ut haec sed et essentia ut finis
+  </p>
+  <p>
+    <lb ed="#U" n="23"/>8 quod dicitur in solutione 2ae rationis contra positionem quod congnitio practica  
+    <lb ed="#U" n="24"/>de fine est cognitio fu fruitionis videtur esse contra eum quia  
+    <lb ed="#U" n="25"/>fruitio secundum eum non poterit esse praxis fruitio perfecta  
+    <lb ed="#U" n="26"/>qualis est in patria quia talis non est in potestate fruentis quia non  
+    <lb ed="#U" n="27"/>potest non frui sed actus qui est praxis eset in potestate eius cuius  
+    <lb ed="#U" n="28"/>est eundem quaestionem praecedente ergo etc 
+  </p>
+  <p>
+    Non <!-- nono -->quod dicitur in quaestionis praece solutione  
+    <lb ed="#U" n="29"/>3ae rationis contra positionem quod primum obiectum puta deus non continet  
+    <lb ed="#U" n="30"/>virtuaiter nisi tantum notitiam de deo quia cognitio habita per metaphysicum  
+    <lb ed="#U" n="31"/>non est sic conformis alioquin metaphysicae esset practica consequens falsum
+  </p>
+  <p>
+    <lb ed="#U" n="32"/>decimo quod ibidem dicitur quod de deo non potest haberi congnitio  
+    <lb ed="#U" n="33"/>practica videtur absurdum et contra hoc est ratio praecedens immediate  
+    <lb ed="#U" n="34"/>adv?a haec etiam potest argui quia practica scientia et speculativa  
+    <lb ed="#U" n="35"/>distinguuntur penes operabile et non operabile formaliter tam 
+    <lb ed="#U" n="36"/>quam per obiecta et per consequens scientia practica non solum confirmat  
+    <lb ed="#U" n="37"/>vel inquantum sic est attingibilis alioquin scientia cuiuslibet rei est  
+    <lb ed="#U" n="38"/>scientia alicuius operabilis cum omnis res possit esse obiectum  
+    <lb ed="#U" n="39"/>dilectionis nostrae et per consequens per operationem attingibilis sed prima  
+    <lb ed="#U" n="40"/>cognitio et praecipue de deo non est de deo inquantum deus  
+    <lb ed="#U" n="41"/>est attingibilis per operationem sed ut est in se natura in essetnia quaedam 
+    <lb ed="#U" n="42"/>et talis est et theologia secundum istum ergo praecipue notitia erit  
+    <lb ed="#U" n="43"/>de deo speculativa et non practica
+  </p>
+  <!-- continuation of 10 -->
+  <p>
+    <pc type="virgula">/</pc> Item prima ratio nota  
+    <lb ed="#U" n="44"/>de deo non potest esse quod ipse sit operabilis hoc est attingibilis  
+    <lb ed="#U" n="45"/>per operationem ergo ante omnia notitiari de eo practicam  
+    <lb ed="#U" n="46"/>praecedit speculativa aliqua Assumptum patet quia in ratione  
+    <lb ed="#U" n="47"/>huius quod dico operabile includit beatitudo ad opus et similiter  
+    <lb ed="#U" n="48"/>ad hoc quod sit operabile requiritur poni ad opus sed nec ratio 
+    <!--12v.xml-->
+    <pb ed="#U" n="12-v"/>
+    <cb ed="#U" n="a"/>
+    <lb ed="#U" n="1"/>operis nec ratio potentiae nec respectus aliquis includitur in prima ratione  
+    <lb ed="#U" n="2"/>de deo concepta ergo etc Multa possent argui contra istud  
+    <lb ed="#U" n="3"/>Sed quia de nihil probitatis habet dimittatur
+  </p>
+  <p>
+    undecimo  
+    <lb ed="#U" n="4"/>quod dicitur ibidem de istis veritatibus deus est trinus et uns  
+    <lb ed="#U" n="5"/>et patet generat quod videlicet utraque est practica quia prima inducit  
+    <lb ed="#U" n="6"/>virtualiter notitiam rectitudinis dilectionis in tres personas  
+    <lb ed="#U" n="7"/>et 2a includit notitiam rectitudinis dilectionis in duas  
+    <lb ed="#U" n="8"/>tendentia hoc non sufficiet quia per modum istum posset dici quod  
+    <lb ed="#U" n="9"/>notitia primi motoris quam facit physicus vel medicus esset prac<lb ed="#U" n="10"/>tica 
+    quia includit virtualiter notitia rectitudinis dilectionis  
+    <lb ed="#U" n="11"/>tendentis intellectum ut est ab alio et ut moveatur ab alio  
+    <lb ed="#U" n="12"/>et ita de omnibus talibus talibus 
+  </p>
+  <p>
+    Item 12 quod dictum in prima  
+    <lb ed="#U" n="13"/>solutione 4ae rationis contra positionem quod intellectus naturaliter prius cognoscit  
+    <lb ed="#U" n="14"/>primum obiectum quam voluntas velit non habitur benedictum quia ibi  
+    <lb ed="#U" n="15"/>non est distinctio aliqua naturae vel naturalis non potest esse prioritas naturalis quod  
+    <lb ed="#U" n="16"/>prioritas importat et per consequens prioritas naturalis distinctionem  
+    <lb ed="#U" n="17"/>naturalem sed intellectus et voluntas in deo in nullo distinguit  
+    <lb ed="#U" n="18"/>naturaliter ergo etc unde non videtur frequenter doctor iste facere differentiam  
+    <lb ed="#U" n="19"/>inter prioritatem naturalem et rationis cum tamen magna sit differentia  
+    <lb ed="#U" n="20"/>sicut inter naturam et differentiam rationis sed dicit insufficienter 
+    <lb ed="#U" n="21"/>quia positiones duas rationes efficaces contra primam responsionem
+  </p>
+  <!-- division unclear, posssible 13; dbchec -->
+  <p>
+    <lb ed="#U" n="22"/>ad 4m <!-- 13 ?? --> argumentum praedictum non solvit eas sed solum  
+    <lb ed="#U" n="23"/>dicit quod potest per dicta responderi cum tamen efficaciter  
+    <lb ed="#U" n="24"/>concludant sicut patet volenti eas reducere contra eum
+  </p>
+  <p>
+    <pc type="virgula">//</pc> 14 quod  
+    <lb ed="#U" n="25"/>dicit in 2a solutione illius 4ae rationis quod quamvis notitia  
+    <lb ed="#U" n="26"/>rectitudinis praxis posset ex se conformare potentiam  
+    <lb ed="#U" n="27"/>conformabilem ab aliunde non tamen voluntatem divinam  
+    <lb ed="#U" n="28"/>quia non est conformabilis ita quod secundum eum ipsa notitia 
+    <lb ed="#U" n="29"/>quantum est de se directivam esset tamen potentia practicans non est  
+    <lb ed="#U" n="30"/>dirigibilis et ista scientia est practica Istud non oportet quia notitia dicitur practica  
+    <lb ed="#U" n="31"/>ex obiecto suo et ex eo quod sibi competit intrinsece et per consequens  
+    <lb ed="#U" n="32"/>si circumscripta omni voluntate habet in se unde possit dirigere  
+    <lb ed="#U" n="33"/>praxim ipsa dicetur simpliciter practica
+  </p>
+  <p>
+    <pc type="virgula">//</pc> 15o idem sicut in  
+    <lb ed="#U" n="34"/>diversis locis facit differentiam inter notitiam ostensivam et di<lb ed="#U" n="35"/>rectivam 
+    sed hoc est falsissimum quia certum est quod per hoc solum quod  
+    <lb ed="#U" n="36"/>alicui ostenditur quid sit agendum et quod est bonum ipse diri<lb ed="#U" n="37"/>gitur 
+    nihil est aliud facit dans alteri consilium nisi ostendit 
+    <lb ed="#U" n="38"/>sibi quid est est melius nec et visus ratione aliud facit nisi  
+    <lb ed="#U" n="39"/>ostendit ubi est locus quo ostendum est vel quiescendum et tamen  
+    <lb ed="#U" n="40"/>oculus totum corpus dirigit et similiter concilians dirigit  
+    <lb ed="#U" n="41"/>ei cui dat concilium sed et ad hoc quod voluntas aliquid  
+    <lb ed="#U" n="42"/>velit oportet quod praecedat notitia dicens et ostendens quid 
+    <lb ed="#U" n="43"/>est bonum et quid volendum ergo illa notitia dirigit voluntatem  
+    <lb ed="#U" n="44"/>Item quod aliquid primo dirigat et non cognoscat absurdum est etiam secundum  
+    <lb ed="#U" n="45"/>eum distinctione 2 quaestione de infirmitate primi principii nisi probat primum  
+    <lb ed="#U" n="46"/>esse cognoscens et per consequens in nulla actione potest esse vo 
+    <lb ed="#U" n="47"/>luntas primum dirigens sed semper praecedit rationem  
+    <lb ed="#U" n="48"/>dirigens Item prima rectitudo simpliciter oportet quod sit causa 
+    <cb ed="#U" n="b"/> <!-- 12vb -->
+    <lb ed="#U" n="1"/>vel ratio omnium aliarum rectitudinum sed prima rectitudo simpliciter  
+    <lb ed="#U" n="2"/>est in intellectu ergo etc Maior patet minor probatur quia voluntas  
+    <lb ed="#U" n="3"/>ut conceditur indiget saltem notitia priori ostendente obiectum  
+    <lb ed="#U" n="4"/>Sed ista notitia ostendit recte antequam voluntas velit quia non 
+    <lb ed="#U" n="5"/>ostendit nisi quod ostendendum est ergo prior est rectitudo in ostensione intellectus  
+    <lb ed="#U" n="6"/>quam in volitione ergo etc
+  </p>
+  <p>
+    Sexto decimo in responsione primum  
+    <lb ed="#U" n="7"/>principalem dicit quod fides non est habitus speculativus contra obiectum  
+    <lb ed="#U" n="8"/>fidei est prima veritas sed prima veritas non est veritas comparata  
+    <lb ed="#U" n="9"/>sed absoluta quae omne comparatum praesupponat absolutum et per 
+    <lb ed="#U" n="10"/>consequens prima veritas non est conformiter se habens appetitui  
+    <lb ed="#U" n="11"/>inquantum prima est ergo etc Modo dicitur ibidem quod visio non est spe<lb ed="#U" n="12"/>culatio 
+    Istud non videtur verum secundum eum quia praxis est in  
+    <lb ed="#U" n="13"/>potestate operantis sed nec visio nec fruitio est in potestate ergo  
+    <lb ed="#U" n="14"/>neutra est praxis vel practica Contra istud potest argui ex  
+    <lb ed="#U" n="15"/>hiis quae supra fuerunt accepta ad probandum quod de deo  
+    <lb ed="#U" n="16"/>sit scientia speculativa et prima notitia sit speculativa
+  </p>
+  <!-- missing 17 -->
+  <p>
+    decimo  
+    <lb ed="#U" n="17"/>octavo in responsione ad 2m principalem imponit probatio quod ipse  
+    <lb ed="#U" n="18"/>non ponit aliquam scientiam conformem praxi voluntatis  
+    <lb ed="#U" n="19"/>circa finem quod est expresse contra <ref><name ref="#Aristotle">philosophum</name> primo <title>ethicorum</title></ref> ubi  
+    <lb ed="#U" n="20"/>tractat de fine ultimo excludens diversos errores  
+    <lb ed="#U" n="21"/>circa finem ultimum et per consequens cum illa scientia sit practica  
+    <lb ed="#U" n="22"/>habetur a <name ref="#Aristotle">philosopho</name> oppositum illius quod sibi imponitur et similiter  
+    <lb ed="#U" n="23"/>inquirit ad quam pertinet consideratio sumi boni  
+    <lb ed="#U" n="24"/>simpliciter et vult quod ad politiam pertineat et non  
+    <lb ed="#U" n="25"/>ad methaphysicam vel alium speculativum ergo etc non potest  
+    <lb ed="#U" n="26"/>dici quod ipse non ponit finem ultimum deum quia certum est  
+    <lb ed="#U" n="27"/>quod in <ref>4o <title>ethicorum</title></ref> ipse vult quod speculatio nobilissimi  
+    <lb ed="#U" n="28"/>obiecti sit felicitas nobilissimum obiectum est deus ergo de 
+    <lb ed="#U" n="29"/>deo ut est felicitatis obiectum et finis ultimus potest  
+    <lb ed="#U" n="30"/>scientiam practicam sed deceptus est doctor iste quia est philosophus  
+    <lb ed="#U" n="31"/>posuit finem ultimum in speculatione ideo credidit quod respec<lb ed="#U" n="32"/>tu 
+    illius esset notitia speculativa sic patet in dubitationibus  
+    <lb ed="#U" n="33"/>quas movet de philosopho sed hoc nihil est quia est sapientia et  
+    <lb ed="#U" n="34"/>scientia intellectus et est pars animae speculativa pertinet aut  
+    <lb ed="#U" n="35"/>considerationem practicam sicut patet in <ref>6 <title>ethicorum</title></ref> m?on? 
+    <lb ed="#U" n="36"/>sunt virtutes vel principia initii virtutum humanarum  
+    <lb ed="#U" n="37"/>et eodem modo speculatio inquantum actus est humanus  
+    <lb ed="#U" n="38"/>pertinet ad practicam notitiam tamquam valet obiectum  
+    <lb ed="#U" n="39"/>talis notitiae et non tamquam actus elicitus a tali  
+    <lb ed="#U" n="40"/>notitia decimo non idem imponit <name ref="#Aristotle">philosopho</name> quod non posuit  
+    <lb ed="#U" n="41"/>praxim aliquam voluntatis circa finem ultimum cuius oppositum  
+    <lb ed="#U" n="42"/>patet quia respectu finis ultimi philosophus ponit voluntatem  
+    <lb ed="#U" n="43"/>posse errare sicut patet ex <ref>primo <title>ethicorum</title></ref> et per consequens  
+    <lb ed="#U" n="44"/>requiritur notitia directiva respectu illius et similiter  
+    <lb ed="#U" n="45"/>appetitum finis ultimi per consequens posuit in potestate  
+    <lb ed="#U" n="46"/>nostra ergo respectu eius posuit praxim secundum descriptionem positam  
+    <lb ed="#U" n="47"/>quaestione praecedente patet ergo quod male imponit philosopho ibidem  
+    <lb ed="#U" n="48"/>in hoc quod si possuisset talem praxim non negasset 
+    <pb ed="#U" n="13-r"/>
+    <cb ed="#U" n="a"/>
+    <lb ed="#U" n="1"/>aliquam scientiam practicam nobiliorem omni speculativa quia ut patet  
+    <lb ed="#U" n="2"/>philosophus unum posuit et alterum negavit
+  </p>
+  <p>
+    Vicesimo in respon<lb ed="#U" n="3"/>sione 
+    ad primam probationem philosophi de scientia speculativa quod sit  
+    <lb ed="#U" n="4"/>nobilior dicit insufficienter dicit enim quod illa quae est gratia  
+    <lb ed="#U" n="5"/>alicuius actus nobilioris se hoc nihil est secundum eum quia nihil  
+    <lb ed="#U" n="6"/>et gratia alicuius ignobilioris se sed unumquodque ordinatur  
+    <lb ed="#U" n="7"/>ad aliquid perfectius se et hoc praecise secundum istum quid quaestione praecedente  
+    <lb ed="#U" n="8"/>negavit scientiam practicam ordinari ad praxim tamquam ad  
+    <lb ed="#U" n="9"/>finem quia aliquando praxis est ignobilior scientia practica Item dicit 
+    <lb ed="#U" n="10"/>ibidem in responsione ad secundam probationem philosophi quod philosophos non  
+    <lb ed="#U" n="11"/>posuit illud quod est summe cognoscibile esse operabile hoc autem  
+    <lb ed="#U" n="12"/>attingibile per operationem quae sit praxis huius oppositum  
+    <lb ed="#U" n="13"/>probatum est
+  </p>
+  <!-- is this 21 -->
+  <p>
+    Item iste doctor ponit quod respectu dilectionis dei  
+    <lb ed="#U" n="14"/>non solum inclinat caritas sed et habitus acquisitus qui est  
+    <lb ed="#U" n="15"/>virtus mirabilis autem est quod est quo iste docto ad virtutem ac<lb ed="#U" n="16"/>quisitam 
+    pervenit ratione naturali ad quam tantus philosophus non pervenis 
+    <lb ed="#U" n="17"/>set
+  </p>
+  <!-- is this 21 -->
+  <p>
+    Item si pervenisset ponatur talis virtus oportet ponere  
+    <lb ed="#U" n="18"/>sibi correspondente et per consequens illa notitia erit directiva in praxi quae est  
+    <lb ed="#U" n="19"/>respectu ultimi finis et ita erit nobilior secundum istum quam quaecumque  
+    <lb ed="#U" n="20"/>scientia speculativa quae non videtur
+  </p>
+  <p>
+    Item 22o dicit iste doctor  
+    <lb ed="#U" n="21"/>in responsione ad ultimum principale quod ista scientia quaesita propter fu<lb ed="#U" n="22"/>gam 
+    ignorantiae
+  </p>
+  <p>
+    Contra istud inter omnia peccata peccatum  
+    <lb ed="#U" n="23"/>infidelitatis est maximum et per consequens magis obligatur  
+    <lb ed="#U" n="24"/>hoc ad credendum et cognoscendum et per consequens quam ad dili<lb ed="#U" n="25"/>gendum 
+    et per consequens maxime est ista scientia neccessaria propter fugam  
+    <lb ed="#U" n="26"/>ignorantiae et incredulitatis ergo multa sunt alia contra quae  
+    <lb ed="#U" n="27"/>posset argui sed ista sufficiant quo ad praesens
+  </p>
+  <!-- new question -->
+  <p>
+    <lb ed="#U" n="28"/>In ista quaestione teneo quod theologia neccessariorum est formaliter 
+    <lb ed="#U" n="29"/>et simpliciter speculativa virtualiter sint plures et secundum quid  
+    <lb ed="#U" n="30"/>posset dici plures pro rationibus tamen factis sciendum est quod pars  
+    <lb ed="#U" n="31"/>alicuius rei potest considerari dupliciter uno modo inquantum  
+    <lb ed="#U" n="32"/>est pars participans esse et formam totius et alio mod  
+    <lb ed="#U" n="33"/>quantum ad illud quod est in se et separabile a toto et sed  
+    <lb ed="#U" n="34"/>hoc alicui posset in esse quae opposita sicut pes hominis inquan<lb ed="#U" n="35"/>tum 
+    est pars reducitur ad speciem animal rationalem inquantum tamen  
+    <lb ed="#U" n="36"/>est quaedam res in se plus habet de irrationali quam rationali et  
+    <lb ed="#U" n="37"/>papa bene dicitur quod pars separata a toto est quaestio aequivoce illud  
+    <lb ed="#U" n="38"/>quod fuit dum est in toto ita in proposito quia multae sunt  
+    <lb ed="#U" n="39"/>conclusiones sacra scriptura quae si considerentur ut quaedam pars  
+    <lb ed="#U" n="40"/>sacrae scripturae est habitus theologici participantes formam  
+    <lb ed="#U" n="41"/>habet etiam rationem formalem obiecti primi speculative sunt quia  
+    <lb ed="#U" n="42"/>formalis ratio subiecti est mere speculabilis si tamen considerentur quantum  
+    <lb ed="#U" n="43"/>ad illud quod in se sunt et ut sunt considerabilia seorsum  
+    <lb ed="#U" n="44"/>a sacra scriptura sunt mere practicae et sicut est de conclusionibus ita  
+    <lb ed="#U" n="45"/>etiam est de principiis nec solum est hoc primum in theologia sed etiam in  
+    <lb ed="#U" n="46"/>aliis humanitus inventis quia nulla est ita practica quin  
+    <lb ed="#U" n="47"/>utatur principiis quae si in se considerentur absolute erunt speculativa  
+    <lb ed="#U" n="48"/>cuius modi sunt diffinitiones et alia multa prout tamen ac<cb ed="#U" n="b"/><!-- 13rb --><lb ed="#U" n="1"/>cipiuntur 
+    in sillogismo practico cum aliquo principio mere practico  
+    <lb ed="#U" n="2"/>respectu conclusionis practicae reducitur ad genus practici
+  </p>
+  <p>
+    <lb ed="#U" n="3"/>Ad rationem ergo 6 opinionis quae probavit istam scientiam esse  
+    <lb ed="#U" n="4"/>plures dico quod ista scientia non tractat de operationibus  
+    <lb ed="#U" n="5"/>distinctuis quam eorum cognitio requirit ad speculationem  
+    <lb ed="#U" n="6"/>quia ex omnibus illis manifestantur de deo vel sua iustitia  
+    <lb ed="#U" n="7"/>vel sua misericordia vel sua potentia et sic aliis attributis quae cognoscere 
+    <lb ed="#U" n="8"/>pertinet ad speculationem perfectam de deo unde quamvis  
+    <lb ed="#U" n="9"/>nulla sunt quae in se considerata videantur mere practica  
+    <lb ed="#U" n="10"/>ut tamen in sacra scriptura tractantur speculativa sunt et ad  
+    <lb ed="#U" n="11"/>speculationem ordinantur sic et philosophos in libro praedicatur quod  
+    <lb ed="#U" n="12"/>paruus paulative per exercitum deducitur ut sit melior  
+    <lb ed="#U" n="13"/>quod in se consideratum est mere practicum et moralis tamen  
+    <lb ed="#U" n="14"/>ut philosophus eo ibi utitur reducitur ad genus speculativi
+  </p>
+  <p>
+    Ad  
+    <lb ed="#U" n="15"/>primam rationem positionis huius doctoris dico quod non sufficit  
+    <lb ed="#U" n="16"/>quod subiectum primum virtualiter contineat praxim vel rectitudinem praxis  
+    <lb ed="#U" n="17"/>Sed oportet adhuc quod scientia sit practica informali ratione subiecti forma  
+    <lb ed="#U" n="18"/>liter continetur praxis ita quod formaliter includat rationem  
+    <lb ed="#U" n="19"/>praxis sicut si corpus ponitur subiectum medicinae tamen corpus hominis  
+    <lb ed="#U" n="20"/>inquantum corpus non est subiectum sed inquantum sanabilis solum a natura  
+    <lb ed="#U" n="21"/>pertinet nec inquantum sanabile absolute sed inquantum sanabilis  
+    <lb ed="#U" n="22"/>solum a natura pertinet ad considerationem naturalis et ita per consequens in 
+    <lb ed="#U" n="23"/>formalibus ratione subiecti includitur formaliter ratio operabilis et practici  
+    <lb ed="#U" n="24"/>et eodem modo si theologia deberet esse practica quia subiectum est deus qui est  
+    <lb ed="#U" n="25"/>diligibilis vel attingibilis per operationem nostram deus inquantum  
+    <lb ed="#U" n="26"/>sit diligibilis vel operabilis esset subiectum quod ipse non potest
+  </p>
+  <p>
+    <pc type="#pilcrow"/> Ad  
+    <lb ed="#U" n="27"/>aliam rationem quod hoc non determinatur de deo principaliter sub  
+    <lb ed="#U" n="28"/>ratione finis nisi coaccidetur respectus finis numquam conclu<lb ed="#U" n="29"/>duntur 
+    ea quae sunt ad finem non enim sequitur sanitas est commen<lb ed="#U" n="30"/>suratio 
+    humorum ergo oportet dare commensurantem medicinam  
+    <lb ed="#U" n="31"/>humores quia sine detur sive non detur semper sanitas  
+    <lb ed="#U" n="32"/>est commensuratio sed si cum hoc accipitur quod sanitas debet acquiri 
+    <lb ed="#U" n="33"/>arte medicinae statim sequitur quod medicina est danda
+  </p>
+  <p>
+    <lb ed="#U" n="34"/>Ad rationes principaliter contra dicta
+  </p>
+  <p>
+    Ad auctoritatem apostoli quod lex  
+    <lb ed="#U" n="35"/>importat directionem in operando ideo theologia vocatur lex inquan<lb ed="#U" n="36"/>tum 
+    habet dirigere in operationibus nostris habet autem dirigere inquan<lb ed="#U" n="37"/>tum 
+    est practica virtus et ut sit finis eius est dilectio  
+    <lb ed="#U" n="38"/>per hoc patet ad auctoritatem aliam
+  </p>
+  <p>
+    Ad <name ref="#Augustine">Augustini</name> auctoritatem  
+    <lb ed="#U" n="39"/>dico quod sicut intellectus et voluntas habent obiecta adaequata  
+    <lb ed="#U" n="40"/>secundum supposita ratione cuius iste potentiae mutuo se inclu<lb ed="#U" n="41"/>dunt 
+    ita quod intellectus  habet operationem respectu omnis volubilis  
+    <lb ed="#U" n="42"/>et voluntatis respectu omnis intelligibilis ita et theologia  
+    <lb ed="#U" n="43"/>et caritas propter suam minimam latitudinem quia est la 
+    <lb ed="#U" n="44"/>tum mandatum nimis mutuo se includunt ita et nihil sit  
+    <lb ed="#U" n="45"/>diligendum vel respuendum ex caritate cuius notitia non  
+    <lb ed="#U" n="46"/>habeatur in theologia nec aliquid est in sacra scriptura de quo non  
+    <lb ed="#U" n="47"/>in sacra scriptura tractetur utrum sit diligendum ex caritate  
+    <lb ed="#U" n="48"/>vel respuendum et si diligendum utrum sit eo utendum 
+    <!--13v.xml-->
+    <pb ed="#U" n="13-v"/>
+    <cb ed="#U" n="a"/>
+    <lb ed="#U" n="1"/>vel fruendum Ideo quitquit latet et quitquit patet in sacra scrip 
+    <lb ed="#U" n="2"/>tura dicitur esse caritas secundum augustinum eodem modo dicit augustini de  
+    <lb ed="#U" n="3"/>cognitione sicut fuit allegatum ad primam opynionem quod omnia opera  
+    <lb ed="#U" n="4"/>vera ut mundetur oculus quo videatur deus vel ut dicit augustinus  
+    <lb ed="#U" n="5"/>quia ex quolibet tradito in sacra scriptura consurgere debemus ad di 
+    <lb ed="#U" n="6"/>ligendum deum ex caritate
+  </p>
+        
+     
+        
+      </div>
+    </body>
+  </text>
+</TEI>

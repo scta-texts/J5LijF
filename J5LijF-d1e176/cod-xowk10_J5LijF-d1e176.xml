@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus, Quaestio 10 [Urb lat 120 Transcription]</title>
+        <author>Thomas Sutton</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Prologus, Quaestio 10 [Urb lat 120 Transcription]</title>
+          <date when="2019-03-02">March 02, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U" n="cod-xowk10">Vatican, Urb. Lat. 120</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#U" n="13-v"/>
+        <cb ed="#U" n="a"/>
+        <lb ed="#U" n="7"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="J5LijF-d1e176">
+        <head>Quaestio 10 [Urb lat 120 Transcription]</head>
+        <p>
+          <lb ed="#U" n="7"/>Utrum theologia quae est de veritatibus contingentibus sit spe 
+          <lb ed="#U" n="8"/>culativa
+        </p>
+        <p>
+          videtur quod sic quia secundum <ref><name>boethium</name> <title>de trinitate</title> 3</ref> sunt  
+          <lb ed="#U" n="9"/>scientiae speculativae quarum una est theologia secundum eum et loquitur 
+          <lb ed="#U" n="10"/>de ista ut videtur quia subdit ibidem de subiecto illius quod  
+          <lb ed="#U" n="11"/>est subiectum est subiecta prima de qua dicitur quia subiecta dei materia caret ergo etc
+        </p>
+        <p>
+          <lb ed="#U" n="12"/>Contra obiectum istius scientiae est neccessarium puta deus ergo non est theologia  
+          <lb ed="#U" n="13"/>aliqua contingens ergo etc
+        </p>
+        <p>
+          Circa istam quaestionem primo videndum  
+          <lb ed="#U" n="14"/>est qualis est theologia contingentium per comparationem ad intellectum divinum  
+          <lb ed="#U" n="15"/>vel nostrum et 2o qualis est in se 
+        </p>
+        <p>
+          Quantum ad primum dico quod tantum  
+          <lb ed="#U" n="16"/>et in illo theologia potest esse practica qui potest habere determinatam no<lb ed="#U" n="17"/>titiam 
+          rectitudinis praxis ante praxim elicitam quia solum  
+          <lb ed="#U" n="18"/>ibi potest theologia esse conformis praxi et prior ea In intellectu  
+          <lb ed="#U" n="19"/>autem creato certum est quod sic est quia voluntas creata non determinat  
+          <lb ed="#U" n="20"/>rectitudinem primo alicui praxi et per consequens in intellectu creato  
+          <lb ed="#U" n="21"/>omni potest esse practica Istud tamen est sic intelligendum non quod ipsa  
+          <lb ed="#U" n="22"/>ex obiecto vel ipsa ex se sit practica sed solum per accidens quia potest  
+          <lb ed="#U" n="23"/>esse conformis praxi et prior eam tali intellectu Comparatio  
+          <lb ed="#U" n="24"/>autem theologiam istam ad intellectum divinum potest dici diversimode 
+          <lb ed="#U" n="25"/>secundum quod diversa possunt supponi quia si supponantur ista duo  
+          <lb ed="#U" n="26"/>valet quod cognitio practica et operatio respectu cuius dicitur practica de 
+          <lb ed="#U" n="27"/>beant esse eiusdem suppositi 
+          
+          Et quod in deo non sit praxis  
+          <lb ed="#U" n="28"/>aliqua nisi velle tunc theologia ista per comparationem ad in<lb ed="#U" n="29"/>tellectum 
+          divinum est speculativa quia certum est quod velle dei respectu  
+          <lb ed="#U" n="30"/>talium contingentium determinat rectitudinem eis ante notitiam  
+          <lb ed="#U" n="31"/>de rectitudine eorum et ita notitia reis conformis non  
+          <lb ed="#U" n="32"/>est prior praxi sed econverso et per consequens ipsa non est practica Sed sup<lb ed="#U" n="33"/>ponendo 
+          quod notitia practica est operatio seu praxis possunt esse  
+          <lb ed="#U" n="34"/>alterius supposit tunc notitia talium in intellectu divino  
+          <lb ed="#U" n="35"/>potest esse practica quia erit conformis rectae operationi creaturae  
+          <lb ed="#U" n="36"/>et prior rectitudine illius 
+          
+          Similiter supponendo quod in deo  
+          <lb ed="#U" n="37"/>sit alia praxis quam velle posterior ipso adhuc est practica  
+          <lb ed="#U" n="38"/>quia poterit esse conformis rectitudinis illius praxis et  
+          <lb ed="#U" n="39"/>prior ea sicut ponendo quod creare sit praxis distincta a volitione  
+          <lb ed="#U" n="40"/>tunc intellectus dei non prius novit aliquid esse creandum quam  
+          <lb ed="#U" n="41"/>sua voluntas haec velit tamen prius novit ipsum esse creandum  
+          <lb ed="#U" n="42"/>quam cret 
+          
+          Sed de primo supposito est dubium utrum  
+          <lb ed="#U" n="43"/>videlicet notitia practica et praxim sunt eiusdem suppositi 
+          
+          si  
+          <lb ed="#U" n="44"/>enim dicatur quod non Contra quia tunc sequetur quod cognitio  
+          <lb ed="#U" n="45"/>nostra respectu huius quod est deum creare mundum vel intelligentiam  
+          <lb ed="#U" n="46"/>movere caelum erit practica consequens falsum 
+          
+          Et si dicatur quod verum  
+          <lb ed="#U" n="47"/>est quod notitia intellectus inferioris de praxi superioris non est  
+          <lb ed="#U" n="48"/>practica quamvis notitia intellectus superioris vel aequalis aut facit  
+          <cb ed="#U" n="b"/> <!-- 13vb -->
+          <lb ed="#U" n="1"/>aliquid ad praxim alterius vel non Si non ergo non est  
+          <lb ed="#U" n="2"/>maior ratio quare intellectus superioris vel aequalis notitia erit  
+          <lb ed="#U" n="3"/>practica quam notitia intellectus inferior ex quo non plus fa<lb ed="#U" n="4"/>ciunt 
+          ad praxim quam intellectus inferior Si autem plus fa<lb ed="#U" n="5"/>ciunt 
+          ad praxim superior alterius vel aequalis habet propriam factionem  
+          <lb ed="#U" n="6"/>seu praxim respectu cuius talis cognitio est practica et non  
+          <lb ed="#U" n="7"/>solum respectu praxi alterius si cognitio alterius habet causalitatem  
+          <lb ed="#U" n="8"/>respectu praxis ad quam extenditur et non habet talem causalitatem primo  
+          <lb ed="#U" n="9"/>nisi respectu praxis quae sit in intelligente habente propositum 
+          
+          Si  
+          <lb ed="#U" n="10"/>dicatur quod cognitio et praxis sunt semper eiusdem supponit contra  
+          <lb ed="#U" n="11"/>tunc de eodem haberet unus intellectus notitiam speculativam  
+          <lb ed="#U" n="12"/>et alius practicam 
+        </p>
+        <p>
+          Ad istud ergo potest dici quod perfecta beatitudo  
+          <lb ed="#U" n="13"/>praxis includit circumstantiam operantis ita quod sine illa  
+          <lb ed="#U" n="14"/>non est rectitudo puta si accipiatur deus est amandus nisi  
+          <lb ed="#U" n="15"/>dicatur a quo puta a voluntate non est verum illud per<lb ed="#U" n="16"/>fecte 
+          practicum quia deus a bruto non est amandus sed istud  
+          <lb ed="#U" n="17"/>amandus a deo est practicum complete in omni intellectu  
+          <lb ed="#U" n="18"/>et istud et homini est iuvinandum est complete practicum omni intellectui 
+          <lb ed="#U" n="19"/>creato et increato ita et hic angelo caelum est movendum et ita  
+          <lb ed="#U" n="20"/>de aliis huius et ita consequens illud est concedendum
+        </p> 
+        <p>
+          Ad  
+          <lb ed="#U" n="21"/>aliam obiectionem quod si notitia practica sit causa praxis hoc est  
+          <lb ed="#U" n="22"/>in eodem intelligente et operante et non in alio nec tamen propter hoc 
+          <lb ed="#U" n="23"/>oportet quod in alio sit notitia practica Qui autem sic respondet habet  
+          <lb ed="#U" n="24"/>concedere omnes veritates de praxibus agentium causatorum  
+          <lb ed="#U" n="25"/>sive sunt neccessariae sive contingentes cognosci practice a quocumque  
+          <lb ed="#U" n="26"/>intellectu qui omnes prius natae sunt determinare rec<lb ed="#U" n="27"/>titudinem 
+          praxium quam ipse praxes eliciantur Omnes autem  
+          <lb ed="#U" n="28"/>veritates de velle dei divino neccessariae sunt praticae contin<lb ed="#U" n="29"/>gentes 
+          autem non quia ante illam praxim elicitam non habent  
+          <lb ed="#U" n="30"/>conformitatem sicut deus practice congnoscit quod homini sit pe<lb ed="#U" n="31"/>nitendum 
+          sed non congnoscit practice quod deo sit volendum 
+          <lb ed="#U" n="32"/>hominem penitere
+        </p>
+        <p>
+          2o iudendum est qualis est ista theologia in se
+          <lb ed="#U" n="33"/>et potest dici quod talis est in se qualis est ex obiecto Ex obiecto autem  
+          <lb ed="#U" n="34"/>nulla nata est haberi notitia determinativa rectitudinis contingen 
+          <lb ed="#U" n="35"/>tis ideo ex obiecto non est practica et per consequens est speculativa  
+          <lb ed="#U" n="36"/>hoc idem quia talis est unaquaeque res in se qualis est in perfecto 
+          <lb ed="#U" n="37"/>generetur primo non in imperfecto Sed ista notitia in intellectu  
+          <lb ed="#U" n="38"/>divino non est practica sed speculativa ergo etc
+        </p>
+        <p>
+          Sed contra istud  
+          <lb ed="#U" n="39"/>quia ex dictis sequitur quod notitia ista est uni intellectui  
+          <lb ed="#U" n="40"/>speculativa et alteri practica ergo practicum non repugnat speculativo  
+          <lb ed="#U" n="41"/>dicendum quod esse speculativum ex obiecto est esse per se speculativum  
+          <lb ed="#U" n="42"/>et similiter esse practicum ex obiecto sufficienter determinante  
+          <lb ed="#U" n="43"/>intellectum ad notitiam rectitudinis ante omneem volitionem suf<lb ed="#U" n="44"/>ficienter 
+          est per se practicum et sic opponuntur ista duo speculativum  
+          <lb ed="#U" n="45"/>et practicum sicut ista non extensibilis ad praxim et esse extensibile  
+          <lb ed="#U" n="46"/>ad praxim 
+        </p>
+        <p>
+          Sed esse practicum aliunde quam ab obiecto puta a causa  
+          <lb ed="#U" n="47"/>extrinseca et a voluntate deti?de rectitudinem praxi est  
+          <lb ed="#U" n="48"/>esse accidentaliter practicum et ideo theologia ista est nobis practica  
+          <!--14r.xml-->
+          <pb ed="#U" n="14-r"/>
+          <cb ed="#U" n="a"/>
+          <lb ed="#U" n="1"/>quamvis in se sit speculativa et est speculativa per se quamvis sit prac<lb ed="#U" n="2"/>tica 
+          per accidens et hoc est intelligendum sic quod li per se et 
+          <lb ed="#U" n="3"/>per accidens determinant ipsum speculativum vel practicum et non ipsam  
+          <lb ed="#U" n="4"/>inhaerentiam scilicet ly est unde sic dico theologia ista est practica per accidens  
+          <lb ed="#U" n="5"/>hoc per accidens determinat ly practica et non ly est Alioquin esset  
+          <lb ed="#U" n="6"/>locutio falsa quia ex quo isti scientiae contingit per se esse speculativam  
+          <lb ed="#U" n="7"/>esse practicam non conveniet sibi per se sed esse practicum per accidens conveniet  
+          <lb ed="#U" n="8"/>sibi esse ante speculativum per se et practicum per accidens non  
+          <lb ed="#U" n="9"/>sunt opposita
+        </p>
+        <p>
+          Ad primum principalem quod <name>boethius</name> per theologiam  
+          <lb ed="#U" n="10"/>intelligit metaphysicam et quod dicit scientiam dei esse ibi subiectum  
+          <lb ed="#U" n="11"/>dicendum quod non simpliciter sed quantum nata est cognsoci  
+          <lb ed="#U" n="12"/>per scientias acquisitas Ista responsio non est contradicta in ista quaestione  
+          <lb ed="#U" n="13"/>sed magis contra dicta alia
+        </p>
+        <p>
+          Ad rationem in oppositum quod  
+          <lb ed="#U" n="14"/>contingens circa quod est scientia practica est finis vellens ad  
+          <lb ed="#U" n="15"/>finem in agibilibus autem finis ultimus est actio et per consequens  
+          <lb ed="#U" n="16"/>contingentia actionis sufficit ad obiectum scientiae practicae Contra  
+          <lb ed="#U" n="17"/>scientia est neccessariorum ergo circa contingentia non est scientia Item  
+          <lb ed="#U" n="18"/>si theologia est circa contingens agibile ergo est habitus activus  
+          <lb ed="#U" n="19"/>cum ratione vera sed haec est diffinitio prudentiae per philosophum  
+          <lb ed="#U" n="20"/><ref>6 <title>ethicorum</title></ref> ergo theologia est prudentia
+        </p>
+        <p>
+          Ad primum quod de contingentibus  
+          <lb ed="#U" n="21"/>sunt multae veritates neccessariae et ita neccessaria est neccessria causa de  
+          <lb ed="#U" n="22"/>contingente
+        </p>
+        <p>
+          Ad auctoritatem philosophi de diffinitione prudentiae  
+          <lb ed="#U" n="23"/>quod debet intelligi de habitu activo proximo qualis acquiritur  
+          <lb ed="#U" n="24"/>ex actibus unde sicut ars circa scibilia se habet ad habitum experimenti  
+          <lb ed="#U" n="25"/>ita circa agibilia se habet moralis scientia ad habi<lb ed="#U" n="26"/>tum 
+          prudentiae Ars enim et scientia sunt remote dirigens  
+          <lb ed="#U" n="27"/>quia universales sed habitus prudentiae et experimenti quia generati sunt  
+          <lb ed="#U" n="28"/>ex actibus sunt magis particulares et propinqui ad diri<lb ed="#U" n="29"/>gendum 
+          sicut aut est de morali scientia ita est etiam de theologia con<lb ed="#U" n="30"/>tingentium
+        </p>
+        <p>
+          <pc type="#pilcrow"/>In ista quaestione sunt multa minus probabiliter  
+          <lb ed="#U" n="31"/>dicta. Quod enim dicit primo quod velle dei determinat rectitudinem  
+          <lb ed="#U" n="32"/>contingentium ante notitiam directive eorum non videtur  
+          <lb ed="#U" n="33"/>bene dictum quod sicut fuit probatum contra dicta quaestionis praecedentis  
+          <lb ed="#U" n="34"/>voluntatis non potest esse primum rectificans vel dirigens  
+          <lb ed="#U" n="35"/>prout voluntas distinguitur ab intellectu in nullo agente  
+          <lb ed="#U" n="36"/>ergo etc
+        </p>
+        <p>
+          Item quod 2o dicit de theologia per operatione ad intellectum  
+          <lb ed="#U" n="37"/>divinum suppositis quibusdam vel eorum oppositis imperti?ter 
+          <lb ed="#U" n="38"/>et male dicitur quia supponere quod in deo non sit praxis  
+          <lb ed="#U" n="39"/>distincta a velle secundum rationem per quem modum et velle  
+          <lb ed="#U" n="40"/>et intelligere distinguuntur est supponere manifestum falsum et  
+          <lb ed="#U" n="41"/>ita dicere ad quaestionem illo supposito nihil est autem si manifestum  
+          <lb ed="#U" n="42"/>falsum quia creare est alia operatio quam velle cum velle sit tantum  
+          <lb ed="#U" n="43"/>operatio immanens creare autem sit operatio transiens ergo etc
+        </p>
+        <p>
+          Item  
+          <lb ed="#U" n="44"/>si supposito quod in deo sit alia praxis ab ipso velle debet  
+          <lb ed="#U" n="45"/>poni quod theologia ista sit practica tamen hoc suppositum sit  
+          <lb ed="#U" n="46"/>verum oportet neccessario quod theologia ista in intellectu sit practica  
+          <lb ed="#U" n="47"/>sed tunc arguo cum imperfectissimo intellectu oporteat ponere  
+          <lb ed="#U" n="48"/>istam theologiam practicam sequitur quod in se est practica cuius 
+          <cb ed="#U" n="b"/> <!-- 14rb -->
+          <lb ed="#U" n="1"/>oppositum ipse dicit
+        </p>
+        <p>
+          3o quia dicit quod ista caelum est crean<lb ed="#U" n="2"/>dum 
+          et angelo caelum est movendum et omnis veritas  
+          <lb ed="#U" n="3"/>generaliter de praxis agentium creatorum sunt  
+          <lb ed="#U" n="4"/>omni intellectui videtur mihi male dictum quia secundum hoc coni<lb ed="#U" n="5"/>deratio 
+          de motibus caelestibus pertineret ad scientiam practicam  
+          <lb ed="#U" n="6"/>et non ad metaphysicam vel physicam cuius oppositum patet  
+          <lb ed="#U" n="7"/>per philosophos omnes qui de illis tractaverunt
+        </p>
+        <p>
+          Item <ref><name>avicenna</name> primo 
+            <lb ed="#U" n="8"/><title>metaphysicae</title></ref> distinguens inter scientiam neccessariam speculativam  
+          <lb ed="#U" n="9"/>et practicam dicit quod practica est de rebus quae sunt nostra opera 
+          <lb ed="#U" n="10"/>sed operationes dei vel angeli non sunt opera ergo etc Quarto  
+          <lb ed="#U" n="11"/>quod dicit quod omnes veritates neccessariae de velle divino sunt  
+          <lb ed="#U" n="12"/>practicae et contingentes sunt speculativae et perverse dictum  
+          <lb ed="#U" n="13"/>cum speculativum et practicum distinguuntur penes con 
+          <lb ed="#U" n="14"/>tingens et neccessariam sic quod neccessariam pertinens ad specula<lb ed="#U" n="15"/>tivum 
+          et contingens ad practicum Ipse autem ponit  
+          <lb ed="#U" n="16"/>econtrario et ita non videtur nisi pervertere significatum voluntabili
+        </p>
+        <p>
+          <lb ed="#U" n="17"/>Quinto dicit quod theologia contingentium in se et ex obiecto est  
+          <lb ed="#U" n="18"/>speculativa in quo videtur sibi ipsis contradicere quia ipse ponit quaesetione  
+          <lb ed="#U" n="19"/>praecedente quod theologia respectu utriusque est tantum una fides  
+          <lb ed="#U" n="20"/>scientia ipsa et ponit ibidem quod theologia neccessariorum in se est  
+          <lb ed="#U" n="21"/>practica et ipse et ponit in ista quaestione quod speculativum  
+          <lb ed="#U" n="22"/>practicum opponuntur nec possunt eidem competere ergo  
+          <lb ed="#U" n="23"/>manifestere contradicit sibi ipsi
+        </p>
+        <p>
+          Item supra quaestione de subiecto theologiae ipse po 
+          <lb ed="#U" n="24"/>suit idem esse subiectum neccessariae et contingentis cum ergo ex opposito  
+          <lb ed="#U" n="25"/>ponam ponat ipsam scientiam esse ex se practicam vel specula<lb ed="#U" n="26"/>tivam 
+          impossibile est quod theologia sit practica nisi alia sit speculativa
+        </p>
+        <p>
+          <lb ed="#U" n="27"/>In ista quaestione et similiter praecedenti diversificat de theologia in se  
+          <lb ed="#U" n="28"/>et de theologia ut in intellectu divino cum tamen supra quaestione 2 dicat quod  
+          <lb ed="#U" n="29"/>cognitio quaelibet in se est illa quae nata est haberi de sancto eius  
+          <lb ed="#U" n="30"/>secundum quod natum est manifestare se intellectum proportionato Sed  
+          <lb ed="#U" n="31"/>intellectus proportionatus theologiae est intellectus divinus ergo non debet 
+          <lb ed="#U" n="32"/>distingui de theologia in se et ut in intellectu divino:  
+          <lb ed="#U" n="33"/>Multa alia possunt obici contra dicta sed ista sufficiant
+        </p>
+        <p>
+          Ex istis  
+          <lb ed="#U" n="34"/>patet quantum doctor iste erravit in prologo et si parvus  
+          <lb ed="#U" n="35"/>error in principio est magnus in fine secundum philosophum sequitur quod  
+          <lb ed="#U" n="36"/>magnus error in principio erit maximus in fine
+        </p>
+        <p>
+          <pc type="virgula">//</pc> In ista  
+          <lb ed="#U" n="37"/>ista quaestione teneo sicut in praecedenti valet quod theologia respectu neccesariorum  
+          <lb ed="#U" n="38"/>et etiam contingentium est unus habitus speculaturus forma 
+          <lb ed="#U" n="39"/>liter virtualiter tamen est practicus et si accipiatur respectu con 
+          <lb ed="#U" n="40"/>tingentium et eset quasi quaedam pars totius habitus reducitur  
+          <lb ed="#U" n="41"/>ad genus habitus speculativi Si tamen consideretur in se  
+          <lb ed="#U" n="42"/>et ut contingentia sunt considerabilia seorsum a ne 
+          <lb ed="#U" n="43"/>cessariis sic theologia contingentium foret practica utrum  
+          <lb ed="#U" n="44"/>voluntas illud quod est uni intellectu speculative sit alteri practicum  
+          <lb ed="#U" n="45"/>dico quod sic quia practicum et speculativum distinguunt  
+          <lb ed="#U" n="46"/>habitum alicuius intellectus penes operabile illie intellectui  
+          <lb ed="#U" n="47"/>et ideo sicut intellectum est aliquid operabile ex natura sua et non  
+          <lb ed="#U" n="48"/>alteri ita aliquid est uni speculabile vel practicum et 
+          <!--14v.xml-->
+          <pb ed="#U" n="14-v"/>
+          <cb ed="#U" n="a"/>
+          <lb ed="#U" n="1"/>et non alteri
+        </p>
+        <p>
+          Ad rationes suas patet ex improbatis et dictis
+        </p>  
+      </div>
+    </body>
+  </text>
+</TEI>

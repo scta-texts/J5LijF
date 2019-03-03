@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1, Prologus, Quaestio 4 [Urb lat 120 Transcription]</title>
+        <author>Thomas Sutton</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1, Prologus, Quaestio 4 [Urb lat 120 Transcription]</title>
+          <date when="2019-03-02">March 02, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="U" n="cod-xowk10">Vatican, Urb. Lat. 120</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#U" n="5-r"/>
+        <cb ed="#U" n="b"/>
+        <lb ed="#U" n="19"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="J5LijF-d1e120">
+        <head xml:id="J5LijF-d1e120-Hd1e102">Quaestio 4 [Urb lat 120 Transcription]</head>
+        
+        <p>
+          <lb ed="#U" n="19"/>Utrum ista scientia sit de deo sub aliqua speciali ratione
+        </p>
+        <p>
+          <lb ed="#U" n="20"/>quod sit quia <name>hugo</name> <title>de sacramentis</title> in principio in primo vult  
+          <lb ed="#U" n="21"/>quod opera restaurationis sunt solum ergo etc
+        </p>
+        <p>
+          Item  
+          <lb ed="#U" n="22"/><ref><name>cassidiodorus</name> super psalmus ultimum</ref> dicit quod solem est caput cum membris  
+          <lb ed="#U" n="23"/>ergo etc
+        </p>
+        <p>
+          Item deus absolute est solum subiectum metaphysicae ergo si est hanc subiectum oportet  
+          <lb ed="#U" n="24"/>quod hoc sit sub ratione speciali antecedens probatur per <ref><name ref="#Aristotle">philosophum</name> vi <title>Metaphysicae</title></ref> qui dicit 
+          <lb ed="#U" n="25"/>quod honoribilissimam scientiam oportet esse circa honorabilissimum genus  
+          <lb ed="#U" n="26"/>sed metaphysica secundum eum est honorabilissima ergo etc hoc et confirmatur  
+          <lb ed="#U" n="27"/>quia ibi vocat methaphysicam theologiam
+        </p>
+        <p>
+          Item <ref>ac?or primo <title>physicorum</title> commento  
+            <lb ed="#U" n="28"/>penultimo</ref> dicit quod <name>avicenna</name> multum peccavit ponendo metaphysica probare  
+          <lb ed="#U" n="29"/>primam causam esse cum genus substantiarum separatarum sit ibi subiectum et nulla  
+          <lb ed="#U" n="30"/>scientia probat suum subiectum esse sed ista ratio non valeret nisi poneret  
+          <lb ed="#U" n="31"/>deum esse subiectum primum ergo etc
+        </p>
+        <p>
+          Item ista scientia est nobilissima ergo est  
+          <lb ed="#U" n="32"/>de subiecto nobilissimo sub ratione nobilissima huius ratio est ratio boni  
+          <lb ed="#U" n="33"/>et finis et de fine prolatus per <ref><name>avicennam</name> 6 <title>metaphysicae</title></ref> qui dicit quod  
+          <lb ed="#U" n="34"/>scientia esset de omnibus causis quae esset de fine esse nobilissimam 
+          <lb ed="#U" n="35"/>et ex hoc concluditur idem de bono quia secundum <name ref="#Aristotle">philosophum</name> et metaphysicae qui ponit  
+          <lb ed="#U" n="36"/>infirmitatem in finibus destruit naturam boni quod destruit naturam  
+          <lb ed="#U" n="37"/>finis ex hoc sequitur quod ratio boni est ratio finis ergo etc
+        </p>
+        <p>
+          <pc type="#pilcrow"/>Ad oppositum cognitio  
+          <lb ed="#U" n="38"/>contracta praesupponit cognitionem absolutam ergo si ista est de  
+          <lb ed="#U" n="39"/>deo sub ratione speciali erit prior alia consequens est falsum ergo etc
+        </p>
+        <p>
+          <lb ed="#U" n="40"/><pc type="#pilcrow"/>Circa istam quaestionem suppono ea quae dicta sunt in solutione  
+          <lb ed="#U" n="41"/>praecedentis quaestionis quibus suppositis dico quod theologia in se  
+          <lb ed="#U" n="42"/>est de deo sub ratione quia est haec essentia et no sub aliqua ratione  
+          <lb ed="#U" n="43"/>speciali
+        </p>
+        <p>
+          Istud autem probo excludendo omnes opyniones alias quae po<lb ed="#U" n="44"/>nunt 
+          deum esse subiectum sub aliqua alia ratione 
+          
+          ad cuius evidentiam  
+          <lb ed="#U" n="45"/>praemitto talem exemplum de homine dico enim quod homo potest considerari  
+          <lb ed="#U" n="46"/>vel animal rationalis ut subiectiva ut mansuetus ut nobilissimus omnium  
+          <lb ed="#U" n="47"/>animalium in primo intelligitur secundum rationem quidditativam propriam In  
+          <lb ed="#U" n="48"/>2o intelligitur incon? in 3o per accidens in passione In 4o in respectu ad 
+          <!--5v.xml-->
+          <pb ed="#U" n="5-v"/>
+          <cb ed="#U" n="a"/>
+          <lb ed="#U" n="1"/>aliud perfectissima autem notitia est de homine secundum ratione quiddi<lb ed="#U" n="2"/>tativam 
+          propriam non sub ratione respectus ad aliud quia illa supponit  
+          <lb ed="#U" n="3"/>notitiam absoluti nec sub ratione passionis quia illa praesupponit  
+          <lb ed="#U" n="4"/>notitiam subiecti nec sub ratione communi quia illa est confusa 
+          
+          ita <!-- item --> potest poni  
+          <lb ed="#U" n="5"/>de deo aliqua notitia sub ratione respectus ad extra sicut aliqui ponunt 
+          <lb ed="#U" n="6"/>sub ratione Imperatoris glorificatoris vel capitis esse 
+          
+          vel posset poni 
+          <lb ed="#U" n="7"/>de deo sub ratione attributali quae est passio vel quasi passio sicut aliqui 
+          <lb ed="#U" n="8"/>dicunt hanc scientiam esse de deo sub ratione boni 
+          
+          vel posset poni de  
+          <lb ed="#U" n="9"/>deo sub ratione communi universali entis vel entis infiniti vel alicuius  
+          <lb ed="#U" n="10"/>talis 
+        </p>
+        <p>
+          Contra omnes istas passiones Arguo primo contra illam de ratione  
+          <lb ed="#U" n="11"/>communi quia nullus conceptus de deo continet virtualiter omnes veritates 
+          <lb ed="#U" n="12"/>theologias proprie pertinentes ad pluralitatem personarum nam si sic cum  
+          <lb ed="#U" n="13"/>illi communes conceptus naturaliter concipiantur a nobis ergo propositiones illae  
+          <lb ed="#U" n="14"/>immediate ex illis conceptibus possent a nobis cognosci ut per illas propositiones  
+          <lb ed="#U" n="15"/>immediatas possemus scire conclusiones et theologiam naturaliter 
+          <lb ed="#U" n="16"/>acquirere
+        </p>
+        <p>
+          Item cum conceptus illi non sunt soli deo naturaliter noti 
+          <lb ed="#U" n="17"/>ergo nec veritates inclusae in illis conceptibus communibus ergo si theologia  
+          <lb ed="#U" n="18"/>esset de deo sub ratione tali non esset deo naturaliter non 
+        </p>
+        <p>
+          <pc type="#pilcrow"/> 2o arguo contra opinionem   
+          <lb ed="#U" n="19"/>de ratione attributali et quamvis posset argui per rationes iam  
+          <lb ed="#U" n="20"/>factas tamen arguo per alias speciales primo quia cognitorio rei secundum  
+          <lb ed="#U" n="21"/>quod quid est perfectissima secundum <ref>principium 7 <title>metaphysicae</title></ref> ergo cognitio istius  
+          <lb ed="#U" n="22"/>essentiae est perfectior cognitio quae haberi potest de deo et per consequens quam  
+          <lb ed="#U" n="23"/>cognitio alicuius proprietatis attributalis quae se habet ut passio secundum <ref><name>damascenum</name>  
+            <lb ed="#U" n="24"/>libro 1 capitulo 4</ref> 
+          <!-- 2o ??? -->
+          quia si istae proprietates re different ab essentia esset realiter  
+          <lb ed="#U" n="25"/>causa earum ergo si different ratione saltem secundum rationem esse esset causa  
+          <lb ed="#U" n="26"/>earum 
+          
+          2o <!-- 3o --> quia secundum rationem suam illud videtur esse actualius  
+          <lb ed="#U" n="27"/>in se cui magis repugnat communicabilitas ad extra et nulli  
+          <lb ed="#U" n="28"/>proprietati attributali nisi quatenus est illius essentiae vel idem tamen ea in  
+          <lb ed="#U" n="29"/>finita ergo etc Si dicatur quod quaequae proprietas est infinita et ideo incommuni<lb ed="#U" n="30"/>cabilis
+        </p>
+        <p>
+          Contra infinitas ista est propter ydemptitatem cum essentia sicut  
+          <lb ed="#U" n="31"/>ex radice et finitate omnis perfectionis intrinsece
+        </p>
+        <p>
+          3o arguo contra viam  
+          <lb ed="#U" n="32"/>de respectibus ad extra
+        </p>
+        <p>
+          Et hic per rationes speciales primo quia respectus  
+          <lb ed="#U" n="33"/>ad extra est respectus rationis scientia autem considerans obiectum suum  
+          <lb ed="#U" n="34"/>non sub ratione reali non est realis ergo ista scientia non est realis
+        </p>
+        <p>
+          Secundo
+          <lb ed="#U" n="35"/>quia absolutum et respectus non faciunt unum aliquem per se con<lb ed="#U" n="36"/>ceptum 
+          ergo conceptus aggregans ista duo in se erit verus  
+          <lb ed="#U" n="37"/>per accidens sed de conceptu uno solum per accidens nulla est scientia  
+          <lb ed="#U" n="38"/>prima quia praesupponit scientias de utroque per se sicut scientia sub  
+          <lb ed="#U" n="39"/>alternata si sit de uno per accidens praesupponit dueas trac<lb ed="#U" n="40"/>tans 
+          de partibus illis separatim Si ergo theologia est de tali vero  
+          <lb ed="#U" n="41"/>oportet ponere aliam scientiam priorem quae esset de conceptu uno per se
+        </p>
+        <p>
+          3o  
+          <lb ed="#U" n="42"/>quia nullus respectus ad extra videtur deo neccessario convenire ergo vel intelligit omnia  
+          <lb ed="#U" n="43"/>deo neccessario convenire ut est obiectum theologiae probo quia quod convenit alicui sub  
+          <lb ed="#U" n="44"/>ratione vero neccessario in hoc entis non convenit illi neccessario ergo etc
+        </p>
+        <p>
+          Conclusio  <!-- concludo -->
+          <lb ed="#U" n="45"/>etiam ex istis quod theologia est de duo <!-- deo--> sub ratione qua est hoc essentia  
+          <lb ed="#U" n="46"/>et non sub alia ratione accidentali universali vel attributali
+        </p>
+        <p>
+          Ad primum  
+          <lb ed="#U" n="47"/>principalem et 2m dico quod <name>hugo</name> et <name>cassiodorus</name> loquuntur non de formali  
+          <lb ed="#U" n="48"/>obiecto sed de materia proxima de qua diffusius tractatur in sacra 
+          <cb ed="#U" n="b"/> <!-- 5vb -->
+          <lb ed="#U" n="1"/>scriptura
+        </p>
+        <p>
+          Ad aliud quod de deo non est metaphysica ut de subiecto primo  
+          <lb ed="#U" n="2"/>quod probatur quia praeter scientias speciales debet esse aliqua communis de  
+          <lb ed="#U" n="3"/>ente in qua probentur omnia quae sunt communia illis specialibus talis non  
+          <lb ed="#U" n="4"/>est nisi metaphysica ergo etc
+        </p>
+        <p>
+          Ad auctoritatem <name ref="#Aristotle">philosophi</name> dicendam quod nobilissima  
+          <lb ed="#U" n="5"/>scientia est circa nobilissimum genus vel tamquam circa subiectum primum vel  
+          <lb ed="#U" n="6"/>ut consideratum in prima scientia perfectissima perfectissimo modo quo  
+          <lb ed="#U" n="7"/>potest considerari in aliqua scientia naturaliter acquisita deus autem non est primum 
+          <lb ed="#U" n="8"/>subiectum in metaphysica sed consideratur in ea isto modo
+        </p>
+        <p>
+          Ad <name>commentatorem</name> quod  
+          <lb ed="#U" n="9"/><name>commentator</name> male dicere et <name>avicenna</name> bene quod probatur primo quia si aliquas substantias  
+          <lb ed="#U" n="10"/>separatas esse esset suppositum in metaphysica et conclusum in scientia naturali ergo philosophi  
+          <lb ed="#U" n="11"/>causa esset simpliciter prior tota metaphysica quia physica ostenderet de subiecto 
+          <lb ed="#U" n="12"/>metaphysicae si est quod est suppositum toti metaphysicae
+        </p>
+        <p>
+          2o quia per omnem contradic<lb ed="#U" n="13"/>tionem 
+          effectus potest demonstrari de causa quia est quia effectus  
+          <lb ed="#U" n="14"/>non potest esse nisi causa sit sed multae passiones effectum consideretur  
+          <lb ed="#U" n="15"/>in metaphysica ergo ex illis potest ostendi primam causam esse minor probatur quia  
+          <lb ed="#U" n="16"/>in metaphysica agitur de multitudine de poena compositione et huius ergo etc
+        </p>
+        <p>
+          Similiter  
+          <lb ed="#U" n="17"/>multitudo <!-- multo --> perfectius ostenditur primam causam esse ex passionibus causatorum  
+          <lb ed="#U" n="18"/>considerans in metaphysica a materia in physica ubi ostenditur primum mo<lb ed="#U" n="19"/>vens 
+          esse cum perfectior sit consideratio de primo ente qua con 
+          <lb ed="#U" n="20"/>gnoscitur ut primum ens vel neccessetur esse quam cognoscere ipsum ut  
+          <lb ed="#U" n="21"/>primum movens ergo etc
+        </p>
+        <p>
+          Ad aliud quid quod respectus finis non est nobilissima 
+          <lb ed="#U" n="22"/>rationis cognitionis sed illud quod est finis sicut ratio finiti illius respectus  
+          <lb ed="#U" n="23"/>deitas autem est ratio fun?lis respectu finis ad creaturas et ita dei<lb ed="#U" n="24"/>tas 
+          est primum obiectum
+        </p>
+        <p>
+          Ad aliud de bonitate dico quod si boni<lb ed="#U" n="25"/>tas 
+          per aliquam apropriationem sit fundamentum finis tam dei<lb ed="#U" n="26"/>tas 
+          est causabilis etiam primum fundamentum ipsius et dicendum quod bene sequitur  
+          <lb ed="#U" n="27"/>si non est finis non est bonum non tamen oportet bonitatem esse propriam  
+          <lb ed="#U" n="28"/>rationem finis et per hoc patet ad <ref><name>avicennam</name> vi <title>metaphysicae</title></ref> quia non oportet  
+          <lb ed="#U" n="29"/>intelligi ut dicit respectum sed de ratione finali respectu finis 
+        </p>
+        <!-- two line response from thomas missing in Urb lat. "In hac quaestione nihil impugnatione dignum in speciali occurrit, et ideo de ipsa non intendo aliter loqui." -->
+      </div>
+    </body>
+  </text>
+</TEI>
